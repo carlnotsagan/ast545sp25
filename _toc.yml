@@ -5,6 +5,7 @@ parts:
     #numbered: True  # Only applies to chapters in Part 1.
     chapters:
     - file: syllabus
-  - caption: Course Schedule
-    chapters:
     - file: schedule
+  - caption: Course Materials 
+    chapters:
+    - file: week1
