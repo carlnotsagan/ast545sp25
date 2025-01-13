@@ -1,20 +1,12 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
 format: jb-book
 root: index
 parts:
-  - caption: Course Information
+  - caption: Course Overview
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: markdown-notebooks
+    - file: notebooks
+  - caption: Course Schedule
     chapters:
     - file: markdown
-    - file: notebooks
-    - file: markdown-notebooks
     - file: mymarkdownfile
-  - caption: Schedule
-    chapters:
-    - file: markdown
-    - file: notebooks
-    - file: markdown-notebooks
-    - file: mymarkdownfile
-
-
-
