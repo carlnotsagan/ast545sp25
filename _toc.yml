@@ -1,10 +1,20 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: mymarkdownfile
+root: index
+parts:
+  - caption: Course Information
+    chapters:
+    - file: markdown
+    - file: notebooks
+    - file: markdown-notebooks
+    - file: mymarkdownfile
+  - caption: Schedule
+    chapters:
+    - file: markdown
+    - file: notebooks
+    - file: markdown-notebooks
+    - file: mymarkdownfile
+
+
+
