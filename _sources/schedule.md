@@ -1,8 +1,5 @@
-#ASTR/PTYS 545: Stars and Planets - Spring 2025
+# Schedule
 -
-
-# Calendar
-
 **Topics are subject to change based on course pace and student needs.**
 
 All assignments are turned in using D2L as a PDF and/or Jupyter notebook.

@@ -1,13 +1,13 @@
-#ASTR/PTYS 545: Astrophysics of Stars and Planets - Spring 2025
--
+## Syllabus
 
-**Instructor Information**
-Prof. Carl Fields
-Email: [carlnotsagan@arizona.edu](mailto::carlnotsagan@arizona.edu)
-Office: SO N504 (don’t forget the N!!)
-Office Hours: By appointment using this [link](https://outlook.office.com/bookwithme/user/833d4a6f20774482afc3f8650b401684@arizona.edu/meetingtype/TDuAWBI7FUGjb949-MyYHw2?anonymous&ep=mLinkFromTile) or via email.
-Communication also available as part of the Slack workspace [link](https://join.slack.com/t/astrptys545-25/shared_invite/zt-2xhv7bz29-kyQoPTsU~Hi0UrQLj67slw).
-Class Location and Time: _Monday_, _Wednesday_, and _Friday_ - 11:00am-11:50am in SO 208
+
+###Course Information       
+**Instructor:** Prof. Carl Fields    
+**Email:** [carlnotsagan@arizona.edu](mailto::carlnotsagan@arizona.edu)  
+**Office:** SO N504 (don’t forget the N!!)   
+**Office Hours:** By appointment using this [link](https://outlook.office.com/bookwithme/user/833d4a6f20774482afc3f8650b401684@arizona.edu/meetingtype/TDuAWBI7FUGjb949-MyYHw2?anonymous&ep=mLinkFromTile) or via email.     
+**Communication:** also available as part of the Slack workspace [link](https://join.slack.com/t/astrptys545-25/shared_invite/zt-2xhv7bz29-kyQoPTsU~Hi0UrQLj67slw).  
+**Class Location and Time:** _Monday_, _Wednesday_, and _Friday_ - 11:00am-11:50am in SO 208
 
 **Course Description**
 In this class we will explore the basics of stellar structure, stellar evolution, making frequent contact with the similarities and differences between gas giant planets and stars. We will also touch briefly on exoplanet statistics, placing them in the context of the stellar initial mass function. We will learn how the detailed study and understanding of stars as planet hosts affects nearly all aspects of exoplanet observations and interpretation.
