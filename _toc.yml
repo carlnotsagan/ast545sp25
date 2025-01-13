@@ -2,11 +2,9 @@ format: jb-book
 root: index
 parts:
   - caption: Course Overview
-    numbered: True  # Only applies to chapters in Part 1.
+    #numbered: True  # Only applies to chapters in Part 1.
     chapters:
-    - file: markdown-notebooks
-    - file: notebooks
+    - file: syllabus
   - caption: Course Schedule
     chapters:
-    - file: markdown
-    - file: mymarkdownfile
+    - file: schedule

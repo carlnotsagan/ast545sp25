@@ -1,11 +1,8 @@
-# Welcome to your Jupyter Book
+# AST/PTYS 545: Astrophysics of Stars and Planets, Spring 2025, University of Arizona, Steward Observatory
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
 
-Check out the content pages bundled with this sample book to see more.
+Online course website for ASTR/PTYS 545: Astrophysics of Stars and Planets - Spring 2025 taught by @carlnotsagan at University of Arizona, Department of Astronomy and Steward Observatory. This website will serve as a homepage for course materials including lectures, schedules, additional learning materials, assignments, and various examples. 
+
 
 ```{tableofcontents}
 ```
