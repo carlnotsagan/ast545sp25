@@ -7,5 +7,8 @@ parts:
     - file: syllabus
     - file: schedule
   - caption: Course Materials 
+    maxdepth: 2
     chapters:
-    - file: week1
+    - file: lectures/week1/week1
+      sections:
+      - file: lectures/week1/intro
