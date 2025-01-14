@@ -23,9 +23,9 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://carlnotsagan.github.io/ast545sp25/  # Online location of your book
+  url: https://github.com/carlnotsagan/ast545sp25  # Online location of your book
   path_to_book: /Users/carlnotsagan/Desktop/ast545sp25  # Optional path to your book, relative to the repository root
-  branch: main  # Which branch of the repository should be used when creating links (optional)
+  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository

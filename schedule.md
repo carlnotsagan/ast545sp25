@@ -1,5 +1,8 @@
-# Schedule
+#ASTR/PTYS 545: Stars and Planets - Spring 2025
 -
+
+# Calendar
+
 **Topics are subject to change based on course pace and student needs.**
 
 All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
@@ -8,8 +11,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Week | Day    | Topic                                                               |    Pre-class reading    | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 15 Jan | Intro and review                                                    |                         |                                                             |
-|      | 17 Jan | Stellar Dimensional Analysis                                        |    HKT Chapter 1        |                   (PCA 1)                                   |
+|      | 15 Jan | Intro and review                                                    |                         |   (PCA 1, Due: Jan. 17), install [MESA](https://docs.mesastar.org/en/24.08.1/quickstart.html)                      |
+|      | 17 Jan | Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem  |  HKT Chapter 1.1-1.3    |                                                             |
 |      |        |                                                                     |                         |                                                             |
 
 ## Week 2
@@ -17,48 +20,48 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
 |      | 20 Jan | Martin Luther King Jr. Day, No Class                                |                         |                                                             |
-|      | 22 Jan | Review of the HR Diagram                                            |   HKT Chapter 2.1-2.5   |   (PCA 2) and Problem Set 1 Available on D2L (Due: Jan. 29) |
-|      | 24 Jan | Modules for Experiments in Astrophysics [https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract](MESA) |                         |                  |
+|      | 22 Jan | Stellar Dimensional Analysis and [MESA](https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract)                          |   HKT Chapter 1.4-1.7   |       (PCA 2, Due: Jan. 27) and (HW1, Due: Jan. 29)         |
+|      | 24 Jan | The Hertzsprung-Russell diagram                                     |   HKT Chapter 2.1-2.3   |                                                             |
 
 ## Week 3
 
 | Week | Day    | Topic                                                               |    Pre-class reading    | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 27 Jan | Binaries and Problem Solving                                        |   HKT Chapter 2.6-2.14  |                                                             |
-|      | 29 Jan | Distribution functions                                              |   HKT Chapter 3         |                                                             |
-|      | 31 Jan | Planetary Equations of State                                        |                         |    Problem Set 2 Available on D2L (Due: )                   |
+|      | 27 Jan | Late Stages of Stellar Evolution and Close Binaries                 |   HKT Chapter 2.4-2.5   |                (PCA 3, Due: Jan. 29)                        |
+|      | 29 Jan | Equations of State                                                  |   HKT Chapter 3.1-3.5   |                (PCA 4, Due: Jan. 31)                        |
+|      | 31 Jan | Equations of State, Continued                                       |   HKT Chapter 3.5-3.7   |                (HW2, Due: Feb. 7)                           |
 
 ## Week 4
 
 | Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 3 Feb  | Opacity, Radiation Transport review                                 |   HKT Chapter 4.1-4.4.4 |                                                             |
-|      | 5 Feb  | Spectral line formation, limb darkening                             |   HKT Chapter 4.5-4.7, Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_41)   |                                                             |
-|      | 7 Feb  | Exoplanet Transits, Transmission Spectroscopy                       |     Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_117)                    |    Problem Set 3 Available on D2L (Due: )                   |
+|      | 3 Feb  | Radiative and Conductive Heat Transfer                              |   HKT Chapter 4.1-4.5   |                (PCA 5, Due: Feb. 5)                         |
+|      | 5 Feb  | Stellar Spectra                                                     |   Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB) |     (PCA 6, Due: Feb. 7)   |
+|      | 7 Feb  | Exoplanet Transits and Transmission Spectroscopy                    |   Exoplanet Handbook [Chapter](https://rdcu.be/d57mI) |  (HW3, Due: Feb. 14 (sorry))    |
 
 ## Week 5
 
 | Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 10 Feb | Convection                                                          |   HKT Chapter 5         |                                                             |
-|      | 12 Feb | Planetary Convection, Mixing, Inflated Hot Jupiters                 |     TBD                 |    Problem Set 4 Available on D2L (Due: )                   |
-|      | 14 Feb | The planet, star, and brown dwarf divide                            |      TBD                |                                                             |
+|      | 10 Feb | Limb Darkening                                                      |   Exoplanet Handbook [Chapter](https://rdcu.be/d57mN) | (PCA 7, Due: Feb. 12)         |
+|      | 12 Feb | Convection                                                          |   HKT Chapter 5         |                (HW4, Due: Feb. 19)                          |
+|      | 14 Feb | Planetary Convection, Mixing, and Inflated Hot Jupiters            |   Exoplanet Handbook [Chapter](https://rdcu.be/d57nl)                |                (PCA 8, Due: Feb. 17)                        |
 
 ## Week 6
 
 | Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 17 Feb | Nuclear Reactions                                                   |   HKT Chapter 6         |                                                             |
-|      | 19 Feb | Polytropes                                                          |   HKT Chapter 7         |                                                             |
-|      | 21 Feb | Interpreting Stellar Structure Models                               |                         |    Problem Set 6 now 5 Available on D2L (Due: )             |
+|      | 17 Feb | Stellar Energy Sources                                              |   HKT Chapter 6.1-6.2   |             (PCA 9, Due: Feb. 19)                           |
+|      | 19 Feb | Nuclear Burning in Stars                                            |   HKT Chapter 6.3-6.8   |             (HW5, Due: Feb. 26)                             |
+|      | 21 Feb | Models for Stellar Structure                                        |   HKT Chapter 7.1-7.2   |             (PCA 10, Due: Feb. 24)                          |
 
 ## Week 7
 
 | Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 24 Feb | Asteroseismology                                                    |   HKT Chapter 10.1-10.2.|                                                             |
-|      | 26 Feb | Our Sun                                                             |   HKT Chapter 8         |                                                             |
-|      | 28 Feb | Stellar Rotation                                                    |   Paxton+2019, TBD      |   Problem Set 5 now 6 Available on D2L (Due: )              |
+|      | 24 Feb | Asteroseismology                                                    |   HKT Chapter 10.1-10.2 |             (PCA 11, Due: Feb. 26)                          |
+|      | 26 Feb | Our Sun                                                             |   HKT Chapter 8.1-8.3   |              Mid-term Review (No grade)                     |
+|      | 28 Feb | Stellar Rotation                                                    |   HKT Chapter 8.4 and [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158)      |              (PCA 12, Due: Mar. 3)                          |
 
 ## Week 8
 
@@ -67,67 +70,6 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 |      | 3 Mar  | Review                                                              |                         |                                                             |
 |      | 5 Mar  | Review                                                              |                         |                                                             |
 |      | 7 Mar  | Midterm, Mid-course survey                                          |                         |                                                             |
-
-## Week 9
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 17 Mar | Explosion Physics of Thermonuclear Supernovae            |   SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_56-1)  |                                                             |
-|      | 19 Mar | Core-Collapse Supernova Explosions                       |   SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_52-1)  |    Problem Set 7 Available on D2L (Due: )                                                            |
-|      | 21 Mar | Observational and Physical Classification of Supernovae |   SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_35-1)  |             |
-
-
-## Week 10
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 24 Mar | Products of Binary Evolution                                        |   Chapter 15, Open Astrophysics Bookshelf Stellar Astrophysics notes / SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_124-1)  |                                                             |
-|      | 26 Mar | Neutron Stars                                                       |   SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_5-1)         |   Problem Set 8 Available on D2L (Due: )                    |
-|      | 28 Mar | Black holes and their mergers                                       |   GW Handbook [Chapter, Sec#2-Sec#15](https://link.springer.com/referenceworkentry/10.1007/978-981-16-4306-4_16)          |                                                             |
-
-
-## Week 11
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 31 Mar | White Dwarfs                                                        |   HKT Chapter 9         |                                                             |
-|      | 2  Apr | Exoplanet Demographics                                              |   Exoplanet Handbook [Chapter, Sec#1-Sec#17](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154) |    Problem Set 9 Available on D2L (Due: )                   |
-|      | 4  Apr | Exoplanet Relations with Host Star                                 |   Exoplanet Handbook [Chapter, Sec#17-Sec#20](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154)         |                |
-
-
-## Week 12
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 7 Apr | TBD                                        |   TBD  |                                                             |
-|      | 9 Apr | TBD                                                       |  TBD       |   TBD                  |
-|      | 11 Apr | TBD                                      |   TBD         |                                                             |
-
-
-## Week 13
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 14 Apr | TBD                                        |   TBD  |                                                             |
-|      | 16 Apr | TBD                                                       |  TBD       |   TBD                  |
-|      | 18 Apr | TBD                                      |   TBD         |                                                             |
-
-## Week 14
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 21 Apr | TBD                                        |   TBD  |                                                             |
-|      | 23 Apr | TBD                                                       |  TBD       |   TBD                  |
-|      | 25 Apr | TBD                                      |   TBD         |                                                             |
-
-
-## Week 15
-
-| Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
-| ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-|      | 28 Apr | TBD                                        |   TBD  |                                                             |
-|      | 30 Apr | TBD                                                       |  TBD       |   TBD                  |
-|      | 2  May | TBD                                      |   TBD         |   
 
 
 ## Week 16
@@ -139,7 +81,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 |      |       |                                                                      |   None                   |                                                             |
 
 
-## Week 16
+## Week 17
 
 | Week | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ---- | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
