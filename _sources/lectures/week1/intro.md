@@ -1,38 +1,53 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.11.5
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
 
+# Notebooks with MyST Markdown
 
-# Today's Agenda - Wednesday, Jan. 15, 2025
+Jupyter Book also lets you write text-based notebooks using MyST Markdown.
+See [the Notebooks with MyST Markdown documentation](https://jupyterbook.org/file-types/myst-notebooks.html) for more detailed instructions.
+This page shows off a notebook written in MyST Markdown.
 
-1. Welcome! (2m)
-2. Introductions (15m)
-3. Syllabus overview and discussion (15m)
-4. Course overview and expectations (15m)
+## An example cell
 
+With MyST Markdown, you can define code cells with a directive like so:
 
+```{code-cell}
+print(2 + 2)
+```
 
-## Introductions (15m)
+When your book is built, the contents of any `{code-cell}` blocks will be
+executed with your default Jupyter kernel, and their outputs will be displayed
+in-line with the rest of your content.
 
-1. Name
-2. Undergrad institution
-3. Current research interest + current our potential advisor
-4. What you would like to learn in this course
-5. Hobbie(s) outside of astronomy
+```{seealso}
+Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to convert text-based files to notebooks, and can support [many other text-based notebook files](https://jupyterbook.org/file-types/jupytext.html).
+```
 
-$$ E = mc^2 $$
- 
+## Create a notebook with MyST Markdown
 
-## Syllabus overview and discussion (15m)
+MyST Markdown notebooks are defined by two things:
 
+1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
+   See the YAML at the top of this page for example.
+2. The presence of `{code-cell}` directives, which will be executed with your book.
 
-Navigate to the course syllabus [here](../../syllabus.md).
+That's all that is needed to get started!
 
+## Quickly add YAML metadata for MyST Notebooks
 
+If you have a markdown file and you'd like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:
 
-
-## Course overview and expectations (15m)
-
-
-
-### Computing
-
-We will be using computing in the following ways.
-
+```
+jupyter-book myst init path/to/markdownfile.md
+```
