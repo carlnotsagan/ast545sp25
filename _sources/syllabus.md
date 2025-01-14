@@ -1,7 +1,7 @@
 # Syllabus
 
 ## Course Information       
-**Instructor:** Prof. Carl Fields    
+**Instructor:** Prof. Carl E. Fields (he/him)   
 **Email:** [carlnotsagan@arizona.edu](mailto::carlnotsagan@arizona.edu)  
 **Office:** SO N504 (don’t forget the N!!)   
 **Office Hours:** By appointment using this [link](https://outlook.office.com/bookwithme/user/833d4a6f20774482afc3f8650b401684@arizona.edu/meetingtype/TDuAWBI7FUGjb949-MyYHw2?anonymous&ep=mLinkFromTile) or via email.     

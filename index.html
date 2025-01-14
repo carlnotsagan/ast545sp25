@@ -361,7 +361,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -377,6 +379,19 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-programming-environemt">Conda programming environemt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-mesa">Installing MESA</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#slack">Slack</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -389,18 +404,29 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="ast-ptys-545-astrophysics-of-stars-and-planets-spring-2025-university-of-arizona-steward-observatory">
 <h1>AST/PTYS 545: Astrophysics of Stars and Planets, Spring 2025, University of Arizona, Steward Observatory<a class="headerlink" href="#ast-ptys-545-astrophysics-of-stars-and-planets-spring-2025-university-of-arizona-steward-observatory" title="Permalink to this heading">#</a></h1>
 <p>Online course website for ASTR/PTYS 545: Astrophysics of Stars and Planets - Spring 2025 taught by :octocat: <a class="reference external" href="https://carlnotsagan.github.io/">&#64;carlnotsagan</a> at University of Arizona, Department of Astronomy and Steward Observatory. This website will serve as a homepage for course materials including lectures, schedules, additional learning materials, assignments, and various examples.</p>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h2>
+<p>Below are some details about getting started with some of the tools and resources we will be using throughout the semester.</p>
+<section id="conda-programming-environemt">
+<h3>Conda programming environemt<a class="headerlink" href="#conda-programming-environemt" title="Permalink to this heading">#</a></h3>
+<p>Throughout this course we will be using various python tools and packages. <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html"><code class="docutils literal notranslate"><span class="pre">conda</span></code></a> is a package manager that allows you to create environments for downloading all the packages you need without disrupting (usually) the existing computing <code class="docutils literal notranslate"><span class="pre">env</span></code> you are using.</p>
+<p>Please download the appropriate <code class="docutils literal notranslate"><span class="pre">conda</span></code> environment for your machine, create an environment for this class, and install a few starting packages including:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">anaconda</span><span class="p">::</span><span class="n">jupyter</span>
+</pre></div>
+</div>
+</section>
+<section id="installing-mesa">
+<h3>Installing MESA<a class="headerlink" href="#installing-mesa" title="Permalink to this heading">#</a></h3>
+<p>More information <a class="reference external" href="https://docs.mesastar.org/en/24.08.1/quickstart.html">here</a>.</p>
+</section>
+<section id="slack">
+<h3>Slack<a class="headerlink" href="#slack" title="Permalink to this heading">#</a></h3>
+<p>There is a slack workspace for this course, let me know if you did not receive an invite!</p>
+</section>
+</section>
 <div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="syllabus.html">Syllabus</a></li>
-<li class="toctree-l1"><a class="reference internal" href="schedule.html">Schedule</a></li>
-</ul>
 </div>
 <div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="week1.html">Week 1</a></li>
-</ul>
 </div>
 </section>
 
@@ -449,6 +475,26 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-programming-environemt">Conda programming environemt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-mesa">Installing MESA</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#slack">Slack</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
