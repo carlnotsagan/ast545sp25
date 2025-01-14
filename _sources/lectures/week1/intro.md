@@ -1,4 +1,6 @@
-## Today's Agenda - Wednesday, Jan. 15, 2025
+
+
+# Today's Agenda - Wednesday, Jan. 15, 2025
 
 1. Welcome! (2m)
 2. Introductions (15m)
@@ -15,31 +17,22 @@
 4. What you would like to learn in this course
 5. Hobbie(s) outside of astronomy
 
+$$ E = mc^2 $$
+ 
+
+## Syllabus overview and discussion (15m)
 
 
---- 
-
-
-
-## Slide 2: Key Features
-
-
-
-* Feature 1
-
-* Feature 2
-
-* Feature 3
+Navigate to the course syllabus [here](../../syllabus.md).
 
 
 
---- 
+
+## Course overview and expectations (15m)
 
 
 
-## Slide 3: Conclusion
+### Computing
 
-
-
-Thank you for listening!
+We will be using computing in the following ways.
 
