@@ -12,3 +12,7 @@ parts:
     - file: lectures/week1/week1
       sections:
       - file: lectures/week1/intro
+  - caption: Assignments
+    maxdepth: 1
+    chapters:
+    - file: assignments/pca1
