@@ -9,7 +9,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               |    Pre-class reading    | Assignments                                                 |
 | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
-| 15 Jan | Intro and review                                                    |                         |   (PCA 1, Due: Jan. 17), install [MESA](https://docs.mesastar.org/en/24.08.1/quickstart.html)                      |
+| 15 Jan | Intro and review                                                    |                         |   ([PCA 1](assignments/pca1.md), Due: Jan. 17), install [MESA](https://docs.mesastar.org/en/24.08.1/quickstart.html)                      |
 | 17 Jan | Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem  |  HKT Chapter 1.1-1.3    |                                                             |
 |        |                                                                     |                         |                                                             |
 

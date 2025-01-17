@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Week 1 &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+    <title>Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
   
   
   
@@ -59,11 +59,13 @@
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week1/week1';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week1/day_1';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Intro" href="day_0.html" />
-    <link rel="prev" title="Schedule" href="../../schedule.html" />
+    <link rel="next" title="PCA 1" href="../../assignments/pca1.html" />
+    <link rel="prev" title="Intro" href="day_0.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -188,9 +190,9 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Week 1</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week1.html">Week 1</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="day_0.html">Intro</a></li>
-<li class="toctree-l2"><a class="reference internal" href="day_1.html">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a></li>
 
 
 
@@ -247,6 +249,55 @@
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/Users/carlnotsagan/Desktop/ast545sp25/lectures/week1/day_1.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/Users/carlnotsagan/Desktop/ast545sp25/lectures/week1/day_1.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-source-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
     <i class="fab fa-github"></i>
@@ -272,7 +323,7 @@
       
       
       
-      <li><a href="https://github.com/carlnotsagan/ast545sp25/issues/new?title=Issue%20on%20page%20%2Flectures/week1/week1.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/carlnotsagan/ast545sp25/issues/new?title=Issue%20on%20page%20%2Flectures/week1/day_1.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -302,7 +353,7 @@
       
       
       
-      <li><a href="../../_sources/lectures/week1/week1.md" target="_blank"
+      <li><a href="../../_sources/lectures/week1/day_1.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -312,7 +363,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -386,7 +437,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 1</h1>
+    <h1>Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -396,9 +447,18 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-january-15-2025">Wednesday, January 15, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-january-17-2025">Friday, January 17, 2025</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hydrostatic-equilibrium">Hydrostatic Equilibrium</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#an-energy-principle">An Energy Principle</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#the-virial-theorem">The Virial Theorem</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-activity">In-Class Activity</a></li>
+</ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -409,22 +469,112 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-1">
-<h1>Week 1<a class="headerlink" href="#week-1" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="hydrostatic-equilibrium-energy-principles-and-the-virial-theorem">
+<h1>Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem<a class="headerlink" href="#hydrostatic-equilibrium-energy-principles-and-the-virial-theorem" title="Permalink to this heading">#</a></h1>
+<p><strong>Friday, Jan. 17, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements / Recap (5m)</p></li>
+<li><p>PCA Discussion (10m)</p></li>
+<li><p>Reading Overview/Key Points (10m)</p></li>
+<li><p>In-Class Assignment (Groups of 2) (20m)</p></li>
+<li><p>Debrief on ICA (5m)</p></li>
+</ol>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="hydrostatic-equilibrium">
+<h1>Hydrostatic Equilibrium<a class="headerlink" href="#hydrostatic-equilibrium" title="Permalink to this heading">#</a></h1>
+<p>Consider the following assumptions of an object:</p>
 <ul class="simple">
-<li></li>
+<li><p>spherically symmetric</p></li>
+<li><p>nonrotating</p></li>
+<li><p>nonmagnetic</p></li>
+<li><p>single star on which there are</p></li>
+<li><p>no net forces acting and, hence, no accelerations</p></li>
 </ul>
-<section id="wednesday-january-15-2025">
-<h2>Wednesday, January 15, 2025<a class="headerlink" href="#wednesday-january-15-2025" title="Permalink to this heading">#</a></h2>
-<p>Slides are viewable <a class="reference internal" href="day_0.html"><span class="std std-doc">here</span></a>.</p>
+<p>Then, we ask the question, how can we describe this “star” in equations?</p>
+<p>First, some convections:</p>
+<ul class="simple">
+<li><p><strong>radius: <span class="math notranslate nohighlight">\(r\)</span></strong> is the radial distance measured from the stellar center (cm)</p></li>
+<li><p><strong>density: <span class="math notranslate nohighlight">\(p(r)\)</span></strong> is the mass density at <span class="math notranslate nohighlight">\(r\)</span> (g cm<span class="math notranslate nohighlight">\(^{-3}\)</span>)</p></li>
+<li><p><strong>temperature: <span class="math notranslate nohighlight">\(T(r)\)</span></strong> is the temperature at <span class="math notranslate nohighlight">\(r\)</span> (K)</p></li>
+<li><p><strong>pressure: <span class="math notranslate nohighlight">\(P(r)\)</span></strong> is the pressure at <span class="math notranslate nohighlight">\(r\)</span> (dyne cm<span class="math notranslate nohighlight">\(^{-2}\)</span> = erg cm<span class="math notranslate nohighlight">\(^{-3}\)</span>)</p></li>
+<li><p><strong>mass: <span class="math notranslate nohighlight">\(m(r)r\)</span></strong> is the mass contained within a sphere of radius <span class="math notranslate nohighlight">\(r\)</span> (g)</p></li>
+<li><p><strong>luminosity: <span class="math notranslate nohighlight">\(L(r)\)</span></strong>, the rate of energy How through a sphere at <span class="math notranslate nohighlight">\(r\)</span> (erg s<span class="math notranslate nohighlight">\(^{-1}\)</span>)</p></li>
+<li><p><strong>local gravity: <span class="math notranslate nohighlight">\(g(r)\)</span></strong> local acceleration due to gravity (cm s<span class="math notranslate nohighlight">\(^{-2}\)</span>)</p></li>
+</ul>
+<p>Following Eqns. (1.1) to (1.4), we arrive at the</p>
+<div class="proof definition admonition" id="hse1">
+<p class="admonition-title"><span class="caption-number">Definition 1 </span></p>
+<section class="definition-content" id="proof-content">
+<p>equation of hydrostatic (or mechanical) equilibrium (HSE)</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{dP}{dr} = -\frac{Gm}{r^2}\rho \equiv -\rho g
+\]</div>
 </section>
-<section id="friday-january-17-2025">
-<h2>Friday, January 17, 2025<a class="headerlink" href="#friday-january-17-2025" title="Permalink to this heading">#</a></h2>
-<p>Slides are viewable <a class="reference internal" href="day_1.html"><span class="std std-doc">here</span></a>.</p>
-<p>In-Class Exercise is available <a class="reference internal" href="../../assignments/ica1.html"><span class="std std-doc">here</span></a></p>
+</div><div class="proof observation admonition" id="my-observation">
+<p class="admonition-title"><span class="caption-number">Observation 1 </span></p>
+<section class="observation-content" id="proof-content">
+<p>Since <span class="math notranslate nohighlight">\(g,\rho \geq 0\)</span>, it follows that <span class="math notranslate nohighlight">\(\frac{dP}{dr} \leq 0\)</span>, and the pressure must decrease from the center outwards, everywhere.</p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
+</div><p>If this equation is violated, local acceleration must occur, the “star” is said be <em>out of HSE</em>.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="an-energy-principle">
+<h1>An Energy Principle<a class="headerlink" href="#an-energy-principle" title="Permalink to this heading">#</a></h1>
+<p>We can start by defining the <strong>total gravitational potential energy</strong>.</p>
+<div class="proof definition admonition" id="gpe">
+<p class="admonition-title"><span class="caption-number">Definition 2 </span></p>
+<section class="definition-content" id="proof-content">
+<p>the total gravitational potential energy, <span class="math notranslate nohighlight">\(\Omega\)</span>, of a self-gravitating body is defined as the negative of the total amount of energy required to disperse all mass elements of the body to infinity.</p>
+<div class="math notranslate nohighlight">
+\[
+\Omega = -q \frac{GM}{R} (\textup{ergs})
+\]</div>
+</section>
+</div><p>where here, we have performed the integral over <span class="math notranslate nohighlight">\(r\)</span> and <span class="math notranslate nohighlight">\(M\)</span> and <span class="math notranslate nohighlight">\(R\)</span> represent the total mass and radius of the star, respectively. For a uniform density sphere <span class="math notranslate nohighlight">\(q=3/5\)</span>.</p>
+<p>Next, consider the <strong>total internal energy</strong></p>
+<div class="proof definition admonition" id="ie">
+<p class="admonition-title"><span class="caption-number">Definition 3 </span></p>
+<section class="definition-content" id="proof-content">
+<p>total internal energy arising from microscopic processes</p>
+<div class="math notranslate nohighlight">
+\[
+U = \int_{m}E \textup{d}m
+\]</div>
+</section>
+</div><p>After some math and application of the first and second laws of thermodynamics, we arrive at a similar conclusion regarding the assumptions we first made when we set out.</p>
+<p>The equation of HSE written in Lagrangian form (the independent variable is <span class="math notranslate nohighlight">\(dm\)</span>),</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{dP}{dm} = -\frac{Gm}{4 \pi r^4}~.
+\]</div>
+<p>In fact, we can use Eqn. 1.1 to recover the first definition for HSE - (<a class="reference internal" href="#hse1">Definition 1</a>).</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="the-virial-theorem">
+<h1>The Virial Theorem<a class="headerlink" href="#the-virial-theorem" title="Permalink to this heading">#</a></h1>
+<p>Following the discussion in HKT 1.3, we arrived at a form of the Virial Theorem:</p>
+<div class="proof definition admonition" id="virial">
+<p class="admonition-title"><span class="caption-number">Definition 4 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\frac{1}{2}\frac{dI^2}{dt^2} = 2K + \Omega
+\]</div>
+</section>
+</div><p>where</p>
+<p><span class="math notranslate nohighlight">\(K\)</span> is twice the total of the kinetic energy and <span class="math notranslate nohighlight">\(\Omega\)</span> is the same as defined above (<a class="reference internal" href="#gpe">Definition 2</a>).</p>
+<div class="proof assumption admonition" id="assumption-5">
+<p class="admonition-title"><span class="caption-number">Assumption 1 </span></p>
+<section class="assumption-content" id="proof-content">
+<p>We note that the above definition assumes that the sums are over the entire star.</p>
+</section>
+</div><section id="in-class-activity">
+<h2>In-Class Activity<a class="headerlink" href="#in-class-activity" title="Permalink to this heading">#</a></h2>
+<p>Head over to <a class="reference internal" href="../../assignments/ica1.html"><span class="std std-doc">ICA1</span></a>, work with the person next to you on 1.a-d.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -458,20 +608,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../../schedule.html"
+       href="day_0.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Schedule</p>
+        <p class="prev-next-title">Intro</p>
       </div>
     </a>
     <a class="right-next"
-       href="day_0.html"
+       href="../../assignments/pca1.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Intro</p>
+        <p class="prev-next-title">PCA 1</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -491,9 +641,18 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-january-15-2025">Wednesday, January 15, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-january-17-2025">Friday, January 17, 2025</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hydrostatic-equilibrium">Hydrostatic Equilibrium</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#an-energy-principle">An Energy Principle</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#the-virial-theorem">The Virial Theorem</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-activity">In-Class Activity</a></li>
+</ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>
