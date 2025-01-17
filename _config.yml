@@ -17,10 +17,6 @@ latex:
   latex_documents:
     targetname: book.tex
 
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
-
 sphinx:
   extra_extensions:
     - sphinx_proof
@@ -35,6 +31,19 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon                   : "https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"  # A path to a favicon image
+  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+  use_repository_button     : false  # Whether to add a link to your repository button
+  use_issues_button         : false  # Whether to add an "open an issue" button
+  use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
+  extra_footer              : ""  # Will be displayed underneath the footer.
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  analytics:
+    plausible_analytics_domain: ""
+    plausible_analytics_url: "https://plausible.io/js/script.js"
+    google_analytics_id       : ""  # A GA id that can be used to track book views.
+
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
