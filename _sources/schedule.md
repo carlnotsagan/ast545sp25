@@ -11,14 +11,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
 | 15 Jan | Intro and review                                                    |                         |   ([PCA 1](assignments/pca1.md), Due: Jan. 17), install [MESA](https://docs.mesastar.org/en/24.08.1/quickstart.html)                      |
 | 17 Jan | Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem  |  HKT Chapter 1.1-1.3    |                                                             |
-|        |                                                                     |                         |                                                             |
+|        |                                                                     |                         |      ([ICA1](assignments/ica1.ipynb), Due: Jan 17)                                                       |
 
 ## Week 2
 
 | Day    | Topic                                                               |   Pre-class reading     | Assignments                                                 |
 | ------ | ------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------- |
 | 20 Jan | Martin Luther King Jr. Day, No Class                                |                         |                                                             |
-| 22 Jan | Stellar Dimensional Analysis and [MESA](https://ui.adsabs.harvard.edu/abs/2011ApJS..192....3P/abstract)                          |   HKT Chapter 1.4-1.7   |       (PCA 2, Due: Jan. 27) and (HW1, Due: Jan. 29)         |
+| 22 Jan | The Constant-Density Model, Composition, Energy Generation                         |   HKT Chapter 1.4-1.7   |       ([PCA 2](assignments/pca2.md), Due: Jan. 27) and ([HW 1](assignments/hw1.md), Due: Jan. 29)         |
 | 24 Jan | The Hertzsprung-Russell diagram                                     |   HKT Chapter 2.1-2.3   |                                                             |
 
 ## Week 3
