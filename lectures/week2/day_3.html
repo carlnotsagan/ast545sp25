@@ -1,0 +1,710 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>An Overview of Stellar Evolution &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week2/day_3';</script>
+    <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="PCA 1" href="../../assignments/pca1.html" />
+    <link rel="prev" title="Constant-Density Model, Energy Generation/Transport, Dimensional Analysis, and the Main Sequence" href="day_2.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Astrophysics of Stars and Planets - ASTR PTYS "545" SP25 "001" - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Astrophysics of Stars and Planets - ASTR PTYS "545" SP25 "001" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    AST/PTYS 545: Astrophysics of Stars and Planets, Spring 2025, University of Arizona, Steward Observatory
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../syllabus.html">Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../schedule.html">Schedule</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week1/day_0.html">Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week1/day_1.html">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a></li>
+
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week2.html">Week 2</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="day_2.html">Constant-Density Model, Energy Generation/Transport, Dimensional Analysis, and the Main Sequence</a></li>
+
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">An Overview of Stellar Evolution</a></li>
+
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../assignments/pca1.html">PCA 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../assignments/ica1.html">In-Class Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../assignments/ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../assignments/ica3.html">Exploring MESA models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../assignments/pca2.html">PCA 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../assignments/hw1.html">Homework 1</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/lectures/week2/day_3.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/lectures/week2/day_3.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/lectures/week2/day_3.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>An Overview of Stellar Evolution</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">An Overview of Stellar Evolution</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-hertzsprung-russell-hr-diagram">The Hertzsprung-Russell (HR) Diagram</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-main-sequence-evolution">Pre-Main Sequence Evolution</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-hayashi-track">The Hayashi track</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#single-stars-on-and-near-the-main-sequence">Single Stars On and Near the Main Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-s-so-main-about-this-sequence">What’s so main about this sequence?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evolution-of-single-stars-off-the-main-sequence">Evolution of Single Stars Off the Main Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unevolved-lower-zams"><strong>Unevolved Lower ZAMS:</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lower"><strong>Lower:</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#intermediate"><strong>Intermediate:</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#upper-aka-massive"><strong>Upper (aka Massive):</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-activity">In-Class Activity</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="an-overview-of-stellar-evolution">
+<h1>An Overview of Stellar Evolution<a class="headerlink" href="#an-overview-of-stellar-evolution" title="Permalink to this heading">#</a></h1>
+<p><strong>Friday, Jan. 24, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements / Recap (2m)</p></li>
+<li><p>Dicuss Readings/ICA (5m)</p></li>
+<li><p>Reading Overview/Key Points (15m)</p></li>
+<li><p>In-Class MESA Assignment (Groups of 2) (20m)</p></li>
+<li><p>Debrief on ICA (5m)</p></li>
+</ol>
+</section>
+<section id="the-hertzsprung-russell-hr-diagram">
+<h2>The Hertzsprung-Russell (HR) Diagram<a class="headerlink" href="#the-hertzsprung-russell-hr-diagram" title="Permalink to this heading">#</a></h2>
+<p>Two dimensional diagram used to characterize key observational properties of stars. The Y-axis is a measure of the power output of the star, while the abscissa (X-axis) is used to denote color (or surface temperature) of the star.</p>
+<p>It has two main flavors:</p>
+<p><strong>Observer’s HR Diagram:</strong> Y-axis might express power in terms of <em>magnitudes</em> while the X-axis would be <em>color</em>, the difference in magnitudes between two spectral bands.</p>
+<p><strong>Theorist’s HR Diagram:</strong> Y-axis is usually express power in terms of <em>luminosity</em> while the X-axis would be <em>effective temperature</em> (<span class="math notranslate nohighlight">\(T_{\rm{eff}}\)</span>).</p>
+<p>The relationship between luminosity and effective temperature is given by the following equation:</p>
+<div class="proof definition admonition" id="L">
+<p class="admonition-title"><span class="caption-number">Definition 17 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+L = 4 \pi \sigma R^2 T^4_{\rm{eff}}
+\]</div>
+</section>
+</div><p>where <span class="math notranslate nohighlight">\(\sigma\)</span> is the Stefan-Boltzmann’s constant with value of <span class="math notranslate nohighlight">\(5.6705\times10^{-5}\)</span> erg cm<span class="math notranslate nohighlight">\(^{-2}\)</span> K<span class="math notranslate nohighlight">\(^{-4}\)</span> s<span class="math notranslate nohighlight">\(^{-1}\)</span></p>
+<div class="proof observation admonition" id="L">
+<p class="admonition-title"><span class="caption-number">Observation 3 </span></p>
+<section class="observation-content" id="proof-content">
+<p>In this equation <span class="math notranslate nohighlight">\(R\)</span> is assumed to be the radius at the visible surface of the star (the <em>photosphere</em>) and
+<span class="math notranslate nohighlight">\(T_{\rm{eff}}\)</span> is the temperature at that surface.</p>
+</section>
+</div><p>We can similarly create a scaled version of the above equation plugging in <span class="math notranslate nohighlight">\(L_{\odot}\)</span> and <span class="math notranslate nohighlight">\(R_{\odot}\)</span> to find</p>
+<div class="proof definition admonition" id="L">
+<p class="admonition-title"><span class="caption-number">Definition 17 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\left ( \frac{L}{L_{\odot}} \right ) = 8.973\times10^{-16} \left ( \frac{R}{R_{\odot}} \right )^{2} T^4_{\rm{eff}}
+\]</div>
+</section>
+</div><p>Example HR diagram from Iben 1991:</p>
+<p><img alt="An illustrative Hertzsprung-Russell diagram showing nearby and bright stars as seen from the earth" src="../../_images/hr.jpg" /></p>
+<p>An illustrative Hertzsprung-Russell diagram showing nearby and bright stars as seen from the earth.</p>
+<div class="proof observation admonition" id="L">
+<p class="admonition-title"><span class="caption-number">Observation 3 </span></p>
+<section class="observation-content" id="proof-content">
+<p>Note, the abscissa is backwards! From left to right, we go from <em>hotter</em> to <em>cooler</em> stars.</p>
+</section>
+</div></section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="pre-main-sequence-evolution">
+<h1>Pre-Main Sequence Evolution<a class="headerlink" href="#pre-main-sequence-evolution" title="Permalink to this heading">#</a></h1>
+<section id="the-hayashi-track">
+<h2>The Hayashi track<a class="headerlink" href="#the-hayashi-track" title="Permalink to this heading">#</a></h2>
+<p>Key considerations for protostellar models:</p>
+<ol class="arabic simple">
+<li><p>Because of the high total luminosity, the interior of a nonaccreting hydrostatic protostellar model is <strong>convective</strong>.</p></li>
+<li><p>For fully convective stars, it is not possible to build a hydrostatic model if the temperature falls below a certain value,thus there is a “forbidden region” in the H-R diagram.</p></li>
+<li><p>The boundary of this forbidden region is almost vertical for a given mass star, so that as a star contracts it evolves at roughly constant effective temparture.</p></li>
+</ol>
+<p>This <em>forbidden region</em> is known as the <a class="reference external" href="https://en.wikipedia.org/wiki/Hayashi_track"><strong>Hayashi track</strong></a>.</p>
+<p>A protostar leaves the Hayashi track when it either deviates to the <a class="reference external" href="https://en.wikipedia.org/wiki/Henyey_track"><em>Henyey track</em></a> or nuclear fusion occurs and the star reaches the main sequence.
+This differences are all reliant of the initial mass of the star.</p>
+<p>Example HR diagram from <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/1988ApJ...332..804S/abstract">Stahler 1988</a> showing low mass stellar evolution tracks along the Hayashi and Henyey tracks until reaching the Main Sequence:</p>
+<p><img alt="Shown are pre-main sequence evolutionary tracks adopted by Stahler (1988) from various sources. Masses are in solar units. Also shown are the observed locations of a number of T Tauri stars" src="../../_images/pms.jpg" /></p>
+<p>Shown are pre-main sequence evolutionary tracks adopted by Stahler (1988) from various sources. Masses are in solar units. Also shown are the observed locations of a number of T Tauri stars.</p>
+<p><strong>T Tauri Stars</strong> are those that are still contracting towards the main-sequence.</p>
+</section>
+<section id="single-stars-on-and-near-the-main-sequence">
+<h2>Single Stars On and Near the Main Sequence<a class="headerlink" href="#single-stars-on-and-near-the-main-sequence" title="Permalink to this heading">#</a></h2>
+<section id="what-s-so-main-about-this-sequence">
+<h3>What’s so main about this sequence?<a class="headerlink" href="#what-s-so-main-about-this-sequence" title="Permalink to this heading">#</a></h3>
+<p>Often theorist will say a star has reached the main-sequence if the following is true:</p>
+<ol class="arabic simple">
+<li><p>chemically homogeneous with identical or very similar compositions</p></li>
+<li><p>hydrostatic and thermal balance</p></li>
+<li><p>energy is derived solely from nuclear burning</p></li>
+</ol>
+<p>We can also define the <strong>Zero-Age Main-Sequence</strong> (ZAMS) as the time at which the stellar model satisfies these requirements.</p>
+<p><strong>Key takeaway:</strong> ZAMS solutions for stars with identical mass or composition in stellar modeling are not unique due to many uncertainties from: equations of state, opacities, and nuclear generation rates. We will discuss all of these in more detail in later chapters.</p>
+</section>
+</section>
+<section id="evolution-of-single-stars-off-the-main-sequence">
+<h2>Evolution of Single Stars Off the Main Sequence<a class="headerlink" href="#evolution-of-single-stars-off-the-main-sequence" title="Permalink to this heading">#</a></h2>
+<p>Evolution off of the main sequence will depend on the initial mass. Lets categorize them as follows:</p>
+<section id="unevolved-lower-zams">
+<h3><strong>Unevolved Lower ZAMS:</strong><a class="headerlink" href="#unevolved-lower-zams" title="Permalink to this heading">#</a></h3>
+<p>Using HKT Eq. 1.88 <span class="math notranslate nohighlight">\(t_{\rm{nuc}}\approx 10^{10}\left ( \frac{M}{M_{\odot}} \right )^{-2.5} \geq 17\)</span> Gyr, greater than a Hubble time for stars <span class="math notranslate nohighlight">\(lt\)</span> 0.8<span class="math notranslate nohighlight">\(M_{\odot}\)</span>.</p>
+</section>
+<section id="lower">
+<h3><strong>Lower:</strong><a class="headerlink" href="#lower" title="Permalink to this heading">#</a></h3>
+<p>Mass range of <span class="math notranslate nohighlight">\(\approx0.8-1.0M_{\odot}\)</span> to <span class="math notranslate nohighlight">\(\approx2.0-2.3M_{\odot}\)</span> depending on composition. These mass ranges undergo helium ignition in the electron degenerate regime (they are to the right of the <span class="math notranslate nohighlight">\(\epsilon_{\rm{F}}/kT=10\)</span>). Models to the left are non-degenerate and obey ideal gas laws.</p>
+</section>
+<section id="intermediate">
+<h3><strong>Intermediate:</strong><a class="headerlink" href="#intermediate" title="Permalink to this heading">#</a></h3>
+<p>At mass ranges of about 3<span class="math notranslate nohighlight">\(M_{\odot}\)</span> to about 8-9<span class="math notranslate nohighlight">\(M_{\odot}\)</span> helium ignition occurs in a nondegenerate scenario leading to the build up of a primarily <strong>degenerate</strong> carbon (<span class="math notranslate nohighlight">\(^{12}\)</span>C) and (<span class="math notranslate nohighlight">\(^{16}\)</span>O) core.</p>
+</section>
+<section id="upper-aka-massive">
+<h3><strong>Upper (aka Massive):</strong><a class="headerlink" href="#upper-aka-massive" title="Permalink to this heading">#</a></h3>
+<p>Stars about <span class="math notranslate nohighlight">\(9M_{\odot}\)</span> or greater. The main distinction being from intermediate masses being that a <strong>non-degenerate</strong> CO core is formed and maintained until C-ignition.</p>
+<p><img alt="Evolution of Single Stars Off the Main Sequence in T-Rho" src="../../_images/post_ms.jpg" /></p>
+<p>Evolution of stars off of the main sequence for three stellar tracks.</p>
+<ol class="arabic simple">
+<li><p>For all the stellar tracks shown below (except the massive star model of 15<span class="math notranslate nohighlight">\(M_{\odot}\)</span>), hydrogen depletion/growth of the <em>helium</em> core is surrounded by an active H-burning shell which provides a power source.</p></li>
+<li><p>The helium core continues to contract, due to the lack of a burning source.</p></li>
+<li><p>The contraction and heating of the He-core and the H-shell drives expansion of the stellar envelope. The star becomes evolve towards the red giant branch (3-6).</p></li>
+</ol>
+<p>Where the <strong>red giant branch (RGB)</strong> is characterized by a continual expansion and reddening of the star to lower effective temperatures.</p>
+<p><img alt="Evolution of Single Stars Off the Main Sequence" src="../../_images/post_ms_hr.jpg" /></p>
+</section>
+</section>
+<section id="in-class-activity">
+<h2>In-Class Activity<a class="headerlink" href="#in-class-activity" title="Permalink to this heading">#</a></h2>
+<p>Head over to <a class="reference internal" href="../../assignments/ica3.html"><span class="std std-doc">ICA3</span></a>, work with the person next to you.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./lectures/week2"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="day_2.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Constant-Density Model, Energy Generation/Transport, Dimensional Analysis, and the Main Sequence</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../assignments/pca1.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">PCA 1</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">An Overview of Stellar Evolution</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-hertzsprung-russell-hr-diagram">The Hertzsprung-Russell (HR) Diagram</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-main-sequence-evolution">Pre-Main Sequence Evolution</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-hayashi-track">The Hayashi track</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#single-stars-on-and-near-the-main-sequence">Single Stars On and Near the Main Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-s-so-main-about-this-sequence">What’s so main about this sequence?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evolution-of-single-stars-off-the-main-sequence">Evolution of Single Stars Off the Main Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unevolved-lower-zams"><strong>Unevolved Lower ZAMS:</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lower"><strong>Lower:</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#intermediate"><strong>Intermediate:</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#upper-aka-massive"><strong>Upper (aka Massive):</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-activity">In-Class Activity</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Carl E. Fields
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
