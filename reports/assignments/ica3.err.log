@@ -20,6 +20,7 @@ nbclient.exceptions.CellExecutionError: An error occurred while executing the fo
 ------------------
 models = []
 
+
 models.append(Model(1, profiles=["M1_default_profile8.data",
                                  "M1_default_profile218.data"],
                     history="M1_default_trimmed_history.data"))
@@ -35,18 +36,18 @@ models.append(Model(15, profiles=["M15_aprox21_profile8.data",
 
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-Cell [0;32mIn[3], line 3[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+Cell [0;32mIn[3], line 4[0m
 [1;32m      1[0m models [38;5;241m=[39m []
-[0;32m----> 3[0m models[38;5;241m.[39mappend(Model([38;5;241m1[39m, profiles[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mM1_default_profile8.data[39m[38;5;124m"[39m,
-[1;32m      4[0m                                  [38;5;124m"[39m[38;5;124mM1_default_profile218.data[39m[38;5;124m"[39m],
-[1;32m      5[0m                     history[38;5;241m=[39m[38;5;124m"[39m[38;5;124mM1_default_trimmed_history.data[39m[38;5;124m"[39m))
-[1;32m      7[0m models[38;5;241m.[39mappend(Model([38;5;241m8[39m, profiles[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mM8_basic_co_profile8.data[39m[38;5;124m"[39m,
-[1;32m      8[0m                                  [38;5;124m"[39m[38;5;124mM8_basic_co_profile39.data[39m[38;5;124m"[39m],
-[1;32m      9[0m                     history[38;5;241m=[39m[38;5;124m"[39m[38;5;124mM8_basic_co_trimmed_history.data[39m[38;5;124m"[39m))
-[1;32m     11[0m models[38;5;241m.[39mappend(Model([38;5;241m15[39m, profiles[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mM15_aprox21_profile8.data[39m[38;5;124m"[39m,
-[1;32m     12[0m                                   [38;5;124m"[39m[38;5;124mM15_aprox21_profile19.data[39m[38;5;124m"[39m],
-[1;32m     13[0m                     history[38;5;241m=[39m[38;5;124m"[39m[38;5;124mM15_aprox21_trimmed_history.data[39m[38;5;124m"[39m))
+[0;32m----> 4[0m models[38;5;241m.[39mappend(Model([38;5;241m1[39m, profiles[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mM1_default_profile8.data[39m[38;5;124m"[39m,
+[1;32m      5[0m                                  [38;5;124m"[39m[38;5;124mM1_default_profile218.data[39m[38;5;124m"[39m],
+[1;32m      6[0m                     history[38;5;241m=[39m[38;5;124m"[39m[38;5;124mM1_default_trimmed_history.data[39m[38;5;124m"[39m))
+[1;32m      8[0m models[38;5;241m.[39mappend(Model([38;5;241m8[39m, profiles[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mM8_basic_co_profile8.data[39m[38;5;124m"[39m,
+[1;32m      9[0m                                  [38;5;124m"[39m[38;5;124mM8_basic_co_profile39.data[39m[38;5;124m"[39m],
+[1;32m     10[0m                     history[38;5;241m=[39m[38;5;124m"[39m[38;5;124mM8_basic_co_trimmed_history.data[39m[38;5;124m"[39m))
+[1;32m     12[0m models[38;5;241m.[39mappend(Model([38;5;241m15[39m, profiles[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mM15_aprox21_profile8.data[39m[38;5;124m"[39m,
+[1;32m     13[0m                                   [38;5;124m"[39m[38;5;124mM15_aprox21_profile19.data[39m[38;5;124m"[39m],
+[1;32m     14[0m                     history[38;5;241m=[39m[38;5;124m"[39m[38;5;124mM15_aprox21_trimmed_history.data[39m[38;5;124m"[39m))
 
 Cell [0;32mIn[2], line 5[0m, in [0;36mModel.__init__[0;34m(self, mass, profiles, history)[0m
 [1;32m      3[0m [38;5;28mself[39m[38;5;241m.[39mmass [38;5;241m=[39m mass
@@ -55,58 +56,5 @@ Cell [0;32mIn[2], line 5[0m, in [0;36mModel.__init__[0;34m(self, mass, profi
 [1;32m      6[0m [38;5;28mself[39m[38;5;241m.[39mprofiles [38;5;241m=[39m []
 [1;32m      7[0m [38;5;28;01mif[39;00m profiles:
 
-File [0;32m/opt/anaconda3/lib/python3.11/site-packages/mesa_reader/__init__.py:134[0m, in [0;36mMesaData.__init__[0;34m(self, file_name, file_type)[0m
-[1;32m    132[0m [38;5;28mself[39m[38;5;241m.[39mheader_data [38;5;241m=[39m [38;5;28;01mNone[39;00m
-[1;32m    133[0m [38;5;28mself[39m[38;5;241m.[39mheader_names [38;5;241m=[39m [38;5;28;01mNone[39;00m
-[0;32m--> 134[0m [38;5;28mself[39m[38;5;241m.[39mread_data()
-
-File [0;32m/opt/anaconda3/lib/python3.11/site-packages/mesa_reader/__init__.py:183[0m, in [0;36mMesaData.read_data[0;34m(self)[0m
-[1;32m    181[0m     [38;5;28mself[39m[38;5;241m.[39mread_model_data()
-[1;32m    182[0m [38;5;28;01melif[39;00m [38;5;28mself[39m[38;5;241m.[39mfile_type [38;5;241m==[39m [38;5;124m"[39m[38;5;124mlog[39m[38;5;124m"[39m:
-[0;32m--> 183[0m     [38;5;28mself[39m[38;5;241m.[39mread_log_data()
-[1;32m    184[0m [38;5;28;01melse[39;00m:
-[1;32m    185[0m     [38;5;28;01mraise[39;00m UnknownFileTypeError([38;5;124m"[39m[38;5;124mUnknown file type [39m[38;5;132;01m{}[39;00m[38;5;124m"[39m[38;5;241m.[39mformat([38;5;28mself[39m[38;5;241m.[39mfile_type))
-
-File [0;32m/opt/anaconda3/lib/python3.11/site-packages/mesa_reader/__init__.py:199[0m, in [0;36mMesaData.read_log_data[0;34m(self)[0m
-[1;32m    187[0m [38;5;28;01mdef[39;00m [38;5;21mread_log_data[39m([38;5;28mself[39m):
-[1;32m    188[0m [38;5;250m    [39m[38;5;124;03m"""Reads in or update data from the original log (.data or .log) file.[39;00m
-[1;32m    189[0m 
-[1;32m    190[0m [38;5;124;03m    This re-reads the data from the originally-provided file name. Mostly[39;00m
-[0;32m   (...)[0m
-[1;32m    197[0m [38;5;124;03m    None[39;00m
-[1;32m    198[0m [38;5;124;03m    """[39;00m
-[0;32m--> 199[0m     [38;5;28mself[39m[38;5;241m.[39mbulk_data [38;5;241m=[39m np[38;5;241m.[39mgenfromtxt(
-[1;32m    200[0m         [38;5;28mself[39m[38;5;241m.[39mfile_name,
-[1;32m    201[0m         skip_header[38;5;241m=[39mMesaData[38;5;241m.[39mbulk_names_line [38;5;241m-[39m [38;5;241m1[39m,
-[1;32m    202[0m         names[38;5;241m=[39m[38;5;28;01mTrue[39;00m,
-[1;32m    203[0m         ndmin[38;5;241m=[39m[38;5;241m1[39m,  [38;5;66;03m# Make sure a single entry is still a 1D array[39;00m
-[1;32m    204[0m         dtype[38;5;241m=[39m[38;5;28;01mNone[39;00m,
-[1;32m    205[0m     )
-[1;32m    206[0m     [38;5;28mself[39m[38;5;241m.[39mbulk_names [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39mbulk_data[38;5;241m.[39mdtype[38;5;241m.[39mnames
-[1;32m    207[0m     header_data [38;5;241m=[39m []
-
-File [0;32m/opt/anaconda3/lib/python3.11/site-packages/numpy/lib/npyio.py:1980[0m, in [0;36mgenfromtxt[0;34m(fname, dtype, comments, delimiter, skip_header, skip_footer, converters, missing_values, filling_values, usecols, names, excludelist, deletechars, replace_space, autostrip, case_sensitive, defaultfmt, unpack, usemask, loose, invalid_raise, max_rows, encoding, ndmin, like)[0m
-[1;32m   1978[0m     fname [38;5;241m=[39m os_fspath(fname)
-[1;32m   1979[0m [38;5;28;01mif[39;00m [38;5;28misinstance[39m(fname, [38;5;28mstr[39m):
-[0;32m-> 1980[0m     fid [38;5;241m=[39m np[38;5;241m.[39mlib[38;5;241m.[39m_datasource[38;5;241m.[39mopen(fname, [38;5;124m'[39m[38;5;124mrt[39m[38;5;124m'[39m, encoding[38;5;241m=[39mencoding)
-[1;32m   1981[0m     fid_ctx [38;5;241m=[39m contextlib[38;5;241m.[39mclosing(fid)
-[1;32m   1982[0m [38;5;28;01melse[39;00m:
-
-File [0;32m/opt/anaconda3/lib/python3.11/site-packages/numpy/lib/_datasource.py:193[0m, in [0;36mopen[0;34m(path, mode, destpath, encoding, newline)[0m
-[1;32m    156[0m [38;5;250m[39m[38;5;124;03m"""[39;00m
-[1;32m    157[0m [38;5;124;03mOpen `path` with `mode` and return the file object.[39;00m
-[1;32m    158[0m 
-[0;32m   (...)[0m
-[1;32m    189[0m 
-[1;32m    190[0m [38;5;124;03m"""[39;00m
-[1;32m    192[0m ds [38;5;241m=[39m DataSource(destpath)
-[0;32m--> 193[0m [38;5;28;01mreturn[39;00m ds[38;5;241m.[39mopen(path, mode, encoding[38;5;241m=[39mencoding, newline[38;5;241m=[39mnewline)
-
-File [0;32m/opt/anaconda3/lib/python3.11/site-packages/numpy/lib/_datasource.py:533[0m, in [0;36mDataSource.open[0;34m(self, path, mode, encoding, newline)[0m
-[1;32m    530[0m     [38;5;28;01mreturn[39;00m _file_openers[ext](found, mode[38;5;241m=[39mmode,
-[1;32m    531[0m                               encoding[38;5;241m=[39mencoding, newline[38;5;241m=[39mnewline)
-[1;32m    532[0m [38;5;28;01melse[39;00m:
-[0;32m--> 533[0m     [38;5;28;01mraise[39;00m [38;5;167;01mFileNotFoundError[39;00m([38;5;124mf[39m[38;5;124m"[39m[38;5;132;01m{[39;00mpath[38;5;132;01m}[39;00m[38;5;124m not found.[39m[38;5;124m"[39m)
-
-[0;31mFileNotFoundError[0m: M1_default_trimmed_history.data not found.
+[0;31mNameError[0m: name 'mr' is not defined
 
