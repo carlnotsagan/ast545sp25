@@ -3,7 +3,7 @@
 
 Total (15 points)
 
-## Due Before Class Monday, January 27, 2025
+## Due Before Class Friday, January 24, 2025
 
 After reading HKT Chapter 2.1-2.3, please answer the following in 2-3 sentences and submit as PDF via D2L.
 
