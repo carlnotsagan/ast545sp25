@@ -9,9 +9,9 @@
 
 
 1. HKT Section 1.6 describes the notion of homologous stars. Show that:
-    * Eq. 1.65 follows from 1.2
-    * Eq. 1.66 (with a factor of G included) is a good order of magnitude estimate for the central pressure (e.g. using the equation of HSE).
-    * Demonstrate that Eq. 1.74 is the correct matrix equation for homologous stars where heat transport is dominated by radiative diffusion.
+    * Eq. 1.62 follows from 1.2
+    * Eq. 1.63 (with a factor of G included) is a good order of magnitude estimate for the central pressure (e.g. using the equation of HSE).
+    * Demonstrate that Eq. 1.71 is the correct matrix equation for homologous stars where heat transport is dominated by radiative diffusion.
 
     
 2. HKT Exercise 1.3 - A useful (albeit not terribly realistic) model for a homogeneous composition star may be obtained by assuming that the density is a linear function of radius. (See Stein, 1966.) Thus assume that $\rho = \rho_{c} [1-(r/R)]$ where where $\rho_{c}$ is the central density and $R$ is the total radius where zero boundary conditions, $ P ( R ) = T ( R ) = 0$ apply. 
