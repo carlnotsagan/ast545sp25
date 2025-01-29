@@ -26,14 +26,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 27 Jan | Late Stages of Stellar Evolution and Close Binaries                 |  ([PCA 3](assignments/pca3.md), Due: Jan. 29), Readings: HKT Chapter 3.1-3.5, ([ICA 4](assignments/ica4.ipynb), Due: Jan. 27)          |
-| 29 Jan | Equations of State                                                  |  ([PCA 4](assignments/pca4.md), Due: Jan. 31), Readings: HKT Chapter 3.5-3.7          |
+| 29 Jan | Equations of State                                                  |  ([PCA 4](assignments/pca4.md), Due: Jan. 31), Readings: HKT Chapter 3.6-3.7          |
 | 31 Jan | Equations of State, Continued                                       |  (HW2, Due: Feb. 7), Readings:   HKT Chapter 4.1-4.5                                  |
 
 ## Week 4
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 3 Feb  | Radiative and Conductive Heat Transfer                              |  (PCA 5, Due: Feb. 5), Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)    |
+| 3 Feb  | Radiative and Conductive Heat Transfer                              |  (PCA 5, Due: Feb. 5), Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)  & HKT Chapter 4.7-4.8  |
 | 5 Feb  | Stellar Spectra                                                     |  (PCA 6, Due: Feb. 7), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mI)   |
 | 7 Feb  | Exoplanet Transits and Transmission Spectroscopy                    |  (HW3, Due: Feb. 14 (sorry)), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mN)  |
 
@@ -41,7 +41,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 10 Feb | Limb Darkening                                                      |  (PCA 7, Due: Feb. 12), Readings: HKT Chapter 5                                       |
+| 10 Feb | Limb Darkening                                                      |  (PCA 7, Due: Feb. 12), Readings: HKT Chapter 5.1-5.3                                       |
 | 12 Feb | Convection                                                          |  (HW4, Due: Feb. 19), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57nl)   |
 | 14 Feb | Planetary Convection, Mixing, and Inflated Hot Jupiters             |  (PCA 8, Due: Feb. 17), Readings: HKT Chapter 6.1-6.2                                 |
 
@@ -51,14 +51,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 17 Feb | Stellar Energy Sources                                              |  (PCA 9, Due: Feb. 19), Readings: HKT Chapter 6.3-6.8                                 |
 | 19 Feb | Nuclear Burning in Stars                                            |  (HW5, Due: Feb. 26), Readings:   HKT Chapter 7.1-7.2                                 |
-| 21 Feb | Models for Stellar Structure                                        |  (PCA 10, Due: Feb. 24), Readings:  HKT Chapter 10.1-10.2                             |
+| 21 Feb | Models for Stellar Structure                                        |  (PCA 10, Due: Feb. 24), Readings:  HKT Chapter 8.1-8.2                             |
 
 ## Week 7
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 24 Feb | Asteroseismology                                                    |  (PCA 11, Due: Feb. 26), Readings:   HKT Chapter 8.1-8.3                              |
-| 26 Feb | Our Sun                                                             |   Mid-term Review (No grade), Readings: HKT Chapter 8.4 and [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158)       |
+| 24 Feb | Asteroseismology                                                    |  (PCA 11, Due: Feb. 26), Readings:   HKT Chapter 9.1-9.3                              |
+| 26 Feb | Our Sun                                                             |   Mid-term Review (No grade), Readings: HKT Chapter 9.4 and [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158)       |
 | 28 Feb | Stellar Rotation                                                    |                                                                                       |
 
 ## Week 8

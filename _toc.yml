@@ -20,6 +20,7 @@ parts:
     - file: lectures/week3/week3
       sections:
       - file: lectures/week3/day_4
+      - file: lectures/week3/day_5
   - caption: Assignments
     maxdepth: 1
     chapters:
