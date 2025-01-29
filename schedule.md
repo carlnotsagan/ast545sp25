@@ -27,7 +27,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 27 Jan | Late Stages of Stellar Evolution and Close Binaries                 |  ([PCA 3](assignments/pca3.md), Due: Jan. 29), Readings: HKT Chapter 3.1-3.5, ([ICA 4](assignments/ica4.ipynb), Due: Jan. 27)          |
 | 29 Jan | Equations of State                                                  |  ([PCA 4](assignments/pca4.md), Due: Jan. 31), Readings: HKT Chapter 3.6-3.7, ([ICA 5](assignments/ica5.ipynb), Due: Jan. 29)           |
-| 31 Jan | Equations of State, Continued                                       |  (HW2, Due: Feb. 7), Readings:   HKT Chapter 4.1-4.5                                  |
+| 31 Jan | Equations of State, Continued                                       |  Readings:   HKT Chapter 4.1-4.5                                  |
 
 ## Week 4
 
