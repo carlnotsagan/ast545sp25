@@ -36,6 +36,7 @@ parts:
         - file: assignments/ica2
         - file: assignments/ica3
         - file: assignments/ica4
+        - file: assignments/ica5
     - file: assignments/hws
       sections:
         - file: assignments/hw1
