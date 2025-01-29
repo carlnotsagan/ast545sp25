@@ -41,7 +41,7 @@ Demonstrate advanced discipline skills and knowledge necessary to utilize the ob
 Develop expertise with communicating, translating, and interpreting fundamental astronomical concepts and research results in oral and/or written formats.
 
 ## Required Texts and Materials
-We will primarily follow the textbook “Stellar Interiors” by Hansen, Kawaler, and Trimble (2004). This is available for free on the University Library website. Supplemental reading materials may be assigned through the course of the semester and will be provided in digital format using SSO access by the University. Additional lecture materials may draw from the open astrophysics bookshelf [here](https://web.pa.msu.edu/people/ebrown/docs/stellar-notes.pdf).
+We will primarily follow the textbook “Stellar Interiors” by Hansen, Kawaler, and Trimble (2004). This is available for free on the University Library website. Supplemental reading materials may be assigned through the course of the semester and will be provided in digital format using SSO access by the University. Additional lecture materials may draw from the open astrophysics bookshelf [here](https://web.pa.msu.edu/people/ebrown/docs/stellar-notes.pdf). We will also reference and utilize resources from Onno pols online notes [here](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf).
 
 ## Schedule of Topics and Activities
 See [course schedule](syllabus.md) for detailed topics by week.
