@@ -33,16 +33,16 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 3 Feb  | Radiative and Conductive Heat Transfer                              |  (PCA 5, Due: Feb. 5), Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)  & HKT Chapter 4.7-4.8  |
-| 5 Feb  | Stellar Spectra                                                     |  (PCA 6, Due: Feb. 7), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mI)   |
-| 7 Feb  | Exoplanet Transits and Transmission Spectroscopy                    |  (HW3, Due: Feb. 14 (sorry)), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mN)  |
+| 3 Feb  | Explosions, Variable Stars, and Compact Remnants                         |  ([PCA 5](assignments/pca5.md), Due: Feb. 5),  HKT Chapter 4.1-4.5, ([ICA 6](assignments/ica6.ipynb), Due: EoD)   |
+| 5 Feb  | Radiative and Conductive Heat Transfer                              |  ([PCA 6](assignments/pca6.md), Due: Feb. 7), Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)  & HKT Chapter 4.7-4.8   |
+| 7 Feb  | Stellar Spectra                                                     |  ([HW2](assignments/hw2.md), Due: Feb. 14 (sorry)), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mI) & Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mN) |
 
 ## Week 5
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 10 Feb | Limb Darkening                                                      |  (PCA 7, Due: Feb. 12), Readings: HKT Chapter 5.1-5.3                                       |
-| 12 Feb | Convection                                                          |  (HW4, Due: Feb. 19), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57nl)   |
+| 10 Feb | Exoplanet Transits, Transmission Spectroscopy, and Limb Darkening   |  (PCA 7, Due: Feb. 12), Readings: HKT Chapter 5.1-5.3                                       |
+| 12 Feb | Convection                                                          |  (HW3, Due: Feb. 19), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57nl)   |
 | 14 Feb | Planetary Convection, Mixing, and Inflated Hot Jupiters             |  (PCA 8, Due: Feb. 17), Readings: HKT Chapter 6.1-6.2                                 |
 
 ## Week 6
@@ -50,7 +50,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 17 Feb | Stellar Energy Sources                                              |  (PCA 9, Due: Feb. 19), Readings: HKT Chapter 6.3-6.8                                 |
-| 19 Feb | Nuclear Burning in Stars                                            |  (HW5, Due: Feb. 26), Readings:   HKT Chapter 7.1-7.2                                 |
+| 19 Feb | Nuclear Burning in Stars                                            |  (HW4, Due: Feb. 26), Readings:   HKT Chapter 7.1-7.2                                 |
 | 21 Feb | Models for Stellar Structure                                        |  (PCA 10, Due: Feb. 24), Readings:  HKT Chapter 8.1-8.2                             |
 
 ## Week 7

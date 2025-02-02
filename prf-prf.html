@@ -225,6 +225,11 @@
 
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="lectures/week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="lectures/week4/day_7.html">Explosions, Variable Stars, and Compact Remnants</a></li>
+
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
 <ul class="nav bd-sidenav">
@@ -233,6 +238,8 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca2.html">PCA 2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca3.html">PCA 3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca4.html">PCA 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/pca5.html">PCA 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/pca6.html">PCA 6</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -241,10 +248,17 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica3.html">In-Class Assignment 3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica4.html">In-Class Assignment 4</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica5.html">In-Class Assignment 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/ica6.html">In-Class Assignment 6</a></li>
+
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="assignments/hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/hw2.html">Homework 2</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="assignments/project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="assignments/project_proposal.html">Project Proposal</a></li>
 </ul>
 </details></li>
 </ul>
@@ -374,7 +388,6 @@ document.write(`
    <a href="#cap-c_v_rho"><strong>c_v_rho</strong></a> | 
    <a href="#cap-chi_T"><strong>chi_T</strong></a> | 
    <a href="#cap-chi_rho"><strong>chi_rho</strong></a> | 
-   <a href="#cap-coulomb"><strong>coulomb</strong></a> | 
    <a href="#cap-gamma simplified"><strong>gamma simplified</strong></a> | 
    <a href="#cap-gamma_1"><strong>gamma_1</strong></a> | 
    <a href="#cap-gamma_1 simplified"><strong>gamma_1 simplified</strong></a> | 
@@ -382,11 +395,10 @@ document.write(`
    <a href="#cap-gamma_2 simplified"><strong>gamma_2 simplified</strong></a> | 
    <a href="#cap-gamma_3"><strong>gamma_3</strong></a> | 
    <a href="#cap-gamma_3 minus 1"><strong>gamma_3 minus 1</strong></a> | 
-   <a href="#cap-gamma_c"><strong>gamma_c</strong></a> | 
-   <a href="#cap-gamma_c_note"><strong>gamma_c_note</strong></a> | 
    <a href="#cap-gpe"><strong>gpe</strong></a> | 
    <a href="#cap-hse1"><strong>hse1</strong></a> | 
    <a href="#cap-ie"><strong>ie</strong></a> | 
+   <a href="#cap-imf"><strong>imf</strong></a> | 
    <a href="#cap-ionization"><strong>ionization</strong></a> | 
    <a href="#cap-lambda_p"><strong>lambda_p</strong></a> | 
    <a href="#cap-mu"><strong>mu</strong></a> | 
@@ -574,14 +586,6 @@ document.write(`
        <a href="lectures/week3/day_6.html#chi_rho"><code class="xref">chi_rho</code></a> <em>(lectures/week3/day_6)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
-     <tr class="cap" id="cap-coulomb"><td></td><td>
-       <strong>coulomb</strong></td><td></td></tr>
-     <tr>
-       <td></td>
-       <td>
-       <a href="lectures/week3/day_6.html#coulomb"><code class="xref">coulomb</code></a> <em>(lectures/week3/day_6)</em></td><td>
-       <em>definition</em></td></tr>
-     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-gamma simplified"><td></td><td>
        <strong>gamma simplified</strong></td><td></td></tr>
      <tr>
@@ -638,22 +642,6 @@ document.write(`
        <a href="lectures/week3/day_6.html#gamma_3 minus 1"><code class="xref">gamma_3 minus 1</code></a> <em>(lectures/week3/day_6)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
-     <tr class="cap" id="cap-gamma_c"><td></td><td>
-       <strong>gamma_c</strong></td><td></td></tr>
-     <tr>
-       <td></td>
-       <td>
-       <a href="lectures/week3/day_6.html#gamma_c"><code class="xref">gamma_c</code></a> <em>(lectures/week3/day_6)</em></td><td>
-       <em>definition</em></td></tr>
-     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
-     <tr class="cap" id="cap-gamma_c_note"><td></td><td>
-       <strong>gamma_c_note</strong></td><td></td></tr>
-     <tr>
-       <td></td>
-       <td>
-       <a href="lectures/week3/day_6.html#gamma_c_note"><code class="xref">gamma_c_note</code></a> <em>(lectures/week3/day_6)</em></td><td>
-       <em>observation</em></td></tr>
-     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-gpe"><td></td><td>
        <strong>gpe</strong></td><td></td></tr>
      <tr>
@@ -676,6 +664,14 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week1/day_1.html#ie"><code class="xref">ie</code></a> <em>(lectures/week1/day_1)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-imf"><td></td><td>
+       <strong>imf</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_7.html#imf"><code class="xref">imf</code></a> <em>(lectures/week4/day_7)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-ionization"><td></td><td>
