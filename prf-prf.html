@@ -228,6 +228,12 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="lectures/week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="lectures/week4/day_7.html">Explosions, Variable Stars, and Compact Remnants</a></li>
 
+<li class="toctree-l2"><a class="reference internal" href="lectures/week4/day_8.html">Radiative and Conductive Heat Transfer</a></li>
+
+
+
+
+
 </ul>
 </details></li>
 </ul>
@@ -250,6 +256,7 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica5.html">In-Class Assignment 5</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica6.html">In-Class Assignment 6</a></li>
 
+<li class="toctree-l2"><a class="reference internal" href="assignments/ica7.html">In-Class Assignment 7</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -373,10 +380,14 @@ document.write(`
    <a href="#cap-E ideal plus radiation"><strong>E ideal plus radiation</strong></a> | 
    <a href="#cap-Eideal"><strong>Eideal</strong></a> | 
    <a href="#cap-Erad"><strong>Erad</strong></a> | 
+   <a href="#cap-F_cond"><strong>F_cond</strong></a> | 
    <a href="#cap-Hp"><strong>Hp</strong></a> | 
    <a href="#cap-L"><strong>L</strong></a> | 
+   <a href="#cap-L_edd"><strong>L_edd</strong></a> | 
    <a href="#cap-Ldm"><strong>Ldm</strong></a> | 
    <a href="#cap-P ideal plus radiation"><strong>P ideal plus radiation</strong></a> | 
+   <a href="#cap-P_photo"><strong>P_photo</strong></a> | 
+   <a href="#cap-P_rad_photo"><strong>P_rad_photo</strong></a> | 
    <a href="#cap-Pc"><strong>Pc</strong></a> | 
    <a href="#cap-Pideal"><strong>Pideal</strong></a> | 
    <a href="#cap-Prad"><strong>Prad</strong></a> | 
@@ -388,6 +399,14 @@ document.write(`
    <a href="#cap-c_v_rho"><strong>c_v_rho</strong></a> | 
    <a href="#cap-chi_T"><strong>chi_T</strong></a> | 
    <a href="#cap-chi_rho"><strong>chi_rho</strong></a> | 
+   <a href="#cap-dI_in"><strong>dI_in</strong></a> | 
+   <a href="#cap-dI_out"><strong>dI_out</strong></a> | 
+   <a href="#cap-del"><strong>del</strong></a> | 
+   <a href="#cap-delrad"><strong>delrad</strong></a> | 
+   <a href="#cap-diff_flux"><strong>diff_flux</strong></a> | 
+   <a href="#cap-diff_lum"><strong>diff_lum</strong></a> | 
+   <a href="#cap-diff_lum_lang"><strong>diff_lum_lang</strong></a> | 
+   <a href="#cap-flux"><strong>flux</strong></a> | 
    <a href="#cap-gamma simplified"><strong>gamma simplified</strong></a> | 
    <a href="#cap-gamma_1"><strong>gamma_1</strong></a> | 
    <a href="#cap-gamma_1 simplified"><strong>gamma_1 simplified</strong></a> | 
@@ -400,6 +419,14 @@ document.write(`
    <a href="#cap-ie"><strong>ie</strong></a> | 
    <a href="#cap-imf"><strong>imf</strong></a> | 
    <a href="#cap-ionization"><strong>ionization</strong></a> | 
+   <a href="#cap-kappa-es"><strong>kappa-es</strong></a> | 
+   <a href="#cap-kappa_H_minus"><strong>kappa_H_minus</strong></a> | 
+   <a href="#cap-kappa_bf"><strong>kappa_bf</strong></a> | 
+   <a href="#cap-kappa_cond"><strong>kappa_cond</strong></a> | 
+   <a href="#cap-kappa_cond_simp"><strong>kappa_cond_simp</strong></a> | 
+   <a href="#cap-kappa_e"><strong>kappa_e</strong></a> | 
+   <a href="#cap-kappa_ff"><strong>kappa_ff</strong></a> | 
+   <a href="#cap-kappa_ff_simp"><strong>kappa_ff_simp</strong></a> | 
    <a href="#cap-lambda_p"><strong>lambda_p</strong></a> | 
    <a href="#cap-mu"><strong>mu</strong></a> | 
    <a href="#cap-muI_appx"><strong>muI_appx</strong></a> | 
@@ -411,7 +438,13 @@ document.write(`
    <a href="#cap-nI"><strong>nI</strong></a> | 
    <a href="#cap-nIi"><strong>nIi</strong></a> | 
    <a href="#cap-np"><strong>np</strong></a> | 
+   <a href="#cap-observation-1"><strong>observation-1</strong></a> | 
    <a href="#cap-ratio"><strong>ratio</strong></a> | 
+   <a href="#cap-sigma-es"><strong>sigma-es</strong></a> | 
+   <a href="#cap-sigma_e"><strong>sigma_e</strong></a> | 
+   <a href="#cap-source_nu"><strong>source_nu</strong></a> | 
+   <a href="#cap-tau_nu"><strong>tau_nu</strong></a> | 
+   <a href="#cap-transfer_equation"><strong>transfer_equation</strong></a> | 
    <a href="#cap-virial"><strong>virial</strong></a> | 
    <a href="#cap-volumes"><strong>volumes</strong></a>
    </div>
@@ -466,6 +499,14 @@ document.write(`
        <a href="lectures/week3/day_5.html#Erad"><code class="xref">Erad</code></a> <em>(lectures/week3/day_5)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-F_cond"><td></td><td>
+       <strong>F_cond</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#F_cond"><code class="xref">F_cond</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-Hp"><td></td><td>
        <strong>Hp</strong></td><td></td></tr>
      <tr>
@@ -482,6 +523,14 @@ document.write(`
        <a href="lectures/week2/day_3.html#L"><code class="xref">L</code></a> <em>(lectures/week2/day_3)</em></td><td>
        <em>observation</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-L_edd"><td></td><td>
+       <strong>L_edd</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#L_edd"><code class="xref">L_edd</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-Ldm"><td></td><td>
        <strong>Ldm</strong></td><td></td></tr>
      <tr>
@@ -496,6 +545,22 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week3/day_6.html#P ideal plus radiation"><code class="xref">P ideal plus radiation</code></a> <em>(lectures/week3/day_6)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-P_photo"><td></td><td>
+       <strong>P_photo</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#P_photo"><code class="xref">P_photo</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-P_rad_photo"><td></td><td>
+       <strong>P_rad_photo</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#P_rad_photo"><code class="xref">P_rad_photo</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-Pc"><td></td><td>
@@ -584,6 +649,70 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week3/day_6.html#chi_rho"><code class="xref">chi_rho</code></a> <em>(lectures/week3/day_6)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-dI_in"><td></td><td>
+       <strong>dI_in</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#dI_in"><code class="xref">dI_in</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-dI_out"><td></td><td>
+       <strong>dI_out</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#dI_out"><code class="xref">dI_out</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-del"><td></td><td>
+       <strong>del</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#del"><code class="xref">del</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-delrad"><td></td><td>
+       <strong>delrad</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#delrad"><code class="xref">delrad</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-diff_flux"><td></td><td>
+       <strong>diff_flux</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#diff_flux"><code class="xref">diff_flux</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-diff_lum"><td></td><td>
+       <strong>diff_lum</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#diff_lum"><code class="xref">diff_lum</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-diff_lum_lang"><td></td><td>
+       <strong>diff_lum_lang</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#diff_lum_lang"><code class="xref">diff_lum_lang</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-flux"><td></td><td>
+       <strong>flux</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#flux"><code class="xref">flux</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-gamma simplified"><td></td><td>
@@ -682,6 +811,70 @@ document.write(`
        <a href="lectures/week3/day_5.html#ionization"><code class="xref">ionization</code></a> <em>(lectures/week3/day_5)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa-es"><td></td><td>
+       <strong>kappa-es</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa-es"><code class="xref">kappa-es</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_H_minus"><td></td><td>
+       <strong>kappa_H_minus</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_H_minus"><code class="xref">kappa_H_minus</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_bf"><td></td><td>
+       <strong>kappa_bf</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_bf"><code class="xref">kappa_bf</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_cond"><td></td><td>
+       <strong>kappa_cond</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_cond"><code class="xref">kappa_cond</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_cond_simp"><td></td><td>
+       <strong>kappa_cond_simp</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_cond_simp"><code class="xref">kappa_cond_simp</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_e"><td></td><td>
+       <strong>kappa_e</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_e"><code class="xref">kappa_e</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_ff"><td></td><td>
+       <strong>kappa_ff</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_ff"><code class="xref">kappa_ff</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_ff_simp"><td></td><td>
+       <strong>kappa_ff_simp</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#kappa_ff_simp"><code class="xref">kappa_ff_simp</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-lambda_p"><td></td><td>
        <strong>lambda_p</strong></td><td></td></tr>
      <tr>
@@ -770,12 +963,60 @@ document.write(`
        <a href="lectures/week3/day_5.html#np"><code class="xref">np</code></a> <em>(lectures/week3/day_5)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-observation-1"><td></td><td>
+       <strong>observation-1</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#observation-1"><code class="xref">observation-1</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>observation</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-ratio"><td></td><td>
        <strong>ratio</strong></td><td></td></tr>
      <tr>
        <td></td>
        <td>
        <a href="lectures/week3/day_6.html#ratio"><code class="xref">ratio</code></a> <em>(lectures/week3/day_6)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma-es"><td></td><td>
+       <strong>sigma-es</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#sigma-es"><code class="xref">sigma-es</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_e"><td></td><td>
+       <strong>sigma_e</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#sigma_e"><code class="xref">sigma_e</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-source_nu"><td></td><td>
+       <strong>source_nu</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#source_nu"><code class="xref">source_nu</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-tau_nu"><td></td><td>
+       <strong>tau_nu</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#tau_nu"><code class="xref">tau_nu</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-transfer_equation"><td></td><td>
+       <strong>transfer_equation</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week4/day_8.html#transfer_equation"><code class="xref">transfer_equation</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-virial"><td></td><td>

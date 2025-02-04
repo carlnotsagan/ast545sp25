@@ -33,8 +33,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 3 Feb  | Explosions, Variable Stars, and Compact Remnants                         |  ([PCA 5](assignments/pca5.md), Due: Feb. 5),  HKT Chapter 4.1-4.5, ([ICA 6](assignments/ica6.ipynb), Due: EoD)   |
-| 5 Feb  | Radiative and Conductive Heat Transfer                              |  ([PCA 6](assignments/pca6.md), Due: Feb. 7), Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)  & HKT Chapter 4.7-4.8   |
+| 3 Feb  | Explosions, Variable Stars, and Compact Remnants                         |  ([PCA 5](assignments/pca5.md), Due: Feb. 5),  HKT Chapter 4.1-4.5, ([ICA 6](assignments/ica6.ipynb), Due: EoD), ([Project Proposal](assignments/project_proposal.md), Due: Feb. 21)   |
+| 5 Feb  | Radiative and Conductive Heat Transfer                              |  ([PCA 6](assignments/pca6.md), Due: Feb. 7), ([ICA 7](assignments/ica7.ipynb), Due: EoD),  Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)  & HKT Chapter 4.7-4.8   |
 | 7 Feb  | Stellar Spectra                                                     |  ([HW2](assignments/hw2.md), Due: Feb. 14 (sorry)), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mI) & Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mN) |
 
 ## Week 5
