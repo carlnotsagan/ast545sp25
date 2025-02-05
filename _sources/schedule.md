@@ -35,7 +35,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 3 Feb  | Explosions, Variable Stars, and Compact Remnants                         |  ([PCA 5](assignments/pca5.md), Due: Feb. 5),  HKT Chapter 4.1-4.5, ([ICA 6](assignments/ica6.ipynb), Due: EoD), ([Project Proposal](assignments/project_proposal.md), Due: Feb. 21)   |
 | 5 Feb  | Radiative and Conductive Heat Transfer                              |  ([PCA 6](assignments/pca6.md), Due: Feb. 7), ([ICA 7](assignments/ica7.ipynb), Due: EoD),  Readings: Spectroscopy: The Key to the Stars [Chapter](https://rdcu.be/d57mB)  & HKT Chapter 4.7-4.8   |
-| 7 Feb  | Stellar Spectra                                                     |  ([HW2](assignments/hw2.md), Due: Feb. 14 (sorry)), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mI) & Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mN) |
+| 7 Feb  | Stellar Spectra                                                     |  ([HW2](assignments/hw2.md), Due: Feb. 14 (sorry)), ([ICA 8](assignments/ica8.ipynb), Due: EoD), Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mI) & Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57mN) |
 
 ## Week 5
 
@@ -49,7 +49,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 17 Feb | Stellar Energy Sources                                              |  (PCA 9, Due: Feb. 19), Readings: HKT Chapter 6.3-6.8                                 |
+| 17 Feb | Stellar Energy Sources  + HW2 Review                                |  (PCA 9, Due: Feb. 19), Readings: HKT Chapter 6.3-6.8                                 |
 | 19 Feb | Nuclear Burning in Stars                                            |  (HW4, Due: Feb. 26), Readings:   HKT Chapter 7.1-7.2                                 |
 | 21 Feb | Models for Stellar Structure                                        |  (PCA 10, Due: Feb. 24), Readings:  HKT Chapter 8.1-8.2                             |
 

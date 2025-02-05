@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Week 4 &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+    <title>Stellar Spectra &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
   
   
   
@@ -59,12 +59,14 @@
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week4/week4';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week4/day_9';</script>
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Explosions, Variable Stars, and Compact Remnants" href="day_7.html" />
-    <link rel="prev" title="“Almost Perfect” Equations of State and Adiabatic Exponents" href="../week3/day_6.html" />
+    <link rel="next" title="Pre-Class Assignments" href="../../assignments/pcas.html" />
+    <link rel="prev" title="Radiative and Conductive Heat Transfer" href="day_8.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -219,7 +221,7 @@
 
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Week 4</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week4.html">Week 4</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="day_7.html">Explosions, Variable Stars, and Compact Remnants</a></li>
 
 <li class="toctree-l2"><a class="reference internal" href="day_8.html">Radiative and Conductive Heat Transfer</a></li>
@@ -228,7 +230,7 @@
 
 
 
-<li class="toctree-l2"><a class="reference internal" href="day_9.html">Stellar Spectra</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Stellar Spectra</a></li>
 
 
 
@@ -313,6 +315,55 @@
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/lectures/week4/day_9.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/lectures/week4/day_9.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-download-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
     <i class="fas fa-download"></i>
@@ -321,7 +372,7 @@
       
       
       
-      <li><a href="../../_sources/lectures/week4/week4.md" target="_blank"
+      <li><a href="../../_sources/lectures/week4/day_9.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -331,7 +382,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -405,7 +456,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 4</h1>
+    <h1>Stellar Spectra</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -415,10 +466,18 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#monday-february-3-2025">Monday, February 3, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-february-5-2025">Wednesday, February 5, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-february-5-2025">Friday, February 5, 2025</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Stellar Spectra</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#spectral-types-or-classes">Spectral types or classes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#luminosity-classes">Luminosity classes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#line-profiles-and-the-curve-of-growth">Line Profiles and the Curve of Growth</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment">In-Class Assignment</a></li>
+</ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -429,20 +488,111 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-4">
-<h1>Week 4<a class="headerlink" href="#week-4" title="Permalink to this heading">#</a></h1>
-<section id="monday-february-3-2025">
-<h2>Monday, February 3, 2025<a class="headerlink" href="#monday-february-3-2025" title="Permalink to this heading">#</a></h2>
-<p>Slides are viewable <a class="reference internal" href="day_7.html"><span class="std std-doc">here</span></a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="stellar-spectra">
+<h1>Stellar Spectra<a class="headerlink" href="#stellar-spectra" title="Permalink to this heading">#</a></h1>
+<p><strong>Friday, Feb. 7, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements (2m)</p></li>
+<li><p>Reading Overview/Key Points (10m)</p></li>
+<li><p>In-Class Activity 8  (20m)</p></li>
+<li><p>Debrief/Reminders (2m)</p></li>
+</ol>
 </section>
-<section id="wednesday-february-5-2025">
-<h2>Wednesday, February 5, 2025<a class="headerlink" href="#wednesday-february-5-2025" title="Permalink to this heading">#</a></h2>
 </section>
-<section id="friday-february-5-2025">
-<h2>Friday, February 5, 2025<a class="headerlink" href="#friday-february-5-2025" title="Permalink to this heading">#</a></h2>
-</section>
-<div class="toctree-wrapper compound">
+<section class="tex2jax_ignore mathjax_ignore" id="spectral-types-or-classes">
+<h1>Spectral types or classes<a class="headerlink" href="#spectral-types-or-classes" title="Permalink to this heading">#</a></h1>
+<p><strong>See Appendix A of HKT for more details</strong></p>
+<p>Henry Draper classification scheme, which is based on the appearance of spectral lines of hydrogen, helium, and various metals.</p>
+<p>The current spectral classification scheme was developed at Harvard Observatory in the early 20th century. Work was begun by Henry Draper who photographed the first spectrum of Vega in 1872. After his death, his wife donated the equipment and a sum of money to the Observatory to continue his work. The bulk of the classification work was done by <strong>Annie Jump Cannon</strong> from 1918 to 1924. The original scheme used capital letters running alphabetically, but subsequent revisions have reduced this as stellar evolution and typing has become better understood. The work was published in the Henry Draper Catalogue (HD) and Henry Draper Extension (HDE) which contained spectra of 225,000 stars down to ninth magnitude.</p>
+<p><img alt="AJC" src="../../_images/AJC.jpg" /></p>
+<p>The International Astronomical Union adopted Cannon’s method as the official spectral classification system. In addition to her scientific work, Cannon also worked for women’s rights. She was dedicated to fighting for women’s suffrage and was a member of the National Women’s Party.</p>
+<p><strong>O star</strong> - strong HeII (second ionization) lines of helium. Since the ionization potential is high, such stars are the hottest in terms of effective temperature.</p>
+<p><strong>B star</strong> - Spectral type “B” stars show strong HeI plus some HI lines.</p>
+<p><strong>A to F star</strong> - The Balmer lines (spectral line emissions of the hydrogen atom) reach their peak in the “A” stars and begin to disappear in “F”.</p>
+<p><strong>G star</strong> - Calcium H&amp;K lines strengthen.</p>
+<p><strong>K star</strong> - show other metallic lines</p>
+<p><strong>M star</strong> - The “M” stars have strong molecular bands (particularly TiO).</p>
+<p><strong>L star</strong> - Spectra show strong metal-hydride molecular bands (CrH &amp; FeH), and neutral metals, but TiO and VO bands are nearly absent.</p>
+<p><strong>T star</strong> - Spectra show strong bands of Methane (CH4), like the spectrum of Jupiter.</p>
+<p><strong>The effective temperatures decrease in the order O, B, A, F, G, K, M, L, and T</strong></p>
+<p>Subdivisions such as G0, G1, G2, etc. are in order of decreasing temperature. The sun is a G2 spectral class star.</p>
+<p><img alt="spectra" src="../../_images/spectra.jpg" /></p>
+<p>Spectra of main sequence (luminosity class V) stars of spectral classes O–M derived from the work of Silva and Cornell (1992).</p>
+<p>For reference:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Wavelength intervale unit</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Extreme ultraviolet</p></td>
+<td><p>&lt; 1000 Angstrom</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ultraviolet</p></td>
+<td><p>1000-3000 Angstrom</p></td>
+</tr>
+<tr class="row-even"><td><p>Classical</p></td>
+<td><p>3000-4900 Angstrom</p></td>
+</tr>
+<tr class="row-odd"><td><p>Visual</p></td>
+<td><p>4900-7000 Angstrom</p></td>
+</tr>
+<tr class="row-even"><td><p>Near infrared</p></td>
+<td><p>7000-10<span class="math notranslate nohighlight">\(^5\)</span> Angstrom</p></td>
+</tr>
+<tr class="row-odd"><td><p>Far infrared</p></td>
+<td><p>1-10<span class="math notranslate nohighlight">\(^3\)</span> <span class="math notranslate nohighlight">\(\mu\)</span>m</p></td>
+</tr>
+<tr class="row-even"><td><p>Radio</p></td>
+<td><p>0.1-10<span class="math notranslate nohighlight">\(^4\)</span> cm</p></td>
+</tr>
+</tbody>
+</table>
 </div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="luminosity-classes">
+<h1>Luminosity classes<a class="headerlink" href="#luminosity-classes" title="Permalink to this heading">#</a></h1>
+<p>The Morgan–Keenan (MK) classification uses spectral class and luminosity class as a two- dimensional scheme to phrase the HR diagram another way.</p>
+<p><strong>Luminosity class I stars</strong> - are the most intrinsically luminous. Because they are usually large (especially the cooler ones) they are also called <em>supergiants</em>.</p>
+<p><strong>Luminosity class II (giants)</strong> are intrinsically bright, but not as bright as class I.</p>
+<p>The numbers increase until luminosity class V is reached. These are the dwarfs and primarily refer to main sequence stars.</p>
+<p>The sun is a G2V star. An M3I star is huge, intrinsically very luminous, and very cool.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="line-profiles-and-the-curve-of-growth">
+<h1>Line Profiles and the Curve of Growth<a class="headerlink" href="#line-profiles-and-the-curve-of-growth" title="Permalink to this heading">#</a></h1>
+<p>We can describe absorption of radiation by a classical oscillator assuming that the atoms are not moving producing a <em>Lorentz profile</em> or <em>Lorentzian</em> or as a Doppler-shifted cross section with the velocity distribution to get an ensemble average for the cross section.</p>
+<p><img alt="sigma_a" src="../../_images/sigma_a.jpg" /></p>
+<p>Shown is the behavior of the absorption cross section from pure Lorentzian (<span class="math notranslate nohighlight">\(\delta \nu_{D} = 0, T = 0\)</span>) to lines well-broadened by increasing temperature. The natural width is taken so that <span class="math notranslate nohighlight">\(\gamma/4\pi = 1\)</span>.</p>
+<p>For the stationary case, <span class="math notranslate nohighlight">\(\nu_{0}\)</span> is the photon frequency necessary to promote an electron to a particular higher state and <span class="math notranslate nohighlight">\(\gamma\)</span> is the sum of the damping constants for the two levels involved.</p>
+<p><strong>Doppler width</strong> - that measures the half-width at half-maximum of the cross section if Doppler broadening dominates over the natural line width <span class="math notranslate nohighlight">\(\gamma\)</span>.</p>
+<p><img alt="curve_of_growth" src="../../_images/curve_of_growth.jpg" /></p>
+<p>The evolution of a spectral absorption line with increasing number density of absorbers is shown for sample values of <span class="math notranslate nohighlight">\(\beta_{0}\)</span>.</p>
+<p>The more absorbing atoms in the path, the more the attenuation; that is, the radiation acts as a probe of both the abundance of absorbing atoms and their temperature.</p>
+<p>In practice, the <strong>equivalent width</strong> is often measured instead</p>
+<div class="proof definition admonition" id="definition-0">
+<p class="admonition-title"><span class="caption-number">Definition 74 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+W_{\nu} = \int^{\inf}_{0} \left ( 1 - \frac{I_{\nu}}{I_{0}} \right ) d \nu = \int^{\inf}_{0} (1-e^{\beta_{0}}) d \nu
+\]</div>
+</section>
+</div><p><img alt="curve_of_growth_2" src="../../_images/curve_of_growth_2.jpg" /></p>
+<p>The solid curve is the curve of growth corresponding to the line profiles of Fig. 4.10 with <span class="math notranslate nohighlight">\(a = 10^{−3}\)</span>. For <span class="math notranslate nohighlight">\(a = 10^{−2}\)</span> (dashed line) the damping portion of the curve begins sooner because <span class="math notranslate nohighlight">\(\delta \nu_{D} \)</span> has been reduced.</p>
+<p>For small <span class="math notranslate nohighlight">\(\beta_{0}\)</span> (weak line), <span class="math notranslate nohighlight">\(W_{\nu} \approx \beta_{0}\)</span> so that on a log–log plot we have a
+straight line. (See Mihalas, 1978, §10–3 for more details.) Hence the “linear
+region” in the figure. In the saturated section, <span class="math notranslate nohighlight">\(W_{\nu} \sim \sqrt{\rm{ln}\beta_{0}}\)</span>, which is a
+mild dependence on <span class="math notranslate nohighlight">\(\beta_{0}\)</span> and thus the curve rises very slowly. For large <span class="math notranslate nohighlight">\(\beta_{0}\)</span>,
+<span class="math notranslate nohighlight">\(W \sim \beta^{1/2}\)</span> and we have a straight line again, but not as steep as the linear <span class="math notranslate nohighlight">\(\nu_{0}\)</span>
+region.</p>
+<section id="in-class-assignment">
+<h2>In-Class Assignment<a class="headerlink" href="#in-class-assignment" title="Permalink to this heading">#</a></h2>
+<p>In-Class Assignment 8 on the opacities is <a class="reference internal" href="../../assignments/ica8.html"><span class="std std-doc">here</span></a>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -476,20 +626,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../week3/day_6.html"
+       href="day_8.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">“Almost Perfect” Equations of State and Adiabatic Exponents</p>
+        <p class="prev-next-title">Radiative and Conductive Heat Transfer</p>
       </div>
     </a>
     <a class="right-next"
-       href="day_7.html"
+       href="../../assignments/pcas.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Explosions, Variable Stars, and Compact Remnants</p>
+        <p class="prev-next-title">Pre-Class Assignments</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -509,10 +659,18 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#monday-february-3-2025">Monday, February 3, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-february-5-2025">Wednesday, February 5, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-february-5-2025">Friday, February 5, 2025</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Stellar Spectra</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#spectral-types-or-classes">Spectral types or classes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#luminosity-classes">Luminosity classes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#line-profiles-and-the-curve-of-growth">Line Profiles and the Curve of Growth</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment">In-Class Assignment</a></li>
+</ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>
