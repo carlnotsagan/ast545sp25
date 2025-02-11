@@ -42,7 +42,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 10 Feb | Exoplanet Transits, Transmission Spectroscopy, and Limb Darkening   |  ([PCA 7](assignments/pca7.md), Due: Feb. 12), ([ICA 9](assignments/ica9.ipynb), Due: EoD), Readings: HKT Chapter 5.1-5.3                                       |
-| 12 Feb | Convection                                                          |  Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57nl)   |
+| 12 Feb | Convection                                                          |  ([ICA 10](assignments/ica10.ipynb), Due: EoD) Readings: Exoplanet Handbook [Chapter](https://rdcu.be/d57nl)   |
 | 14 Feb | Planetary Convection, Mixing, and Inflated Hot Jupiters             |  ([PCA 8](assignments/pca8.md), Due: Feb. 17), Readings: HKT Chapter 6.1-6.2                                 |
 
 ## Week 6
@@ -68,7 +68,6 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | 3 Mar  | Review                                                              |                                                                                       |
 | 5 Mar  | Review                                                              |                                                                                       |
 | 7 Mar  | Midterm, Mid-course survey                                          |                                                                                       |
-
 
 ## Week 16
 
