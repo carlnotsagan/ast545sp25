@@ -30,6 +30,7 @@ parts:
     - file: lectures/week5/week5
       sections:
       - file: lectures/week5/day_10
+      - file: lectures/week5/day_11
   - caption: Assignments
     maxdepth: 1
     chapters:
@@ -53,6 +54,8 @@ parts:
         - file: assignments/ica6
         - file: assignments/ica7
         - file: assignments/ica8
+        - file: assignments/ica9
+        - file: assignments/ica10
     - file: assignments/hws
       sections:
         - file: assignments/hw1
