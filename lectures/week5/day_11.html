@@ -1,0 +1,804 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Heat Transfer by Convection &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week5/day_11';</script>
+    <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Pre-Class Assignments" href="../../assignments/pcas.html" />
+    <link rel="prev" title="Exoplanet Transits, Transmission Spectroscopy, and Limb Darkening" href="day_10.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Astrophysics of Stars and Planets - ASTR PTYS "545" SP25 "001" - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Astrophysics of Stars and Planets - ASTR PTYS "545" SP25 "001" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    AST/PTYS 545: Astrophysics of Stars and Planets, Spring 2025, University of Arizona, Steward Observatory
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../syllabus.html">Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../schedule.html">Schedule</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week1/day_0.html">Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week1/day_1.html">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a></li>
+
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week2/day_2.html">Constant-Density Model, Energy Generation/Transport, Dimensional Analysis, and the Main Sequence</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week2/day_3.html">An Overview of Stellar Evolution</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week3/day_4.html">Late Stages of Evolution and Evolution in Close Binary Systems</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week3/day_5.html">Equations of State</a></li>
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week3/day_6.html">“Almost Perfect” Equations of State and Adiabatic Exponents</a></li>
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week4/day_7.html">Explosions, Variable Stars, and Compact Remnants</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week4/day_8.html">Radiative and Conductive Heat Transfer</a></li>
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week4/day_9.html">Stellar Spectra</a></li>
+
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week5.html">Week 5</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="day_10.html">Exoplanet Transits, Transmission Spectroscopy, and Limb Darkening</a></li>
+
+
+
+
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Heat Transfer by Convection</a></li>
+
+
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca1.html">PCA 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca2.html">PCA 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca3.html">PCA 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca4.html">PCA 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca5.html">PCA 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca6.html">PCA 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca7.html">PCA 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca8.html">PCA 8</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica1.html">In-Class Assignment 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica3.html">In-Class Assignment 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica4.html">In-Class Assignment 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica5.html">In-Class Assignment 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica6.html">In-Class Assignment 6</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica7.html">In-Class Assignment 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica8.html">In-Class Assignment 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica9.html">In-Class Assignment 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica10.html">In-Class Assignment 10</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/hw2.html">Homework 2</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/project_proposal.html">Project Proposal</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/lectures/week5/day_11.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/lectures/week5/day_11.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/lectures/week5/day_11.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Heat Transfer by Convection</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Heat Transfer by Convection</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#criteria-for-stability-against-convection">Criteria for stability against convection</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#schwarzschild-criterion">Schwarzschild Criterion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ledoux-criterion">Ledoux Criterion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#the-mixing-length-theory">The Mixing Length Theory</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-in-the-mlt">Assumptions in the MLT</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convective-mixing">Convective Mixing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convective-overshoot">Convective Overshoot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rm-brunt-v-ddot-a-is-ddot-a-l-ddot-a-frequency"><span class="math notranslate nohighlight">\(\rm{Brunt-V\ddot{a}is\ddot{a}l\ddot{a}} \ frequency\)</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hydrodynamic-calculations">Hydrodynamic Calculations</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment">In-Class Assignment</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="heat-transfer-by-convection">
+<h1>Heat Transfer by Convection<a class="headerlink" href="#heat-transfer-by-convection" title="Permalink to this heading">#</a></h1>
+<p>Notes based on Sec 5.5 in Onno Pol’s online lecture notes <a class="reference external" href="https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf">here</a> and HKT Chapter 5.</p>
+<p><strong>Wednesday, Feb. 12, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements (2m)</p></li>
+<li><p>Reading Overview/Key Points (10m)</p></li>
+<li><p>In-Class Activity 10  (20m)</p></li>
+<li><p>Debrief/Reminders (2m)</p></li>
+</ol>
+</section>
+<section id="criteria-for-stability-against-convection">
+<h2>Criteria for stability against convection<a class="headerlink" href="#criteria-for-stability-against-convection" title="Permalink to this heading">#</a></h2>
+<p>Similar to heat transport via radiation, we require a temperature gradient. However, there is a limit to the possible temperature gradient that would be required for some luminosity values. If this limit is exceed then an instability sets in, leading cyclic macroscopic motions of the gas, known as <em>convection</em>.</p>
+<p><strong>Schematic Diagram of Convection</strong></p>
+<a class="reference internal image-reference" href="../../_images/blobs.jpg" id="blobs"><img alt="../../_images/blobs.jpg" class="align-center" id="blobs" src="../../_images/blobs.jpg" style="width: 75%;" /></a>
+<p><strong>Credit: Onno Pols - Stellar Structure and Evolution</strong> - Schematic illustration of the Schwarzschild criterion for stability against convection.</p>
+<ol class="arabic simple">
+<li><p>A gas element is perturbed and displaced <strong>upwards</strong> from position 1 to position 2,</p></li>
+<li><p>the blob expands adiabatically (no heat exchange <span class="math notranslate nohighlight">\(\textrm{d}q=0\)</span>) to maintain pressure equilibrium with its surroundings. <span class="math notranslate nohighlight">\(P_{2}=P_{\rm{equilibrium}}\)</span>.</p></li>
+</ol>
+<p><strong>If <span class="math notranslate nohighlight">\(\rho_{2} &gt; \rho_{\rm{equilibrium}}\)</span></strong> - the blob will sink back down to position 1.</p>
+<p><strong>If <span class="math notranslate nohighlight">\(\rho_{2} &lt; \rho_{\rm{equilibrium}}\)</span></strong> - buoyancy forces will accelerate it upwards, convection occurs.</p>
+<p>This expansion of the blob over <span class="math notranslate nohighlight">\(\Delta r\)</span> takes place on the local dynamical timescale (i.e. with the speed of sound).</p>
+<section id="schwarzschild-criterion">
+<h3>Schwarzschild Criterion<a class="headerlink" href="#schwarzschild-criterion" title="Permalink to this heading">#</a></h3>
+<p>The simplest form of criteron for stability against convection is known as the Schwarzschild Criterion:</p>
+<div class="proof definition admonition" id="sch_crit">
+<p class="admonition-title"><span class="caption-number">Definition 81 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\nabla \lt \nabla_{\rm{ad}}
+\]</div>
+</section>
+</div><p>In words, a region is considered to be <strong>stable against convection</strong> (non-convective) if the <em>actual</em> temperature gradient (recall <span class="math notranslate nohighlight">\(\nabla_{\rm{actual}} = \textrm{d \ log} T / \textrm{d \ log} P\)</span>) is <em>less</em> than the adiabatic temperature gradient.</p>
+<p>If all of the energy is presently transported by radiation then we can replace <span class="math notranslate nohighlight">\(\nabla\)</span> with <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> to arrive at:</p>
+<div class="proof definition admonition" id="sch_crit_rad">
+<p class="admonition-title"><span class="caption-number">Definition 82 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\nabla_{\rm{rad}} \lt \nabla_{\rm{ad}}
+\]</div>
+</section>
+</div><p>However, this criterion assumes a chemically homogeneous star. We could, instead, have changes in the mean molecular weight <span class="math notranslate nohighlight">\(\mu\)</span>.</p>
+</section>
+<section id="ledoux-criterion">
+<h3>Ledoux Criterion<a class="headerlink" href="#ledoux-criterion" title="Permalink to this heading">#</a></h3>
+<p>Consider a change in the mean molecular weight <span class="math notranslate nohighlight">\(\mu\)</span>, with a non-zero (<span class="math notranslate nohighlight">\(\nabla_{\rm{\mu}}=  \textrm{d log} \mu / \textrm{d log} P\)</span>). This leads us to what is know as the <em>Ledoux</em> criterion for convection. A region is <strong>stable against convection</strong> if the following is true</p>
+<div class="proof definition admonition" id="ledoux_crit">
+<p class="admonition-title"><span class="caption-number">Definition 83 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\nabla \lt \nabla_{\rm{ad}} - \frac{\chi_{\mu}}{\chi_{T}} \nabla_{\mu}
+\]</div>
+</section>
+</div><p>where <span class="math notranslate nohighlight">\(\chi_{\mu}\equiv \left ( \textrm{d log} P / \textrm{d log} \mu \right )_{\rho,T}\)</span>. Because <span class="math notranslate nohighlight">\(\mu\)</span> normally increases inward, <span class="math notranslate nohighlight">\(\nabla_{\rm{\mu}}\geq0\)</span>, the result is that <span class="math notranslate nohighlight">\(\mu\)</span> gradients can lead to a stabilizing effect.</p>
+<p>For convection to occur, you typically will need one of the following:</p>
+<ol class="arabic simple">
+<li><p>a large <span class="math notranslate nohighlight">\(\kappa\)</span>, convection occurs in opaque regions of a star.</p></li>
+<li><p>region with large energy flux, stars with <span class="math notranslate nohighlight">\(\epsilon_{\rm{nuc}}\)</span> values near the center are expected to have convective cores - massive stars.</p></li>
+<li><p>a small value of <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> such as at partial ionization zones at relatively low temperatures. stars of all masses have shallow surface convection zones at temperatures where hydrogen and helium are partially ionized.</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="the-mixing-length-theory">
+<h1>The Mixing Length Theory<a class="headerlink" href="#the-mixing-length-theory" title="Permalink to this heading">#</a></h1>
+<p>Stellar fluid comprised of <em>parcels</em>, <em>eddies</em>, <em>elements</em>, <em>bubbles</em>, or <em>blobs</em> that can move from regions of high heat to regions of lower heat content. These blobs are capable of transporting or convecting heat through the fluid. MLT is a <em>local</em> theory.</p>
+<section id="assumptions-in-the-mlt">
+<h2>Assumptions in the MLT<a class="headerlink" href="#assumptions-in-the-mlt" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>A readily identifiable parcel has a characteristic dimension of the same order of size as the mixing length <span class="math notranslate nohighlight">\(\ell\)</span>.</p></li>
+<li><p>The mixing length is <strong>much shorter</strong> than any scale length associated with the structure of the star – such as the pressure scale height, <span class="math notranslate nohighlight">\(H_{\rm{P}}\)</span> or <span class="math notranslate nohighlight">\(\lambda_{\rm{P}}\)</span>. In practice, <span class="math notranslate nohighlight">\(\ell \sim H_{\rm{P}}\)</span>.</p></li>
+<li><p>The parcel always has the same internal pressure as that of its surroundings.</p></li>
+<li><p>Acoustic phenomena may be ignored altogether, as may shocks, etc.</p></li>
+<li><p>Temperatures and densities within and outside a parcel differ by only a small amount</p></li>
+</ol>
+<p>Within the MLT framework we can compute some relevant properties including:</p>
+<p>the average convective velocity (<span class="math notranslate nohighlight">\(v_{\rm{conv.}}\)</span>)</p>
+<div class="proof definition admonition" id="v_conv">
+<p class="admonition-title"><span class="caption-number">Definition 84 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+v_{\rm{conv.}} \approx \sqrt{1/2 \ell g \frac{\Delta T}{T}} \approx \sqrt{\frac{\ell^{2}g}{2H_{\rm{P}}} (\nabla - \nabla_{\rm{ad}})}
+\]</div>
+</section>
+</div><p>and the convective energy flux (<span class="math notranslate nohighlight">\(F_{\rm{conv.}}\)</span>) compare with HKT 5.38</p>
+<div class="proof definition admonition" id="F_conv">
+<p class="admonition-title"><span class="caption-number">Definition 85 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+F_{\rm{conv.}} = \rho c_{\rm{P}} T \left ( \frac{\ell}{H_{\rm{P}}} \right )^{2} \sqrt{1/2 g H} (\nabla - \nabla_{\rm{ad}})^{3/2}
+\]</div>
+</section>
+</div><p>where the term <span class="math notranslate nohighlight">\(\nabla-\nabla_{\rm{ad}}\)</span> is referred to as the <strong>superadiabicity</strong>.</p>
+<section id="convective-mixing">
+<h3>Convective Mixing<a class="headerlink" href="#convective-mixing" title="Permalink to this heading">#</a></h3>
+<p>Convection is also an efficient mixing mechanism. For the Sun, we can estimate convective velocity speeds of <span class="math notranslate nohighlight">\(v_{\rm{conv.}}\approx5\times10^{3} \ (\textrm{cm s}^{-1})\)</span>. These speeds are enough to mix on an efficient timescale, <span class="math notranslate nohighlight">\(\tau_{\rm{mix}}\approx d/v_{\rm{conv.}}\)</span> leading to mixing timescales of weeks to months, <span class="math notranslate nohighlight">\(\tau_{\rm{mix}} \ll \tau_{\rm{KH}} \ll \tau_{\rm{nuc}}\)</span>.</p>
+<p>This leads to the following consequences in general for stellar structure, the large efficiency of convective mixing means:</p>
+<ol class="arabic simple">
+<li><p>A star in which nuclear burning occurs in a convective core will homogenize the region inside the core</p></li>
+<li><p>A star with a deep convective envelope, such that it extends into regions where nuclear burning has taken place, will mix the burning products outwards towards the surface. This processed is called the <strong>dredge-up</strong>.</p></li>
+</ol>
+</section>
+<section id="convective-overshoot">
+<h3>Convective Overshoot<a class="headerlink" href="#convective-overshoot" title="Permalink to this heading">#</a></h3>
+<p>When a convective blob crosses the boundary of the convective region, it will have a non-zero velocity. On average, some blobs will overshoot this boundary and extend beyond the boundary defined by the criterion.</p>
+<p>Often this is parameterized in stellar evolution calculations, where <span class="math notranslate nohighlight">\(d_{\rm{ov}} = \alpha_{\rm{ov}}H_{\rm{P}}\)</span>
+a fractional distance of the local pressure scale height averages the blobs that overshoot the classical convective boundary.</p>
+</section>
+<section id="rm-brunt-v-ddot-a-is-ddot-a-l-ddot-a-frequency">
+<h3><span class="math notranslate nohighlight">\(\rm{Brunt-V\ddot{a}is\ddot{a}l\ddot{a}} \ frequency\)</span><a class="headerlink" href="#rm-brunt-v-ddot-a-is-ddot-a-l-ddot-a-frequency" title="Permalink to this heading">#</a></h3>
+<p>Another means of determining if a region is convectively stable is the <span class="math notranslate nohighlight">\(\rm{Brunt-V\ddot{a}is\ddot{a}l\ddot{a}} \ frequency\)</span> defined as (HKT 5.29/9.11):</p>
+<div class="proof definition admonition" id="Nsq">
+<p class="admonition-title"><span class="caption-number">Definition 86 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+N^{2} = g \left [ \frac{1}{\Gamma_{1} P}  \frac{d P}{dr} - \frac{1}{\rho} \frac{d \rho}{dr} \right ] \equiv -\frac{\chi_{T}}{\chi_{\rho}} (\nabla - \nabla_{\rm{ad}}) \frac{g}{H_{\rm{P}}}
+\]</div>
+</section>
+</div><p>in convective regions, <span class="math notranslate nohighlight">\(N^2&lt;0\)</span>.</p>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="hydrodynamic-calculations">
+<h1>Hydrodynamic Calculations<a class="headerlink" href="#hydrodynamic-calculations" title="Permalink to this heading">#</a></h1>
+<p>Computational modeling of stellar hydrodynamics have advanced our understaning of stellar structure and evolution.</p>
+<p>We can use multi-dimensional stellar modeling to constrain free parameters in MLT and other mixing processes such as convective overshoot, calibration of the mixing length free parameter, convective velocity speeds, 3D velocity distrubutions.</p>
+<p>Here I show an example of stellar convection in the O-shell burning region in a <span class="math notranslate nohighlight">\(20 M_{\odot}\)</span> near iron core-collapse from <a class="reference external" href="https://iopscience.iop.org/article/10.3847/1538-4357/ac24fb#apjac24fbf19">C. E. Fields and Sean M. Couch 2021 ApJ 921 28</a>. In this work, we find that convective velocities are on average 2-3 times that of those predicted by MLT.</p>
+<p><a class="reference external" href="https://youtube.com/shorts/ICwpSSDsxK8?si=LYdOeP80gzKZy6uV"><img alt="stellar convection in the O-shell burning region" src="../../_images/apjac24fbf19_hr.jpg" /></a></p>
+<section id="in-class-assignment">
+<h2>In-Class Assignment<a class="headerlink" href="#in-class-assignment" title="Permalink to this heading">#</a></h2>
+<p>In-Class Assignment 10 is <a class="reference internal" href="../../assignments/ica10.html"><span class="std std-doc">here</span></a>.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./lectures/week5"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="day_10.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Exoplanet Transits, Transmission Spectroscopy, and Limb Darkening</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../assignments/pcas.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Pre-Class Assignments</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Heat Transfer by Convection</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#criteria-for-stability-against-convection">Criteria for stability against convection</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#schwarzschild-criterion">Schwarzschild Criterion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ledoux-criterion">Ledoux Criterion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#the-mixing-length-theory">The Mixing Length Theory</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-in-the-mlt">Assumptions in the MLT</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convective-mixing">Convective Mixing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convective-overshoot">Convective Overshoot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rm-brunt-v-ddot-a-is-ddot-a-l-ddot-a-frequency"><span class="math notranslate nohighlight">\(\rm{Brunt-V\ddot{a}is\ddot{a}l\ddot{a}} \ frequency\)</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hydrodynamic-calculations">Hydrodynamic Calculations</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment">In-Class Assignment</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Carl E. Fields
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

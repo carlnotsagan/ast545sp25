@@ -246,6 +246,9 @@
 
 
 
+<li class="toctree-l2"><a class="reference internal" href="lectures/week5/day_11.html">Heat Transfer by Convection</a></li>
+
+
 </ul>
 </details></li>
 </ul>
@@ -272,6 +275,8 @@
 
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica7.html">In-Class Assignment 7</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica8.html">In-Class Assignment 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/ica9.html">In-Class Assignment 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/ica10.html">In-Class Assignment 10</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -396,11 +401,13 @@ document.write(`
    <a href="#cap-Eideal"><strong>Eideal</strong></a> | 
    <a href="#cap-Erad"><strong>Erad</strong></a> | 
    <a href="#cap-F_cond"><strong>F_cond</strong></a> | 
+   <a href="#cap-F_conv"><strong>F_conv</strong></a> | 
    <a href="#cap-H"><strong>H</strong></a> | 
    <a href="#cap-Hp"><strong>Hp</strong></a> | 
    <a href="#cap-L"><strong>L</strong></a> | 
    <a href="#cap-L_edd"><strong>L_edd</strong></a> | 
    <a href="#cap-Ldm"><strong>Ldm</strong></a> | 
+   <a href="#cap-Nsq"><strong>Nsq</strong></a> | 
    <a href="#cap-P ideal plus radiation"><strong>P ideal plus radiation</strong></a> | 
    <a href="#cap-P_photo"><strong>P_photo</strong></a> | 
    <a href="#cap-P_rad_photo"><strong>P_rad_photo</strong></a> | 
@@ -448,6 +455,7 @@ document.write(`
    <a href="#cap-kappa_ff"><strong>kappa_ff</strong></a> | 
    <a href="#cap-kappa_ff_simp"><strong>kappa_ff_simp</strong></a> | 
    <a href="#cap-lambda_p"><strong>lambda_p</strong></a> | 
+   <a href="#cap-ledoux_crit"><strong>ledoux_crit</strong></a> | 
    <a href="#cap-mu"><strong>mu</strong></a> | 
    <a href="#cap-muI_appx"><strong>muI_appx</strong></a> | 
    <a href="#cap-mu_appx"><strong>mu_appx</strong></a> | 
@@ -462,11 +470,14 @@ document.write(`
    <a href="#cap-ratio"><strong>ratio</strong></a> | 
    <a href="#cap-rho_star"><strong>rho_star</strong></a> | 
    <a href="#cap-scale"><strong>scale</strong></a> | 
+   <a href="#cap-sch_crit"><strong>sch_crit</strong></a> | 
+   <a href="#cap-sch_crit_rad"><strong>sch_crit_rad</strong></a> | 
    <a href="#cap-sigma-es"><strong>sigma-es</strong></a> | 
    <a href="#cap-sigma_e"><strong>sigma_e</strong></a> | 
    <a href="#cap-source_nu"><strong>source_nu</strong></a> | 
    <a href="#cap-tau_nu"><strong>tau_nu</strong></a> | 
    <a href="#cap-transfer_equation"><strong>transfer_equation</strong></a> | 
+   <a href="#cap-v_conv"><strong>v_conv</strong></a> | 
    <a href="#cap-virial"><strong>virial</strong></a> | 
    <a href="#cap-volumes"><strong>volumes</strong></a>
    </div>
@@ -529,6 +540,14 @@ document.write(`
        <a href="lectures/week4/day_8.html#F_cond"><code class="xref">F_cond</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-F_conv"><td></td><td>
+       <strong>F_conv</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week5/day_11.html#F_conv"><code class="xref">F_conv</code></a> <em>(lectures/week5/day_11)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-H"><td></td><td>
        <strong>H</strong></td><td></td></tr>
      <tr>
@@ -567,6 +586,14 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week2/day_2.html#Ldm"><code class="xref">Ldm</code></a> <em>(lectures/week2/day_2)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-Nsq"><td></td><td>
+       <strong>Nsq</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week5/day_11.html#Nsq"><code class="xref">Nsq</code></a> <em>(lectures/week5/day_11)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-P ideal plus radiation"><td></td><td>
@@ -945,6 +972,14 @@ document.write(`
        <a href="lectures/week3/day_5.html#lambda_p"><code class="xref">lambda_p</code></a> <em>(lectures/week3/day_5)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-ledoux_crit"><td></td><td>
+       <strong>ledoux_crit</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week5/day_11.html#ledoux_crit"><code class="xref">ledoux_crit</code></a> <em>(lectures/week5/day_11)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-mu"><td></td><td>
        <strong>mu</strong></td><td></td></tr>
      <tr>
@@ -1057,6 +1092,22 @@ document.write(`
        <a href="lectures/week5/day_10.html#scale"><code class="xref">scale</code></a> <em>(lectures/week5/day_10)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sch_crit"><td></td><td>
+       <strong>sch_crit</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week5/day_11.html#sch_crit"><code class="xref">sch_crit</code></a> <em>(lectures/week5/day_11)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sch_crit_rad"><td></td><td>
+       <strong>sch_crit_rad</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week5/day_11.html#sch_crit_rad"><code class="xref">sch_crit_rad</code></a> <em>(lectures/week5/day_11)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-sigma-es"><td></td><td>
        <strong>sigma-es</strong></td><td></td></tr>
      <tr>
@@ -1095,6 +1146,14 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week4/day_8.html#transfer_equation"><code class="xref">transfer_equation</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-v_conv"><td></td><td>
+       <strong>v_conv</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week5/day_11.html#v_conv"><code class="xref">v_conv</code></a> <em>(lectures/week5/day_11)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-virial"><td></td><td>
