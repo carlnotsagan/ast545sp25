@@ -72,3 +72,4 @@ parts:
     - file: assignments/project
       sections:
         - file: assignments/project_proposal
+        - file: assignments/final_project
