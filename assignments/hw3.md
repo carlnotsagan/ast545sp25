@@ -26,7 +26,7 @@
     - Show that $dL_{rad}/dT \lt 0$ along the adiabat requires $\alpha\gt(1-7\beta)/2$. Assume $\nabla=\nabla_{rad}=2/7$ (for diatomic hydrogen) and $M\sim$ constant (valid in the outer regions directly affected by irradiation). 
     - Derive the value of $K_{1}(S)$ along an adiabat with entropy $S$. Start from the thermodynamic relation $\frac{dS}{C_{p}} = \frac{dT}{T} - \nabla_{ad} \frac{dP}{P}$ and assume a constant $C_{p}$ and $\nabla_{ad}$ (for an ideal gas). Integrate from reference values of $S_0$, $T_0$, $P_0$ to show that $\frac{T}{T_{0}} = e^{(S-S_0)/C_P}\left ( \frac{P}{P_0} \right)^{\nabla_{ad}}$ and thus that $K_1$ increases with decreasing entropy $S$. Combined with part c at fixed $T$, this result shows that as an object cools in time, the luminosity decreases. This effect may seem obvious, but modeling this cooling history is crucial for understanding the evolution of giant planets, and Kelvin-Helmholtz contraction in general.
 
-3. **$M-R$ relation for Juptier like Planets** - Using a similar setup to those described in [MESA 2](https://iopscience.iop.org/article/10.1088/0067-0049/208/1/4#apjs477373s2) Sec 2.2 and using the `make_planet` test_suite in MESA: (20 points each)
+3. **$M-R$ relation for Jupiter like Planets** - Using a similar setup to those described in [MESA 2](https://iopscience.iop.org/article/10.1088/0067-0049/208/1/4#apjs477373s2) Sec 2.2 and using the `make_planet` test_suite in MESA: (20 points each)
 
     - Reproduce Fig 2. for 5 different ages of you test suite model -- including the last model.
     - On the same plot, show the green line from [Zapolsky & Salpeter (1969](https://articles.adsabs.harvard.edu/full/1969ApJ...158..809Z).
