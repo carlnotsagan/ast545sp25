@@ -252,6 +252,10 @@
 <li class="toctree-l2"><a class="reference internal" href="lectures/week5/day_12.html">Internal Structure of Giant and Icy Planets</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="lectures/week6/week6.html">Week 6</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="lectures/week6/day_13.html">Stellar Energy Sources</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
 <ul class="nav bd-sidenav">
@@ -264,6 +268,8 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca6.html">PCA 6</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca7.html">PCA 7</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca8.html">PCA 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/pca9.html">PCA 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/pca10.html">PCA 10</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -279,6 +285,7 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica9.html">In-Class Assignment 9</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica10.html">In-Class Assignment 10</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica11.html">In-Class Assignment 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/ica12.html">In-Class Assignment 12</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -408,6 +415,9 @@ document.write(`
    <a href="#cap-Hp"><strong>Hp</strong></a> | 
    <a href="#cap-L"><strong>L</strong></a> | 
    <a href="#cap-L_edd"><strong>L_edd</strong></a> | 
+   <a href="#cap-L_obs"><strong>L_obs</strong></a> | 
+   <a href="#cap-L_scale"><strong>L_scale</strong></a> | 
+   <a href="#cap-L_x_axis"><strong>L_x_axis</strong></a> | 
    <a href="#cap-Ldm"><strong>Ldm</strong></a> | 
    <a href="#cap-Nsq"><strong>Nsq</strong></a> | 
    <a href="#cap-P ideal plus radiation"><strong>P ideal plus radiation</strong></a> | 
@@ -436,7 +446,11 @@ document.write(`
    <a href="#cap-diff_flux"><strong>diff_flux</strong></a> | 
    <a href="#cap-diff_lum"><strong>diff_lum</strong></a> | 
    <a href="#cap-diff_lum_lang"><strong>diff_lum_lang</strong></a> | 
+   <a href="#cap-eps_grav"><strong>eps_grav</strong></a> | 
+   <a href="#cap-eps_grav_note"><strong>eps_grav_note</strong></a> | 
+   <a href="#cap-eps_total_nr"><strong>eps_total_nr</strong></a> | 
    <a href="#cap-flux"><strong>flux</strong></a> | 
+   <a href="#cap-fusion branch"><strong>fusion branch</strong></a> | 
    <a href="#cap-gamma simplified"><strong>gamma simplified</strong></a> | 
    <a href="#cap-gamma_1"><strong>gamma_1</strong></a> | 
    <a href="#cap-gamma_1 simplified"><strong>gamma_1 simplified</strong></a> | 
@@ -472,12 +486,22 @@ document.write(`
    <a href="#cap-nIi"><strong>nIi</strong></a> | 
    <a href="#cap-np"><strong>np</strong></a> | 
    <a href="#cap-observation-1"><strong>observation-1</strong></a> | 
+   <a href="#cap-r_tot_ab"><strong>r_tot_ab</strong></a> | 
+   <a href="#cap-r_tot_ab_avg"><strong>r_tot_ab_avg</strong></a> | 
+   <a href="#cap-r_total_nr"><strong>r_total_nr</strong></a> | 
    <a href="#cap-ratio"><strong>ratio</strong></a> | 
    <a href="#cap-rho_star"><strong>rho_star</strong></a> | 
    <a href="#cap-scale"><strong>scale</strong></a> | 
    <a href="#cap-sch_crit"><strong>sch_crit</strong></a> | 
    <a href="#cap-sch_crit_rad"><strong>sch_crit_rad</strong></a> | 
    <a href="#cap-sigma-es"><strong>sigma-es</strong></a> | 
+   <a href="#cap-sigma_ab"><strong>sigma_ab</strong></a> | 
+   <a href="#cap-sigma_ab_com_E"><strong>sigma_ab_com_E</strong></a> | 
+   <a href="#cap-sigma_ab_com_E_avg_nr"><strong>sigma_ab_com_E_avg_nr</strong></a> | 
+   <a href="#cap-sigma_ab_com_E_avg_r"><strong>sigma_ab_com_E_avg_r</strong></a> | 
+   <a href="#cap-sigma_ab_com_E_avg_r_simp"><strong>sigma_ab_com_E_avg_r_simp</strong></a> | 
+   <a href="#cap-sigma_ab_com_E_nr"><strong>sigma_ab_com_E_nr</strong></a> | 
+   <a href="#cap-sigma_ab_screen"><strong>sigma_ab_screen</strong></a> | 
    <a href="#cap-sigma_e"><strong>sigma_e</strong></a> | 
    <a href="#cap-source_nu"><strong>source_nu</strong></a> | 
    <a href="#cap-tau_nu"><strong>tau_nu</strong></a> | 
@@ -575,7 +599,7 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week2/day_3.html#L"><code class="xref">L</code></a> <em>(lectures/week2/day_3)</em></td><td>
-       <em>observation</em></td></tr>
+       <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-L_edd"><td></td><td>
        <strong>L_edd</strong></td><td></td></tr>
@@ -584,6 +608,30 @@ document.write(`
        <td>
        <a href="lectures/week4/day_8.html#L_edd"><code class="xref">L_edd</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-L_obs"><td></td><td>
+       <strong>L_obs</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week2/day_3.html#L_obs"><code class="xref">L_obs</code></a> <em>(lectures/week2/day_3)</em></td><td>
+       <em>observation</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-L_scale"><td></td><td>
+       <strong>L_scale</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week2/day_3.html#L_scale"><code class="xref">L_scale</code></a> <em>(lectures/week2/day_3)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-L_x_axis"><td></td><td>
+       <strong>L_x_axis</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week2/day_3.html#L_x_axis"><code class="xref">L_x_axis</code></a> <em>(lectures/week2/day_3)</em></td><td>
+       <em>observation</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-Ldm"><td></td><td>
        <strong>Ldm</strong></td><td></td></tr>
@@ -809,6 +857,30 @@ document.write(`
        <a href="lectures/week4/day_8.html#diff_lum_lang"><code class="xref">diff_lum_lang</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-eps_grav"><td></td><td>
+       <strong>eps_grav</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#eps_grav"><code class="xref">eps_grav</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-eps_grav_note"><td></td><td>
+       <strong>eps_grav_note</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#eps_grav_note"><code class="xref">eps_grav_note</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>observation</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-eps_total_nr"><td></td><td>
+       <strong>eps_total_nr</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#eps_total_nr"><code class="xref">eps_total_nr</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-flux"><td></td><td>
        <strong>flux</strong></td><td></td></tr>
      <tr>
@@ -816,6 +888,14 @@ document.write(`
        <td>
        <a href="lectures/week4/day_8.html#flux"><code class="xref">flux</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-fusion branch"><td></td><td>
+       <strong>fusion branch</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#fusion branch"><code class="xref">fusion branch</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>observation</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-gamma simplified"><td></td><td>
        <strong>gamma simplified</strong></td><td></td></tr>
@@ -1097,6 +1177,30 @@ document.write(`
        <a href="lectures/week4/day_8.html#observation-1"><code class="xref">observation-1</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>observation</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-r_tot_ab"><td></td><td>
+       <strong>r_tot_ab</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#r_tot_ab"><code class="xref">r_tot_ab</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-r_tot_ab_avg"><td></td><td>
+       <strong>r_tot_ab_avg</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#r_tot_ab_avg"><code class="xref">r_tot_ab_avg</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-r_total_nr"><td></td><td>
+       <strong>r_total_nr</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#r_total_nr"><code class="xref">r_total_nr</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-ratio"><td></td><td>
        <strong>ratio</strong></td><td></td></tr>
      <tr>
@@ -1143,6 +1247,62 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week4/day_8.html#sigma-es"><code class="xref">sigma-es</code></a> <em>(lectures/week4/day_8)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab"><td></td><td>
+       <strong>sigma_ab</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab"><code class="xref">sigma_ab</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab_com_E"><td></td><td>
+       <strong>sigma_ab_com_E</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab_com_E"><code class="xref">sigma_ab_com_E</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab_com_E_avg_nr"><td></td><td>
+       <strong>sigma_ab_com_E_avg_nr</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab_com_E_avg_nr"><code class="xref">sigma_ab_com_E_avg_nr</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab_com_E_avg_r"><td></td><td>
+       <strong>sigma_ab_com_E_avg_r</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab_com_E_avg_r"><code class="xref">sigma_ab_com_E_avg_r</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab_com_E_avg_r_simp"><td></td><td>
+       <strong>sigma_ab_com_E_avg_r_simp</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab_com_E_avg_r_simp"><code class="xref">sigma_ab_com_E_avg_r_simp</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab_com_E_nr"><td></td><td>
+       <strong>sigma_ab_com_E_nr</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab_com_E_nr"><code class="xref">sigma_ab_com_E_nr</code></a> <em>(lectures/week6/day_13)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-sigma_ab_screen"><td></td><td>
+       <strong>sigma_ab_screen</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week6/day_13.html#sigma_ab_screen"><code class="xref">sigma_ab_screen</code></a> <em>(lectures/week6/day_13)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-sigma_e"><td></td><td>
