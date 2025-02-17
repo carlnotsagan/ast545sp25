@@ -15,7 +15,7 @@ Submit a 3-5 page PDF, prepared using LaTeX or Markdown, or other describing the
 ## Grading 
 
 ### Scientific depth
--
+
 
 **Exceptional (40-50) points**: The (astro)physics is clearly explained in a concise but insightful way. The topic is appropriately unwrapped and connected to the broader context. Qualitative and quantitative aspects are clearly addressed and put in context. 
 
@@ -29,7 +29,7 @@ Submit a 3-5 page PDF, prepared using LaTeX or Markdown, or other describing the
 
 
 ### Content logic and readability
--
+
 
 **Exceptional (40-50) points**: The scope of the presentation is clearly stated. The presentation builds up clearly and progressively, in an easy to follow and logical way. The physics presented is correct and the depth is adequate. References are to reliable sources.
 
@@ -41,7 +41,7 @@ Submit a 3-5 page PDF, prepared using LaTeX or Markdown, or other describing the
 
 
 ### Structure and formatting
--
+
 
 **Exceptional (40-50) points**: Clear, logical, engaging, and easy to follow. All figures are useful, have captions, and are and well integrated with text. All references are provided and relevant.
 
@@ -53,7 +53,7 @@ Submit a 3-5 page PDF, prepared using LaTeX or Markdown, or other describing the
 
 -
 
-**REMINDER:** Despite this grading rubric being partially generated using chatGPT. The use of LLM models is prohibited in this class and in particular for this project report. Refer to the course syllabus for more details on this policy if necessary. 
+**REMINDER:** Despite this grading rubric being partially generated using chatGPT. The use of LLMs is prohibited in this class and in particular for this project report. Refer to the course syllabus for more details on this policy if necessary. 
 
 
 

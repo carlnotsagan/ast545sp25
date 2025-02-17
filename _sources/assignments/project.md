@@ -13,4 +13,4 @@ Details about the Project Proposal are [here](project_proposal.md).
 
 Total (15% of Final Grade)
 
-Details about the Project Proposal are TBD.
+Details about the Final Project are [here](final_project.md).
