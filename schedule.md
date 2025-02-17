@@ -49,23 +49,23 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 17 Feb | Stellar Energy Sources  + HW2 Review                                |  (PCA 9, Due: Feb. 19), Readings: HKT Chapter 6.3-6.8                                 |
-| 19 Feb | Nuclear Burning in Stars                                            |  (HW4, Due: Feb. 26), Readings:   HKT Chapter 7.1-7.2                                 |
-| 21 Feb | Models for Stellar Structure                                        |  (PCA 10, Due: Feb. 24), Readings:  HKT Chapter 8.1-8.2                             |
+| 17 Feb | Stellar Energy Sources  + HW2 Review                                |  ([PCA 9](assignments/pca9.md), Due: Feb. 19), ([ICA 12](assignments/ica12.ipynb), Due: EoD), Readings: HKT Chapter 6.3-6.8                                 |
+| 19 Feb | Nuclear Burning in Stars                                            |  (HW3, Due: Feb. 28), Readings:   HKT Chapter 7.1-7.2                                 |
+| 21 Feb | Models for Stellar Structure                                        |  ([PCA 10](assignments/pca10.md), Due: Feb. 24), Readings:  HKT Chapter 8.1-8.2                             |
 
 ## Week 7
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 24 Feb | Asteroseismology                                                    |  (PCA 11, Due: Feb. 26), Readings:   HKT Chapter 9.1-9.3                              |
-| 26 Feb | Our Sun                                                             |   Mid-term Review (No grade), Readings: HKT Chapter 9.4 and [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158)       |
-| 28 Feb | Stellar Rotation                                                    |                                                                                       |
+| 24 Feb | Project Proposal Presentations                                     |                                                                                        |
+| 26 Feb | Asteroseismology                                                   |   (PCA 11, Due: Feb. 26), Readings:   HKT Chapter 9.1-9.3                              |
+| 28 Feb | Our Sun                                                            |  Mid-term Review (No grade), Readings: HKT Chapter 9.4 and [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158)|                                                       |
 
 ## Week 8
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 3 Mar  | Review                                                              |                                                                                       |
+| 3 Mar  | Stellar Rotation                                                    |                                                                                       |
 | 5 Mar  | Review                                                              |                                                                                       |
 | 7 Mar  | Midterm, Mid-course survey                                          |                                                                                       |
 
