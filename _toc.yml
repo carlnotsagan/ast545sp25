@@ -35,6 +35,7 @@ parts:
     - file: lectures/week6/week6
       sections:
       - file: lectures/week6/day_13
+      - file: lectures/week6/day_14
   - caption: Assignments
     maxdepth: 1
     chapters:
