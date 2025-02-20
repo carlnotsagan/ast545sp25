@@ -51,7 +51,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 17 Feb | Stellar Energy Sources                                              |  ([PCA 9](assignments/pca9.md), Due: Feb. 19), ([ICA 12](assignments/ica12.ipynb), Due: EoD), Readings: HKT Chapter 6.3-6.8                                 |
 | 19 Feb | Nuclear Burning in Stars + HW2 Review                               |  ([HW3](assignments/hw3.md), Due: Feb. 28), No ICA, Readings:   HKT Chapter 7.1-7.2                         |
-| 21 Feb | Models for Stellar Structure                                        |  ([PCA 10](assignments/pca10.md), Due: Feb. 24), Readings:  HKT Chapter 8.1-8.2                             |
+| 21 Feb | Models for Stellar Structure                                        |  ([PCA 10](assignments/pca10.md), Due: Feb. 24), ([ICA 13](assignments/ica13.ipynb), Due: EoD) Readings:  HKT Chapter 8.1-8.2                             |
 
 ## Week 7
 
