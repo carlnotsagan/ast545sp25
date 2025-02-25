@@ -258,6 +258,10 @@
 <li class="toctree-l2"><a class="reference internal" href="lectures/week6/day_15.html">Stellar Modeling</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="lectures/week7/week7.html">Week 7</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="lectures/week7/day_17.html">Asteroseismology</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
 <ul class="nav bd-sidenav">
@@ -272,6 +276,7 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca8.html">PCA 8</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca9.html">PCA 9</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/pca10.html">PCA 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignments/pca11.html">PCA 11</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -290,6 +295,7 @@
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica12.html">In-Class Assignment 12</a></li>
 <li class="toctree-l2"><a class="reference internal" href="assignments/ica13.html">In-Class Assignment 13</a></li>
 
+<li class="toctree-l2"><a class="reference internal" href="assignments/ica14.html">In-Class Assignment 14</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -431,6 +437,8 @@ document.write(`
    <a href="#cap-P_photo"><strong>P_photo</strong></a> | 
    <a href="#cap-P_rad_photo"><strong>P_rad_photo</strong></a> | 
    <a href="#cap-Pc"><strong>Pc</strong></a> | 
+   <a href="#cap-Pi"><strong>Pi</strong></a> | 
+   <a href="#cap-Pi_0"><strong>Pi_0</strong></a> | 
    <a href="#cap-Pideal"><strong>Pideal</strong></a> | 
    <a href="#cap-Prad"><strong>Prad</strong></a> | 
    <a href="#cap-Q_eff_pp"><strong>Q_eff_pp</strong></a> | 
@@ -488,6 +496,7 @@ document.write(`
    <a href="#cap-kappa_e"><strong>kappa_e</strong></a> | 
    <a href="#cap-kappa_ff"><strong>kappa_ff</strong></a> | 
    <a href="#cap-kappa_ff_simp"><strong>kappa_ff_simp</strong></a> | 
+   <a href="#cap-kappa_mechanism"><strong>kappa_mechanism</strong></a> | 
    <a href="#cap-lambda_p"><strong>lambda_p</strong></a> | 
    <a href="#cap-ledoux_crit"><strong>ledoux_crit</strong></a> | 
    <a href="#cap-mu"><strong>mu</strong></a> | 
@@ -501,6 +510,7 @@ document.write(`
    <a href="#cap-nIi"><strong>nIi</strong></a> | 
    <a href="#cap-np"><strong>np</strong></a> | 
    <a href="#cap-observation-1"><strong>observation-1</strong></a> | 
+   <a href="#cap-omega_sq_ad"><strong>omega_sq_ad</strong></a> | 
    <a href="#cap-poly_P"><strong>poly_P</strong></a> | 
    <a href="#cap-r_tot_ab"><strong>r_tot_ab</strong></a> | 
    <a href="#cap-r_tot_ab_avg"><strong>r_tot_ab_avg</strong></a> | 
@@ -703,6 +713,22 @@ document.write(`
        <td></td>
        <td>
        <a href="lectures/week2/day_2.html#Pc"><code class="xref">Pc</code></a> <em>(lectures/week2/day_2)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-Pi"><td></td><td>
+       <strong>Pi</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week7/day_17.html#Pi"><code class="xref">Pi</code></a> <em>(lectures/week7/day_17)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-Pi_0"><td></td><td>
+       <strong>Pi_0</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week7/day_17.html#Pi_0"><code class="xref">Pi_0</code></a> <em>(lectures/week7/day_17)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-Pideal"><td></td><td>
@@ -1161,6 +1187,14 @@ document.write(`
        <a href="lectures/week4/day_8.html#kappa_ff_simp"><code class="xref">kappa_ff_simp</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-kappa_mechanism"><td></td><td>
+       <strong>kappa_mechanism</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week7/day_17.html#kappa_mechanism"><code class="xref">kappa_mechanism</code></a> <em>(lectures/week7/day_17)</em></td><td>
+       <em>definition</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-lambda_p"><td></td><td>
        <strong>lambda_p</strong></td><td></td></tr>
      <tr>
@@ -1264,6 +1298,14 @@ document.write(`
        <td>
        <a href="lectures/week4/day_8.html#observation-1"><code class="xref">observation-1</code></a> <em>(lectures/week4/day_8)</em></td><td>
        <em>observation</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-omega_sq_ad"><td></td><td>
+       <strong>omega_sq_ad</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="lectures/week7/day_17.html#omega_sq_ad"><code class="xref">omega_sq_ad</code></a> <em>(lectures/week7/day_17)</em></td><td>
+       <em>definition</em></td></tr>
      <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
      <tr class="cap" id="cap-poly_P"><td></td><td>
        <strong>poly_P</strong></td><td></td></tr>
