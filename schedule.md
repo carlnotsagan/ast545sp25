@@ -57,16 +57,16 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 24 Feb | Project Proposal Presentations                                     |             No Assignments                                                             |
-| 26 Feb | Asteroseismology                                                   |   (PCA 11, Due: Feb. 26), Readings:   HKT Chapter 9.1-9.3                              |
-| 28 Feb | Our Sun                                                            |  Mid-term Review (No grade), Readings: HKT Chapter 9.4 and [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158)|                                                       |
+| 24 Feb | Project Proposal Presentations                                     |   No Assignments                                                                       |
+| 26 Feb | Asteroseismology                                                   |   ([PCA 11](assignments/pca11.md), Due: Feb. 28), Readings:   HKT Chapter 9.1-9.3                              |
+| 28 Feb | Our Sun                                                            |  Mid-term Review (No grade)                                                            |
 
 
 ## Week 8
 
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 3 Mar  | Stellar Rotation                                                    |                                                                                       |
+| 3 Mar  | Review                                                              |                                                                                       |
 | 5 Mar  | Review                                                              |                                                                                       |
 | 7 Mar  | Midterm, Mid-course survey                                          |                                                                                       |
 
