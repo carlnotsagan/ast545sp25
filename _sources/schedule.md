@@ -58,7 +58,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               | Assignments                                                                           |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 24 Feb | Project Proposal Presentations                                     |   No Assignments                                                                       |
-| 26 Feb | Asteroseismology                                                   |   ([PCA 11](assignments/pca11.md), Due: Feb. 28), Readings:   HKT Chapter 9.1-9.3                              |
+| 26 Feb | Asteroseismology                                                   |   ([PCA 11](assignments/pca11.md), Due: Feb. 28), ([ICA 14](assignments/ica14.ipynb), Due: Feb. 26),  Readings:   HKT Chapter 9.1-9.3                              |
 | 28 Feb | Our Sun                                                            |  Mid-term Review (No grade)                                                            |
 
 
