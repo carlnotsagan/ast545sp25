@@ -70,6 +70,65 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | 5 Mar  | Review                                                              |                                                                                       |
 | 7 Mar  | Midterm, Mid-course survey                                          |                                                                                       |
 
+## Week 9
+
+| Day    | Topic                                                               |  Assignments                                                                          |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 17 Mar | Homework 3 Review                                                   |  (HW3 Resubmission for 50% extra credit, **Due: Mar. 21 EoD**)                   |
+| 19 Mar | Mid-Term Review                                                     |  (Mid-Term Resubmission for 50% extra credit, **Due: Mar. 26 EoD**), Readings: HKT Chapter 8.4, [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158), and [MESA V Sec. 4](https://iopscience.iop.org/article/10.3847/1538-4365/ab2241#apjsab2241s4)                    |
+| 21 Mar | Stellar Rotation                                                    |  ([ICA 15], Not for credit) Readings: Chapter 15, Open Astrophysics Bookshelf Stellar Astrophysics notes / SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_124-1)                          |
+
+## Week 10
+
+| Day    | Topic                                                               |  Assignments                                                                          |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 24 Mar | Products of Binary Evolution I                                      |  ([ICA 16], Not for credit), Readings:  [MESA III Sec. 2](https://ui.adsabs.harvard.edu/abs/2015ApJS..220...15P/abstract)         |
+| 26 Mar | Products of Binary Evolution II                                     |  ([PCA 14], **Due: Mar. 28**), ([ICA 17], Not for credit), Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_5-1)                  |
+| 28 Mar | Neutron Stars                                                       |  ([ICA 18], **Due: EoD**) Readings: GW Handbook [Chapter, Sec#2-Sec#15](https://link.springer.com/referenceworkentry/10.1007/978-981-16-4306-4_16)                      |
+
+## Week 11
+
+| Day    | Topic                                                               |  Assignments                                                                          |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 31 Mar | Black holes and their mergers                                       |  ([PCA 15], **Due: Apr. 2**), ([ICA 19], Not for credit), Readings:  HKT Chapter 10.   |
+| 2 Apr  | White Dwarfs                                                        |  ([HW 4], **Due: Apr 9**), ([ICA 20], Not for credit), Readings: Exoplanet Handbook [Chapter, Sec#1-Sec#17](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154)                   |
+| 4 Apr | Exoplanet Demographics                                               |  ([ICA 21], Not for credit), Readings: Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_153-2) |
+
+
+## Week 12
+
+| Day    | Topic                                                               |  Assignments                                                                          |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 7 Apr | Exoplanet Relations with Host Star                                  |  Readings: [HPC Sec. 2.8-2.10.2](https://theartofhpc.com/istc/parallel.html#GPUcomputing) |
+| 9 Apr | Python Programming with GPUs       |  ([ICA 22], Due: EoD), Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_56-1) |
+| 11 Apr | Explosion Physics of Thermonuclear Supernovae & Lightcurves | ([ICA 23], Due: EoD) Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_52-1) |
+
+
+## Week 13
+
+| Day    | Topic                                                               |  Assignments                                                                          |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 14 Apr | Core-Collapse Supernova Explosions                                  |  SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_35-1)  |
+| 16 Apr | Observational and Physical Classification of Supernovae             |  ([ICA 24], Due: EoD), Readings: Chapter 10, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf)                    |
+| 18 Apr | Post-MS Evolution through Helium Burning                         |  ([ICA 25], Due: EoD) Readings: Chapter 11, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf) |
+
+
+## Week 14
+
+| Day    | Topic                                                               |   Assignments                                                                         |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 21 Apr | Late evolution of low- and intermediate-mass stars                  |     Readings: Chapter 12, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf) |
+| 23 Apr | Pre-supernova evolution of massive stars | Readings: Chapter 2.1-2.4, [Stellar spectral classification](https://www-degruyter-com.ezproxy3.library.arizona.edu/document/doi/10.1515/9781400833368-004/html)   |
+| 25 Apr | Stellar Spectra II                                                  |                                                                                       |
+
+## Week 15
+
+| Day    | Topic                                                               |   Assignments                                                                         |
+| ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| 28 Apr | Review                                                              |                                                                                       |
+| 30 Apr | Review                                                              |                                                                                       |
+| 2 May  | Review                                                              |                                                                                       |
+
 ## Week 16
 
 | Day    | Topic                                                               |   Assignments                                                                         |

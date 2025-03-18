@@ -41,6 +41,8 @@ parts:
       sections:
       - file: lectures/week7/day_17
       - file: lectures/week7/day_18
+    - file: lectures/week8/week8
+    - file: lectures/week9/week9
   - caption: Assignments
     maxdepth: 1
     chapters:
