@@ -75,7 +75,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 17 Mar | Homework 3 Review                                                   |  (HW3 Resubmission for 50% extra credit, **Due: Mar. 21 EoD**)                   |
-| 19 Mar | Mid-Term Review                                                     |  (Mid-Term Resubmission for 50% extra credit, **Due: Mar. 26 EoD**), Readings: HKT Chapter 8.4, [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158), and [MESA V Sec. 4](https://iopscience.iop.org/article/10.3847/1538-4365/ab2241#apjsab2241s4)                    |
+| 19 Mar | Mid-Term Review                                                     |  (Mid-Term Resubmission for 50% extra credit, **Due: Mar. 26 EoD**), Readings: HKT Chapter 9.4, [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158), and [MESA V Sec. 4](https://iopscience.iop.org/article/10.3847/1538-4365/ab2241#apjsab2241s4)                    |
 | 21 Mar | Stellar Rotation                                                    |  ([ICA 15], Not for credit) Readings: Chapter 15, Open Astrophysics Bookshelf Stellar Astrophysics notes / SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_124-1)                          |
 
 ## Week 10
