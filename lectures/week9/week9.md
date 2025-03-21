@@ -12,3 +12,4 @@ In-Class Mid-Term Review. Corrections allowed to be resubmitted by EoD Wednesday
 
 ## Friday, March 21, 2025
 
+Slides are viewable [here](day_19.ipynb).
