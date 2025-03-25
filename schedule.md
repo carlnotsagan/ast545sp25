@@ -83,7 +83,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 24 Mar | Products of Binary Evolution I                                      |  ([ICA 16], Not for credit), Readings:  [MESA III Sec. 2](https://ui.adsabs.harvard.edu/abs/2015ApJS..220...15P/abstract)         |
-| 26 Mar | Products of Binary Evolution II                                     |  ([PCA 14], **Due: Mar. 28**), ([ICA 17], Not for credit), Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_5-1)                  |
+| 26 Mar | Products of Binary Evolution II                                     |  ([PCA 14], **Due: Mar. 28**), ([ICA 17], Not for credit), Readings: [Observational Constraints on Theoretical Models](https://link.springer.com/chapter/10.1007/978-3-031-35628-5_7)                  |
 | 28 Mar | Neutron Stars                                                       |  ([ICA 18], **Due: EoD**) Readings: GW Handbook [Chapter, Sec#2-Sec#15](https://link.springer.com/referenceworkentry/10.1007/978-981-16-4306-4_16)                      |
 
 ## Week 11
