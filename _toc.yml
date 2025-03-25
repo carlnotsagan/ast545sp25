@@ -48,6 +48,7 @@ parts:
     - file: lectures/week10/week10
       sections:
       - file: lectures/week10/day_20
+      - file: lectures/week10/day_21
   - caption: Assignments
     maxdepth: 1
     chapters:
