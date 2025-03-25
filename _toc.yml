@@ -83,6 +83,7 @@ parts:
         - file: assignments/ica14
         - file: assignments/ica15
         - file: assignments/ica16
+        - file: assignments/ica17
     - file: assignments/hws
       sections:
         - file: assignments/hw1
