@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Week 10 &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+    <title>Neutron Stars &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
   
   
   
@@ -59,12 +59,14 @@
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week10/week10';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week10/day_22';</script>
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Products of Binary Evolution I" href="day_20.html" />
-    <link rel="prev" title="Rotation" href="../week9/day_19.html" />
+    <link rel="next" title="Pre-Class Assignments" href="../../assignments/pcas.html" />
+    <link rel="prev" title="Products of Binary Evolution II" href="day_21.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -262,12 +264,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../week9/day_19.html">Rotation</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Week 10</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week10.html">Week 10</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="day_20.html">Products of Binary Evolution I</a></li>
 
 <li class="toctree-l2"><a class="reference internal" href="day_21.html">Products of Binary Evolution II</a></li>
 
-<li class="toctree-l2"><a class="reference internal" href="day_22.html">Neutron Stars</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Neutron Stars</a></li>
 </ul>
 </details></li>
 </ul>
@@ -368,6 +370,55 @@
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/lectures/week10/day_22.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/lectures/week10/day_22.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-download-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
     <i class="fas fa-download"></i>
@@ -376,7 +427,7 @@
       
       
       
-      <li><a href="../../_sources/lectures/week10/week10.md" target="_blank"
+      <li><a href="../../_sources/lectures/week10/day_22.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -386,7 +437,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -460,7 +511,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 10</h1>
+    <h1>Neutron Stars</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -470,9 +521,15 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#monday-march-24-2025">Monday, March 24, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-march-26-2025">Wednesday, March 26, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-march-28-2025">Friday, March 28, 2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydrostatic-equilibrium">Hydrostatic Equilibrium</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interal-structure">Interal Structure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#constraining-the-neutron-star-equation-of-state">Constraining the Neutron Star Equation of State</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mass-distribution-of-neutron-stars">Mass Distribution of Neutron Stars</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-18">In-Class Assignment 18</a></li>
 </ul>
             </nav>
         </div>
@@ -484,20 +541,79 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-10">
-<h1>Week 10<a class="headerlink" href="#week-10" title="Permalink to this heading">#</a></h1>
-<section id="monday-march-24-2025">
-<h2>Monday, March 24, 2025<a class="headerlink" href="#monday-march-24-2025" title="Permalink to this heading">#</a></h2>
-<p>Slides are viewable <a class="reference internal" href="day_20.html"><span class="std std-doc">here</span></a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="neutron-stars">
+<h1>Neutron Stars<a class="headerlink" href="#neutron-stars" title="Permalink to this heading">#</a></h1>
+<p><strong>Friday, Mar. 28, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements (2m)</p></li>
+<li><p>Reading Overview/Key Points (10m)</p></li>
+<li><p>ICA 18 - High-Mass X-Ray Binary (25m)</p></li>
+<li><p>Debrief + Share Results (10m)</p></li>
+</ol>
 </section>
-<section id="wednesday-march-26-2025">
-<h2>Wednesday, March 26, 2025<a class="headerlink" href="#wednesday-march-26-2025" title="Permalink to this heading">#</a></h2>
+<section id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this heading">#</a></h2>
+<a class="reference internal image-reference" href="../../_images/wd_and_ns.png" id="wd-and-ns"><img alt="../../_images/wd_and_ns.png" class="align-center" id="wd-and-ns" src="../../_images/wd_and_ns.png" style="width: 75%;" /></a>
+<p>Table comparing properties of WDs and NS.</p>
+<section id="hydrostatic-equilibrium">
+<h3>Hydrostatic Equilibrium<a class="headerlink" href="#hydrostatic-equilibrium" title="Permalink to this heading">#</a></h3>
+<p>The effects of GR and negligible when <span class="math notranslate nohighlight">\(GM/R \ll 1\)</span> are satisfied as in most stars, and even in White Dwarfs with <span class="math notranslate nohighlight">\(GM/R \sim 10^{-4}\)</span>. However in neutron stars, <span class="math notranslate nohighlight">\(GM/R \sim 10^{-1}\)</span> and the effects of GR become important and must be included in the description of a NS in HSE.</p>
+<p>This leads us to a general relativistic description of a spherically symmetric, isotropic mass known the that <a class="reference external" href="https://en.wikipedia.org/wiki/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_equation"><strong>Tolman–Oppenheimer–Volkoff equation</strong></a>,</p>
+<div class="proof definition admonition" id="TOV">
+<p class="admonition-title"><span class="caption-number">Definition 124 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\frac{dP}{dr} = -\frac{Gm}{r^2}\rho \left (1 + \frac{P}{\rho c^2}  \right) \left(1 + \frac{4 \pi r^3 P}{m c^2}  \right)  \left(1 - \frac{2 G m}{r c^2}  \right)^{-1} 
+\]</div>
 </section>
-<section id="friday-march-28-2025">
-<h2>Friday, March 28, 2025<a class="headerlink" href="#friday-march-28-2025" title="Permalink to this heading">#</a></h2>
+</div><p>Similar to our original HSE equation, this also satisfies</p>
+<div class="proof definition admonition" id="TOV_m">
+<p class="admonition-title"><span class="caption-number">Definition 125 </span></p>
+<section class="definition-content" id="proof-content">
+<div class="math notranslate nohighlight">
+\[
+\frac{dM}{dr} = 4 \pi r^2 \rho
+\]</div>
 </section>
-<div class="toctree-wrapper compound">
+</div></section>
+<section id="interal-structure">
+<h3>Interal Structure<a class="headerlink" href="#interal-structure" title="Permalink to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/ns_int.jpg" id="ns-int"><img alt="../../_images/ns_int.jpg" class="align-center" id="ns-int" src="../../_images/ns_int.jpg" style="width: 75%;" /></a>
+<p>Rendition of the structure and exotic phases in the interior of a neutron star. Credit: Dany Page.</p>
+<p>Another example of the NS cross section:</p>
+<a class="reference internal image-reference" href="../../_images/ns_cs.png" id="ns-cs"><img alt="../../_images/ns_cs.png" class="align-center" id="ns-cs" src="../../_images/ns_cs.png" style="width: 75%;" /></a>
+<p>Schematic representation of the neutron star cross section. For reference, note that the central density of atomic nuclei is <span class="math notranslate nohighlight">\(\sim2\times10^{14} \ \rm{g \ cm}^{-3}\)</span>.</p>
+</section>
+<section id="constraining-the-neutron-star-equation-of-state">
+<h3>Constraining the Neutron Star Equation of State<a class="headerlink" href="#constraining-the-neutron-star-equation-of-state" title="Permalink to this heading">#</a></h3>
+<p>To solve the TOV equations requires an EOS to close the system. However, the properties of nuclear matter at such conditions is still somewhat unknown. That leads to differences in inferred NS structures and even the M-R relation and maximum allowed mass of a NS.</p>
+<p><strong>The EOS of Neutron Stars determines the maximum allowed mass.</strong></p>
+<a class="reference internal image-reference" href="../../_images/ns-mr.png" id="ns-mr"><img alt="../../_images/ns-mr.png" class="align-center" id="ns-mr" src="../../_images/ns-mr.png" style="width: 75%;" /></a>
+<p>Mass-radius relation obtained from different models of neutron star matter. Credit: Vidaña et al 2011 EPL 94 11002.</p>
+<p>New detections and measurements of NSs can help constrain the EoS.</p>
+<a class="reference internal image-reference" href="../../_images/ns_obs_masses.png" id="ns-obs-masses"><img alt="../../_images/ns_obs_masses.png" class="align-center" id="ns-obs-masses" src="../../_images/ns_obs_masses.png" style="width: 75%;" /></a>
+<p>Measured masses of radio pulsars. Systems marked with asterisks are found in globular clusters. Credit: <a class="reference external" href="https://iopscience.iop.org/article/10.1088/0004-637X/778/1/66#apj486043s4-2">Kiziltan et al 2013 ApJ 778 66</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pulsars
+Radio pulsars are highly magnetized rotating neutron star that emits beams of electromagnetic radiation out of its magnetic poles.</p>
+<p><img alt="pulsar" src="../../_images/pulsar.gif" /></p>
 </div>
+</section>
+<section id="mass-distribution-of-neutron-stars">
+<h3>Mass Distribution of Neutron Stars<a class="headerlink" href="#mass-distribution-of-neutron-stars" title="Permalink to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/ns_mass_dist.png" id="ns-mass-dist"><img alt="../../_images/ns_mass_dist.png" class="align-center" id="ns-mass-dist" src="../../_images/ns_mass_dist.png" style="width: 75%;" /></a>
+<p>Posterior predictive density estimates for the NS mass distribution. DNS systems (dashed line) and NS–WD systems (solid line) mass densities have respective peaks at 1.33 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> and 1.55 <span class="math notranslate nohighlight">\(M_{\odot}\)</span>. Credit: <a class="reference external" href="https://iopscience.iop.org/article/10.1088/0004-637X/778/1/66#apj486043s4-2">Kiziltan et al 2013 ApJ 778 66</a>.</p>
+</section>
+</section>
+<section id="in-class-assignment-18">
+<h2>In-Class Assignment 18<a class="headerlink" href="#in-class-assignment-18" title="Permalink to this heading">#</a></h2>
+<p>In-Class Assignment 18 can be found <a class="reference internal" href="../../assignments/ica18.html"><span class="std std-doc">here</span></a>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -531,20 +647,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../week9/day_19.html"
+       href="day_21.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Rotation</p>
+        <p class="prev-next-title">Products of Binary Evolution II</p>
       </div>
     </a>
     <a class="right-next"
-       href="day_20.html"
+       href="../../assignments/pcas.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Products of Binary Evolution I</p>
+        <p class="prev-next-title">Pre-Class Assignments</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -564,9 +680,15 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#monday-march-24-2025">Monday, March 24, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-march-26-2025">Wednesday, March 26, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-march-28-2025">Friday, March 28, 2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structure">Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hydrostatic-equilibrium">Hydrostatic Equilibrium</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interal-structure">Interal Structure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#constraining-the-neutron-star-equation-of-state">Constraining the Neutron Star Equation of State</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mass-distribution-of-neutron-stars">Mass Distribution of Neutron Stars</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-18">In-Class Assignment 18</a></li>
 </ul>
   </nav></div>
 

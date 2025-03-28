@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.11/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/opt/anaconda3/lib/python3.11/site-packages/nbclient/client.py", line 1305, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 173, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/nbclient/client.py", line 705, in async_execute
+    await self.async_execute_cell(
+  File "/opt/anaconda3/lib/python3.11/site-packages/nbclient/client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/anaconda3/lib/python3.11/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+ns1 = Integrator(rhs_newton, rhs_args=[rho_deg],
+                 stop_cond=[("LT", 0.0), ("LT", 0.0)])
+
+R_max = 5.e6
+N = 1000
+
+mass_ns1 = []
+radius_ns1 = []
+
+for rhoc in np.logspace(np.log10(5.e14), np.log10(5.e18), 100):
+    
+    Pc = pres_deg(rhoc)
+    
+    sol = ns1.integrate([0.0, Pc], R_max/N, R_max)
+    
+    mass.append(sol["y0"][-1]/2.e33)
+    radius.append(sol["x"][-1]/1.e5)
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+Cell [0;32mIn[9], line 16[0m
+[1;32m     12[0m Pc [38;5;241m=[39m pres_deg(rhoc)
+[1;32m     14[0m sol [38;5;241m=[39m ns1[38;5;241m.[39mintegrate([[38;5;241m0.0[39m, Pc], R_max[38;5;241m/[39mN, R_max)
+[0;32m---> 16[0m mass[38;5;241m.[39mappend(sol[[38;5;124m"[39m[38;5;124my0[39m[38;5;124m"[39m][[38;5;241m-[39m[38;5;241m1[39m][38;5;241m/[39m[38;5;241m2.e33[39m)
+[1;32m     17[0m radius[38;5;241m.[39mappend(sol[[38;5;124m"[39m[38;5;124mx[39m[38;5;124m"[39m][[38;5;241m-[39m[38;5;241m1[39m][38;5;241m/[39m[38;5;241m1.e5[39m)
+
+[0;31mNameError[0m: name 'mass' is not defined
+
