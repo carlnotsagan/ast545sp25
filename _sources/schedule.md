@@ -76,21 +76,21 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 17 Mar | Homework 3 Review                                                   |  (HW3 Resubmission for 50% extra credit, **Due: Mar. 21 EoD**)                   |
 | 19 Mar | Mid-Term Review                                                     |  (Mid-Term Resubmission for 50% extra credit, **Due: Mar. 26 EoD**), Readings: HKT Chapter 9.4, [Heger et al. 2000, Sec 1-3](https://iopscience.iop.org/article/10.1086/308158), and [MESA V Sec. 4](https://iopscience.iop.org/article/10.3847/1538-4365/ab2241#apjsab2241s4)                    |
-| 21 Mar | Stellar Rotation                                                    |  ([ICA 15], Not for credit) Readings: Chapter 15, Open Astrophysics Bookshelf Stellar Astrophysics notes / SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_124-1)                          |
+| 21 Mar | Stellar Rotation                                                    |  ([ICA 15](assignments/ica15.ipynb), Not for credit) Readings: Chapter 15, Open Astrophysics Bookshelf Stellar Astrophysics notes / SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_124-1)                          |
 
 ## Week 10
 
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 24 Mar | Products of Binary Evolution I                                      |  ([ICA 16], Not for credit), Readings:  [MESA III Sec. 2](https://ui.adsabs.harvard.edu/abs/2015ApJS..220...15P/abstract)         |
-| 26 Mar | Products of Binary Evolution II                                     |  ([PCA 12](assignments/pca12.md), **Due: Mar. 28**), ([ICA 17], Not for credit), Readings: [Observational Constraints on Theoretical Models](https://link.springer.com/chapter/10.1007/978-3-031-35628-5_7)                  |
-| 28 Mar | Neutron Stars                                                       |  ([ICA 18], Not for credit) Readings: GW Handbook [Chapter, Sec#2-Sec#15](https://link.springer.com/referenceworkentry/10.1007/978-981-16-4306-4_16)                      |
+| 24 Mar | Products of Binary Evolution I                                      |  ([ICA 16](assignments/ica16.ipynb), Not for credit), Readings:  [MESA III Sec. 2](https://ui.adsabs.harvard.edu/abs/2015ApJS..220...15P/abstract)         |
+| 26 Mar | Products of Binary Evolution II                                     |  ([PCA 12](assignments/pca12.md), **Due: Mar. 28**), ([ICA 17](assignments/ica17.ipynb), Not for credit), Readings: [Observational Constraints on Theoretical Models](https://link.springer.com/chapter/10.1007/978-3-031-35628-5_7)                  |
+| 28 Mar | Neutron Stars                                                       |  ([ICA 18](assignments/ica18.ipynb), Not for credit) Readings: GW Handbook [Chapter, Sec#2-Sec#15](https://link.springer.com/referenceworkentry/10.1007/978-981-16-4306-4_16)                      |
 
 ## Week 11
 
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 31 Mar | Black holes and their mergers                                       | ([ICA 19], Not for credit), Readings:  [Sec 1,5, and one SubSection (eg., 3.2) of Theory of Star Formation](https://www.annualreviews.org/content/journals/10.1146/annurev.astro.45.051806.110602)  |
+| 31 Mar | Black holes and their mergers                                       | ([ICA 19](assignments/ica19.ipynb), Not for credit), Readings:  [Sec 1,5, and one SubSection (eg., 3.2) of Theory of Star Formation](https://www.annualreviews.org/content/journals/10.1146/annurev.astro.45.051806.110602)  |
 | 2 Apr  | Star Formation                                                        |  ([HW 4], **Due: Apr 9**), ([ICA 20], Not for credit), Readings: Exoplanet Handbook [Chapter, Sec#1-Sec#17](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154)                   |
 | 4 Apr | Exoplanet Demographics                                               |  ([ICA 21], Not for credit), Readings: Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_153-2) |
 
