@@ -91,7 +91,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 31 Mar | Black holes and their mergers                                       | ([ICA 19](assignments/ica19.ipynb), Not for credit), Readings:  [Sec 1,5, and one SubSection (eg., 3.2) of Theory of Star Formation](https://www.annualreviews.org/content/journals/10.1146/annurev.astro.45.051806.110602)  |
-| 2 Apr  | Star Formation                                                        |  ([HW 4], **Due: Apr 9**), ([ICA 20], Not for credit), Readings: Exoplanet Handbook [Chapter, Sec#1-Sec#17](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154)                   |
+| 2 Apr  | Star Formation                                                        |  ([HW4](assignments/hw4.md), **Due: Apr 9**), ([ICA 20](assignments/ica20.ipynb), Not for credit), Readings: Exoplanet Handbook [Chapter, Sec#1-Sec#17](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154)                   |
 | 4 Apr | Exoplanet Demographics                                               |  ([ICA 21], Not for credit), Readings: Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_153-2) |
 
 
