@@ -92,23 +92,23 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 31 Mar | Black holes and their mergers                                       | ([ICA 19](assignments/ica19.ipynb), Not for credit), Readings:  [Sec 1,5, and one SubSection (eg., 3.2) of Theory of Star Formation](https://www.annualreviews.org/content/journals/10.1146/annurev.astro.45.051806.110602)  |
 | 2 Apr  | Star Formation                                                        |  ([HW4](assignments/hw4.md), **Due: Apr 9**), ([ICA 20](assignments/ica20.ipynb), Not for credit), Readings: Exoplanet Handbook [Chapter, Sec#1-Sec#17](https://link.springer.com/referenceworkentry/10.1007/978-3-319-55333-7_154)                   |
-| 4 Apr | Exoplanet Demographics                                               |  ([ICA 21], Not for credit), Readings: Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_153-2) |
+| 4 Apr | Exoplanet Demographics                                               |  ([ICA 21](assignments/ica21.ipynb), Not for credit), Readings: Exoplanet Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_153-2) |
 
 
 ## Week 12
 
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 7 Apr | Exoplanet Relations with Host Star                                  |  Readings: [HPC Sec. 2.8-2.10.2](https://theartofhpc.com/istc/parallel.html#GPUcomputing) |
-| 9 Apr | Python Programming with GPUs       |  ([ICA 22], Due: EoD), Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_56-1) |
-| 11 Apr | Explosion Physics of Thermonuclear Supernovae & Lightcurves | ([ICA 23], Due: EoD) Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_52-1) |
+| 7 Apr | Exoplanet Relations with Host Star                                  |  ([ICA 22](assignments/ica22.ipynb), **Due: EoD**), Readings: [HPC Sec. 2.8-2.10.2](https://theartofhpc.com/istc/parallel.html#GPUcomputing) |
+| 9 Apr | Python Programming with GPUs       |  ([ICA 23], Due: EoD), Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_56-1) |
+| 11 Apr | Homework 3 Review                                                  |  Readings: SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_52-1) |
 
 
 ## Week 13
 
 | Day    | Topic                                                               |  Assignments                                                                          |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 14 Apr | Core-Collapse Supernova Explosions                                  |  SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_35-1)  |
+| 14 Apr | Core-Collapse and Thermonuclear Supernovae                          |  SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_35-1)  |
 | 16 Apr | Observational and Physical Classification of Supernovae             |  ([ICA 24], Due: EoD), Readings: Chapter 10, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf)                    |
 | 18 Apr | Post-MS Evolution through Helium Burning                         |  ([ICA 25], Due: EoD) Readings: Chapter 11, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf) |
 
