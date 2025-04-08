@@ -99,6 +99,7 @@ parts:
         - file: assignments/ica20
         - file: assignments/ica21
         - file: assignments/ica22
+        - file: assignments/ica23
     - file: assignments/hws
       sections:
         - file: assignments/hw1
