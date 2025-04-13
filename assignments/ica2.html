@@ -284,6 +284,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../lectures/week12/day_26.html">Exoplanet Populations and their Dependence on Host Star Properties</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week13/week13.html">Week 13</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week13/day_27.html">Core-Collapse and Thermonuclear Supernovae</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
 <ul class="current nav bd-sidenav">
@@ -327,6 +331,18 @@
 <li class="toctree-l2"><a class="reference internal" href="ica20.html">In-Class Assignment 20</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica21.html">In-Class Assignment 21</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica22.html">In-Class Assignment 22</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica23.html">In-Class Assignment 23</a></li>
+
+
+
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="ica24.html">In-Class Assignment 24</a></li>
+
+
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -570,14 +586,16 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">init_session</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">init_session</span><span class="p">(</span><span class="n">use_latex</span><span class="o">=</span><span class="s2">&quot;mathjax&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">run_line_magic</span><span class="p">(</span><span class="s1">&#39;matplotlib&#39;</span><span class="p">,</span> <span class="s1">&#39;inline&#39;</span><span class="p">)</span>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>IPython console for SymPy 1.13.3 (Python 3.11.8-64-bit) (ground types: python)
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;sympy&#39;
+These commands were executed:
+&gt;&gt;&gt; from sympy import *
+&gt;&gt;&gt; x, y, z, t = symbols(&#39;x y z t&#39;)
+&gt;&gt;&gt; k, m, n = symbols(&#39;k m n&#39;, integer=True)
+&gt;&gt;&gt; f, g, h = symbols(&#39;f g h&#39;, cls=Function)
+&gt;&gt;&gt; init_printing()
+
+Documentation can be found at https://docs.sympy.org/1.13.3/
 </pre></div>
 </div>
 </div>
@@ -612,11 +630,21 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \rho_{c} \left(1 - \frac{r^{3}}{R_{\star}^{3}}\right)\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">z</span> <span class="o">=</span> <span class="p">(</span><span class="n">rho</span><span class="o">/</span><span class="n">rhoc</span><span class="p">)</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">xi</span><span class="o">*</span><span class="n">Rstar</span><span class="p">)</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="p">(</span><span class="n">xi</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">xlabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$r/R_\star$&quot;</span><span class="p">,</span> <span class="n">ylabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$\rho(r)$&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/2cc0d2faa300acb5698337a0a71fee5e54987c5b0c78ac04e89faea2daebdbd2.png" src="../_images/2cc0d2faa300acb5698337a0a71fee5e54987c5b0c78ac04e89faea2daebdbd2.png" />
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;sympy.plotting.backends.matplotlibbackend.matplotlib.MatplotlibBackend at 0x104a21390&gt;
 </pre></div>
 </div>
 </div>
@@ -630,6 +658,10 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{2 \pi R_{\star}^{3} \rho_{c}}{3}\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -638,6 +670,10 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{3 M_{\star}}{2 \pi R_{\star}^{3}}\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -645,6 +681,10 @@ document.write(`
 <span class="n">rho</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{3 M_{\star} \left(1 - \frac{r^{3}}{R_{\star}^{3}}\right)}{2 \pi R_{\star}^{3}}\]</div>
 </div>
 </div>
 <p>Use HSE and the fact that the pressure vanishes at the surface
@@ -660,11 +700,21 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{2 M_{\star} r^{3}}{R_{\star}^{3}} - \frac{M_{\star} r^{6}}{R_{\star}^{6}}\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">z</span> <span class="o">=</span> <span class="n">simplify</span><span class="p">((</span><span class="n">M</span><span class="o">/</span><span class="n">Mstar</span><span class="p">)</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">xi</span><span class="o">*</span><span class="n">Rstar</span><span class="p">))</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="p">(</span><span class="n">xi</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">xlabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$r/R_\star$&quot;</span><span class="p">,</span> <span class="n">ylabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$M(r)$&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/8ab6c714e947151662d74f2dac8d797d168700218fd46283d5ef17c3b25f4957.png" src="../_images/8ab6c714e947151662d74f2dac8d797d168700218fd46283d5ef17c3b25f4957.png" />
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;sympy.plotting.backends.matplotlibbackend.matplotlib.MatplotlibBackend at 0x11f129d50&gt;
 </pre></div>
 </div>
 </div>
@@ -679,6 +729,10 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{3 M_{\star} \left(1 - \frac{r^{3}}{R_{\star}^{3}}\right)}{2 \pi R_{\star}^{3}}\]</div>
+</div>
 </div>
 <p>However, recall that <span class="math notranslate nohighlight">\(P(R_\star) = 0\)</span>, so we can enforce that here to find <span class="math notranslate nohighlight">\(P_c\)</span></p>
 <div class="cell docutils container">
@@ -686,6 +740,10 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">expand</span><span class="p">(</span><span class="n">G</span><span class="o">*</span><span class="n">M</span><span class="o">/</span><span class="n">r</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">rho</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{3 G M_{\star}^{2} r}{\pi R_{\star}^{6}} - \frac{9 G M_{\star}^{2} r^{4}}{2 \pi R_{\star}^{9}} + \frac{3 G M_{\star}^{2} r^{7}}{2 \pi R_{\star}^{12}}\]</div>
 </div>
 </div>
 <p>For our general pressure expression. we integrate to some shell <span class="math notranslate nohighlight">\(r\)</span></p>
@@ -696,6 +754,10 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle - \frac{63 G M_{\star}^{2}}{80 \pi R_{\star}^{4}} + P_{c}\]</div>
+</div>
 </div>
 <p>Or factoring <span class="math notranslate nohighlight">\(P_c\)</span> out (i.e. <span class="math notranslate nohighlight">\(P/P_c\)</span>), we have</p>
 <div class="cell docutils container">
@@ -705,6 +767,10 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{63 G M_{\star}^{2}}{80 \pi R_{\star}^{4}}\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -713,6 +779,10 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{63 G M_{\star}^{2}}{80 \pi R_{\star}^{4}} - \frac{3 G M_{\star}^{2} r^{2}}{2 \pi R_{\star}^{6}} + \frac{9 G M_{\star}^{2} r^{5}}{10 \pi R_{\star}^{9}} - \frac{3 G M_{\star}^{2} r^{8}}{16 \pi R_{\star}^{12}}\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -720,11 +790,21 @@ radius.  Your answer will be in the form of <span class="math notranslate nohigh
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_latex math notranslate nohighlight">
+\[\displaystyle \frac{21 R_{\star}^{8} - 40 R_{\star}^{6} r^{2} + 24 R_{\star}^{3} r^{5} - 5 r^{8}}{21 R_{\star}^{8}}\]</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">z</span> <span class="o">=</span> <span class="n">simplify</span><span class="p">((</span><span class="n">P</span><span class="o">/</span><span class="n">Pc</span><span class="p">)</span><span class="o">.</span><span class="n">subs</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">xi</span><span class="o">*</span><span class="n">Rstar</span><span class="p">))</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="p">(</span><span class="n">xi</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">xlabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$r/R_\star$&quot;</span><span class="p">,</span> <span class="n">ylabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$P(r)$&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/b81d784af236aea7beae6333c60ffa9a93139b40b136b41ac0fc7e5c570f4e86.png" src="../_images/b81d784af236aea7beae6333c60ffa9a93139b40b136b41ac0fc7e5c570f4e86.png" />
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;sympy.plotting.backends.matplotlibbackend.matplotlib.MatplotlibBackend at 0x11f289590&gt;
 </pre></div>
 </div>
 </div>
