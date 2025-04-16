@@ -110,7 +110,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 14 Apr | Core-Collapse and Thermonuclear Supernovae                          |  ([ICA 24](assignments/ica24.ipynb), Not for credit), SN Handbook [Chapter](https://link.springer.com/referenceworkentry/10.1007/978-3-319-20794-0_35-1)  |
 | 16 Apr | Observational and Physical Classification of Supernovae             |  ([ICA 25](assignments/ica25.ipynb), **Due: EoD**), Readings: Chapter 10, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf)                    |
-| 18 Apr | Post-MS Evolution through Helium Burning                         |  ([PCA 13], **Due: Apr. 21**), ([ICA 26], Due: Not for credit) Readings: Chapter 11, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf) |
+| 18 Apr | Post-MS Evolution through Helium Burning                         |  ([PCA 13](assignments/pca13.md), **Due: Apr. 21**), ([ICA 26], Due: Not for credit) Readings: Chapter 11, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf) |
 
 
 ## Week 14
