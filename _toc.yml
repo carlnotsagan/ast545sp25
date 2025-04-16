@@ -79,6 +79,7 @@ parts:
         - file: assignments/pca10
         - file: assignments/pca11
         - file: assignments/pca12
+        - file: assignments/pca13
     - file: assignments/icas
       sections:
         - file: assignments/ica1
