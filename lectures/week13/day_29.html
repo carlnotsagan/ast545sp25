@@ -1,0 +1,853 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Post-Main Sequence Evolution through Helium Burning &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week13/day_29';</script>
+    <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Pre-Class Assignments" href="../../assignments/pcas.html" />
+    <link rel="prev" title="Observational and Physical Classification of Supernovae" href="day_28.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Astrophysics of Stars and Planets - ASTR PTYS "545" SP25 "001" - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Astrophysics of Stars and Planets - ASTR PTYS "545" SP25 "001" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    AST/PTYS 545: Astrophysics of Stars and Planets, Spring 2025, University of Arizona, Steward Observatory
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../syllabus.html">Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../schedule.html">Schedule</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week1/day_0.html">Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week1/day_1.html">Hydrostatic Equilibrium, Energy Principles, and the Virial Theorem</a></li>
+
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week2/day_2.html">Constant-Density Model, Energy Generation/Transport, Dimensional Analysis, and the Main Sequence</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week2/day_3.html">An Overview of Stellar Evolution</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week3/day_4.html">Late Stages of Evolution and Evolution in Close Binary Systems</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week3/day_5.html">Equations of State</a></li>
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week3/day_6.html">“Almost Perfect” Equations of State and Adiabatic Exponents</a></li>
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week4/day_7.html">Explosions, Variable Stars, and Compact Remnants</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week4/day_8.html">Radiative and Conductive Heat Transfer</a></li>
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week4/day_9.html">Stellar Spectra</a></li>
+
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week5/week5.html">Week 5</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week5/day_10.html">Exoplanet Transits, Transmission Spectroscopy, and Limb Darkening</a></li>
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week5/day_11.html">Heat Transfer by Convection</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../week5/day_12.html">Internal Structure of Giant and Icy Planets</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week6/week6.html">Week 6</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week6/day_13.html">Stellar Energy Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week6/day_14.html">Nuclear Burning and Neutrino Emission Mechanisms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week6/day_15.html">Stellar Modeling</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week7/week7.html">Week 7</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week7/day_17.html">Asteroseismology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../week7/day_18.html">The Sun</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../week8/week8.html">Week 8</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week9/week9.html">Week 9</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week9/day_19.html">Rotation</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week10/week10.html">Week 10</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week10/day_20.html">Products of Binary Evolution I</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week10/day_21.html">Products of Binary Evolution II</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week10/day_22.html">Neutron Stars</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week11/week11.html">Week 11</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week11/day_23.html">Black holes and their mergers</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week11/day_24.html">Star Formation</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../week11/day_25.html">Exoplanet Demographics</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../week12/week12.html">Week 12</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../week12/day_26.html">Exoplanet Populations and their Dependence on Host Star Properties</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week13.html">Week 13</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="day_27.html">Core-Collapse and Thermonuclear Supernovae</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day_28.html">Observational and Physical Classification of Supernovae</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Post-Main Sequence Evolution through Helium Burning</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca1.html">PCA 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca2.html">PCA 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca3.html">PCA 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca4.html">PCA 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca5.html">PCA 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca6.html">PCA 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca7.html">PCA 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca8.html">PCA 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca9.html">PCA 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca10.html">PCA 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca11.html">PCA 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca12.html">PCA 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/pca13.html">PCA 13</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica1.html">In-Class Assignment 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica3.html">In-Class Assignment 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica4.html">In-Class Assignment 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica5.html">In-Class Assignment 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica6.html">In-Class Assignment 6</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica7.html">In-Class Assignment 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica8.html">In-Class Assignment 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica9.html">In-Class Assignment 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica10.html">In-Class Assignment 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica11.html">In-Class Assignment 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica12.html">In-Class Assignment 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica13.html">In-Class Assignment 13</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica14.html">In-Class Assignment 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica15.html">In-Class Assignment 15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica16.html">In-Class Assignment 16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica17.html">In-Class Assignment 17</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica18.html">In-Class Assignment 18</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica19.html">In-Class Assignment 19</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica20.html">In-Class Assignment 20</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica21.html">In-Class Assignment 21</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica22.html">In-Class Assignment 22</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica23.html">In-Class Assignment 23</a></li>
+
+
+
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica24.html">In-Class Assignment 24</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica25.html">In-Class Assignment 25</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/ica26.html">In-Class Assignment 26</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/hw2.html">Homework 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/hw3.html">Homework 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/hw4.html">Homework 4</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../assignments/project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/project_proposal.html">Project Proposal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assignments/final_project.html">Final Project</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/lectures/week13/day_29.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/lectures/week13/day_29.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/lectures/week13/day_29.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Post-Main Sequence Evolution through Helium Burning</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rm-the-sch-ddot-o-nberg-chandrasekhar-limit"><span class="math notranslate nohighlight">\(\rm{The  \ Sch\ddot{o}nberg-Chandrasekhar \ limit}\)</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-the-mirror-principle"><span class="math notranslate nohighlight">\(\textrm{The "mirror principle"}\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-the-red-giant-branch-in-low-mass-newline-lesssim-2-m-odot-textrm-stars"><span class="math notranslate nohighlight">\(\textrm{The red giant branch in low-mass} \newline\)</span> <span class="math notranslate nohighlight">\( (\lesssim 2 M_{\odot}) \ \textrm{stars}\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-the-helium-burning-phase"><span class="math notranslate nohighlight">\(\textrm{The helium burning phase}\)</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-helium-burning-in-intermediate-mass-stars-newline-2-m-odot-lesssim-m-rm-zams-lesssim-8-m-odot-textrm-non-degenerate-helium-cores"><span class="math notranslate nohighlight">\(\textrm{Helium burning in intermediate-mass stars} \newline \)</span> <span class="math notranslate nohighlight">\( 2 M_{\odot} \lesssim M_{\rm{ZAMS}} \lesssim 8 M_{\odot} \textrm{(non-degenerate helium cores)}\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-helium-burning-in-low-mass-stars-m-rm-zams-lesssim-2-m-odot-textrm-degenerate-helium-cores"><span class="math notranslate nohighlight">\(\textrm{Helium burning in low-mass stars}\)</span> <span class="math notranslate nohighlight">\( M_{\rm{ZAMS}} \lesssim 2 M_{\odot} - \textrm{(degenerate helium cores)}\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-26">In-Class Assignment 26</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="post-main-sequence-evolution-through-helium-burning">
+<h1>Post-Main Sequence Evolution through Helium Burning<a class="headerlink" href="#post-main-sequence-evolution-through-helium-burning" title="Permalink to this heading">#</a></h1>
+<p>Notes and figures partially following Chapter 10, from Onno Pols notes.</p>
+<p><strong>Friday, Apr. 18, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements - <strong>SCS Survey due May 7</strong> (2m)</p></li>
+<li><p>Reading Overview/Key Points (10m)</p></li>
+<li><p>ICA 26 - making a CO white dwarf (30m)</p></li>
+<li><p>Debrief + Share Results (5m)</p></li>
+</ol>
+</section>
+<section id="rm-the-sch-ddot-o-nberg-chandrasekhar-limit">
+<h2><span class="math notranslate nohighlight">\(\rm{The  \ Sch\ddot{o}nberg-Chandrasekhar \ limit}\)</span><a class="headerlink" href="#rm-the-sch-ddot-o-nberg-chandrasekhar-limit" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>the maximum mass of a non-fusing, isothermal core that can support an enclosing envelope.</p></li>
+</ul>
+<p>The maximum core mass fraction can be defined <span class="math notranslate nohighlight">\(q_{\rm{core}}=M_{\rm{core}}/M\)</span> from which we can describe the limit as</p>
+<div class="math notranslate nohighlight">
+\[
+\frac{M_{\rm{core}}}{M} \lt q_{\rm{SC}} = 0.37 \left ( \frac{\mu_{\rm{env}}}{\mu_{\rm{core}}} \right )^{2} \approx 0.10~,
+\]</div>
+<p>this value is appropriate for a helium core with <span class="math notranslate nohighlight">\(\mu_{\rm{core}}=1.3\)</span> and a H-rich envelope.</p>
+<blockquote>
+<div><p>Stars that leave the main-sequence with a helium core mass below the SC limit can therefore remain in HSE during H-shell burning. Typically this applies to stars with <span class="math notranslate nohighlight">\(M_{\rm{ZAMS}}\lesssim 8M_{\odot}\)</span>.</p>
+</div></blockquote>
+<p><strong>Stars between <span class="math notranslate nohighlight">\(2 M_{\odot}\)</span> to <span class="math notranslate nohighlight">\(8 M_{\odot}\)</span>:</strong>
+When the SC limit is exceeded, the helium core begins to contract, and a temperature develops in the core.</p>
+<p><strong>Stars <span class="math notranslate nohighlight">\(\lesssim 2 M_{\odot}\)</span>:</strong>
+Can develop degenerate He cores, leading to a larger allowed core and the SC no longer applies. Electron condution helps keep the core isothermal and in HSE.</p>
+<a class="reference internal image-reference" href="../../_images/trho_examples.png" id="trho-examples"><img alt="../../_images/trho_examples.png" class="align-center" id="trho-examples" src="../../_images/trho_examples.png" style="width: 95%;" /></a>
+<p>Evolution tracks for stars of quasi-solar composition.</p>
+<blockquote>
+<div><p>The 1 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> model is characteristic of low-mass stars: the central core becomes degenerate soon after leaving the main sequence and helium is ignited in an unstable flash at the top of the red giant branch.</p>
+</div></blockquote>
+<section id="textrm-the-mirror-principle">
+<h3><span class="math notranslate nohighlight">\(\textrm{The &quot;mirror principle&quot;}\)</span><a class="headerlink" href="#textrm-the-mirror-principle" title="Permalink to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/mirror.png" id="mirror"><img alt="../../_images/mirror.png" class="align-center" id="mirror" src="../../_images/mirror.png" style="width: 95%;" /></a>
+<a class="reference internal image-reference" href="../../_images/r_evol_mirror.png" id="r-evol-mirror"><img alt="../../_images/r_evol_mirror.png" class="align-center" id="r-evol-mirror" src="../../_images/r_evol_mirror.png" style="width: 80%;" /></a>
+<p>Radial variation of various mass shells (solid lines) in a 5 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> (<span class="math notranslate nohighlight">\(Z\)</span> = 0.02) during the early post-main sequence evolution.</p>
+<blockquote>
+<div><p>We can observe the “mirror principle” during <em>thick hydrogen shell</em> burning.</p>
+</div></blockquote>
+</section>
+<section id="textrm-the-red-giant-branch-in-low-mass-newline-lesssim-2-m-odot-textrm-stars">
+<h3><span class="math notranslate nohighlight">\(\textrm{The red giant branch in low-mass} \newline\)</span> <span class="math notranslate nohighlight">\( (\lesssim 2 M_{\odot}) \ \textrm{stars}\)</span><a class="headerlink" href="#textrm-the-red-giant-branch-in-low-mass-newline-lesssim-2-m-odot-textrm-stars" title="Permalink to this heading">#</a></h3>
+<p>Because the helium core in these stars have become begenerate a large density jump is developed and the envelope is quite extended. So, the structure of a low mass red-giant is essentially a function of its core mass:</p>
+<p><strong>Core-Mass Luminosity Relation:</strong></p>
+<div class="math notranslate nohighlight">
+\[
+L \approx 2.3\times 10^{5} L_{\odot} \left ( \frac{M_{\rm{core}}}{M_{\odot}} \right )^{6}
+\]</div>
+<blockquote>
+<div><p>The luminosity of a low-mass red giant is independent of its total mass for core masses <span class="math notranslate nohighlight">\(M_{\rm{core}}\lesssim 0.5 M_{\odot}\)</span>!</p>
+</div></blockquote>
+<p><strong>First dredge-up and the luminosity bump</strong>
+Once the convective envelope has penetrated to the location of the previously processed material
+of the H-core. The <em>first dredge up</em> can occur and lead to an increase in the C/N ratio and He surface abundances.</p>
+<p>Once the thin H-shell has processed this material mixed by the FDU/1DU, it reaches again H-rich material and this leads to <em>slower burning rate</em> and <em>reduction in luminosity</em>.</p>
+<a class="reference internal image-reference" href="../../_images/L_bump.png" id="l-bump"><img alt="../../_images/L_bump.png" class="align-center" id="l-bump" src="../../_images/L_bump.png" style="width: 80%;" /></a>
+<p>The inset shows the temporary decrease of luminosity when the H-burning shell crosses the hydrogen discontinuity left by the first dredge-up.</p>
+<p><strong>Mass loss on the red giant branch</strong>
+As the stellar luminosity and radius is increased along the giant branch, the envelope becomes loosely bound and is becomes possible for large photon flux to remove material from the surface.</p>
+<p>One example of a mass loss rate for stellar models based on empirical data is given by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/1975psae.book..229R/abstract">Reimers</a>:</p>
+<div class="math notranslate nohighlight">
+\[
+\dot{M} = -4\times10^{-13} \eta \frac{L}{L_{\odot}} \frac{R}{R_{\odot}} \frac{M_{\odot}}{M} \ (M_{\odot} \ \rm{yr}^{-1})
+\]</div>
+<p>where <span class="math notranslate nohighlight">\(\eta\)</span> is a free parameter of order unity.</p>
+<blockquote>
+<div><p>An example 1<span class="math notranslate nohighlight">\(M_{\odot}\)</span> stellar model loses about 0.3<span class="math notranslate nohighlight">\(M_{\odot}\)</span> of its envelope by the time it reaches the tip of the giant branch.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="textrm-the-helium-burning-phase">
+<h2><span class="math notranslate nohighlight">\(\textrm{The helium burning phase}\)</span><a class="headerlink" href="#textrm-the-helium-burning-phase" title="Permalink to this heading">#</a></h2>
+<p>Recall that helium burning begins when the temparature in the core has reached <span class="math notranslate nohighlight">\(T\approx10^{8}\)</span> K via the triple-<span class="math notranslate nohighlight">\(\alpha\)</span> reaction.</p>
+<section id="textrm-helium-burning-in-intermediate-mass-stars-newline-2-m-odot-lesssim-m-rm-zams-lesssim-8-m-odot-textrm-non-degenerate-helium-cores">
+<h3><span class="math notranslate nohighlight">\(\textrm{Helium burning in intermediate-mass stars} \newline \)</span> <span class="math notranslate nohighlight">\( 2 M_{\odot} \lesssim M_{\rm{ZAMS}} \lesssim 8 M_{\odot} \textrm{(non-degenerate helium cores)}\)</span><a class="headerlink" href="#textrm-helium-burning-in-intermediate-mass-stars-newline-2-m-odot-lesssim-m-rm-zams-lesssim-8-m-odot-textrm-non-degenerate-helium-cores" title="Permalink to this heading">#</a></h3>
+<p>Core helium burning proceeds in a <em>stable</em> fashion, causing a large focus of energy production near the center that leads to formation of a convective core that grows with time.</p>
+<p><strong>Blue Loop</strong>: a stage in the life of an evolved star where it changes from a cool star to a hotter one before cooling again.</p>
+<a class="reference internal image-reference" href="../../_images/blue_loop_example.png" id="blue-loop"><img alt="../../_images/blue_loop_example.png" class="align-center" id="blue-loop" src="../../_images/blue_loop_example.png" style="width: 80%;" /></a>
+<ol class="arabic simple">
+<li><p><strong>E</strong> - at the tip of the giant branch, the envelope contracts. Initially, so does the luminosity while the envelope is convective - the star moves along the Hayashi line.</p></li>
+<li><p><strong>F</strong> - at this point, the envelope is mostly radiative and luminosity stops decreasing, the star leaves the RGB and starts the <em>blue loop</em> - its effective temperature increases.</p></li>
+<li><p><strong>G</strong> - at <span class="math notranslate nohighlight">\(X_{\rm{center, He.}}\approx0.3\)</span>, the star reaches its minimum stellar radius and its maximum effective temperature, the envelope again begins to expand and the star cools.</p></li>
+<li><p><strong>H</strong> - the star has exhausted its helium in the core and the star is realigned with the Hayashi line.</p></li>
+</ol>
+<blockquote>
+<div><p>The Blue Loop increases in width (extend to high <span class="math notranslate nohighlight">\(T_{\rm{eff}}\)</span>) for stars with <span class="math notranslate nohighlight">\(4 M_{\odot} \lesssim M_{\rm{ZAMS}} \lesssim 12 M_{\rm{ZAMS}}\)</span>. Stars below <span class="math notranslate nohighlight">\(4 M_{\odot}\)</span> tend to have loops that stay close to the RGB and are not very blue after all.</p>
+</div></blockquote>
+</section>
+<section id="textrm-helium-burning-in-low-mass-stars-m-rm-zams-lesssim-2-m-odot-textrm-degenerate-helium-cores">
+<h3><span class="math notranslate nohighlight">\(\textrm{Helium burning in low-mass stars}\)</span> <span class="math notranslate nohighlight">\( M_{\rm{ZAMS}} \lesssim 2 M_{\odot} - \textrm{(degenerate helium cores)}\)</span><a class="headerlink" href="#textrm-helium-burning-in-low-mass-stars-m-rm-zams-lesssim-2-m-odot-textrm-degenerate-helium-cores" title="Permalink to this heading">#</a></h3>
+<p>Two main characteristics:</p>
+<ol class="arabic simple">
+<li><p>These stars ignite helium under degenerate conditions leading to a Helium Flash</p></li>
+<li><p>All these stars start helium burning at nearly the same core mass of <span class="math notranslate nohighlight">\(M_{\rm{core}}\approx 0.45 M_{\odot}\)</span>.</p></li>
+</ol>
+<p><strong>The helium flash</strong></p>
+<p>Let’s start with a <span class="math notranslate nohighlight">\(1 M_{\odot}\)</span> star as an example:</p>
+<ol class="arabic simple">
+<li><p>helium is ignited in a strongly degenerate core at <span class="math notranslate nohighlight">\(T_{\rm{core}}\approx 10^{8} \ (K)\)</span> and <span class="math notranslate nohighlight">\(\rho_{\rm{core}}\approx 10^{6} \ (g \ cm^{-3})\)</span>.</p></li>
+<li><p>the burning is <em>unstable</em> that is, it causes a temperature <strong>increase</strong> instead of decrease leading to <em>thermonuclear runaway</em>.</p></li>
+</ol>
+<blockquote>
+<div><p>This is because the electron degeneracy pressure is basically independent of <span class="math notranslate nohighlight">\(T\)</span> so the ignition doesnt change the pressure and hence the corresponding work done in a normal stable burning event.</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Therefore, the nuclear energy goes into raising the internal energy of the <em>ions</em> leading to an increase of the temperature, but <strong>not</strong> an increase in the density of the gas - dictacted by the degenerate electrons. The evolution of the material is therefore nearly <em>vertically upward</em> in the <span class="math notranslate nohighlight">\(\rho_{c},T_{c}\)</span> diagram.</p></li>
+<li><p>the thermonuclear runaway leads to a main helium flash producing a local luminosity of <span class="math notranslate nohighlight">\(l \approx 10^{10} L_{\odot}\)</span> - similar to a small galaxy, but lasting for only a few seconds.</p></li>
+<li><p>Stellar models suggest a series of flashes occur until the core has sufficient expanded, degeneracy is lifted and burning proceeds in a stable convective core fashion.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/he_flash_example.png" id="he-flash"><img alt="../../_images/he_flash_example.png" class="align-center" id="he-flash" src="../../_images/he_flash_example.png" style="width: 80%;" /></a>
+<p>The helium flash. Evolution with time of the surface luminosity, the He-burning luminosity and the H-burning luminosity during the onset of He burning at the tip of the RGB in a low-mass star.</p>
+<p><strong>The horizontal branch</strong></p>
+<p>Described as the location in the HR diagram for stars that have just undergone helium flash and settled into stable burning and thermodynamic equilibrium.</p>
+<ol class="arabic simple">
+<li><p>For a fixed helium core ignition mass, the radius and effective temperature depends on the envelope mass. T</p></li>
+</ol>
+<blockquote>
+<div><p>Stars with less envelope mass at the ZAHB can be substantially hotter than those with much more of their envelope remaining.</p>
+</div></blockquote>
+<a class="reference internal image-reference" href="../../_images/hb_example.png" id="hb-example"><img alt="../../_images/hb_example.png" class="align-center" id="hb-example" src="../../_images/hb_example.png" style="width: 80%;" /></a>
+<p>Location of the zero-age horizontal branch (think gray line) for a metallicity Z = 0.001 typical of globular clusters. These models have the same core mass (0.489 <span class="math notranslate nohighlight">\(M_{\odot}\)</span>) but varying total (i.e. envelope) mass, which determines their position in the H-R diagram.</p>
+<a class="reference internal image-reference" href="../../_images/m3_hb_example.png" id="m3-hb-example"><img alt="../../_images/m3_hb_example.png" class="align-center" id="m3-hb-example" src="../../_images/m3_hb_example.png" style="width: 80%;" /></a>
+<p>Globular cluster, M3, shown is an example of the horizontal branch.</p>
+</section>
+</section>
+<section id="in-class-assignment-26">
+<h2>In-Class Assignment 26<a class="headerlink" href="#in-class-assignment-26" title="Permalink to this heading">#</a></h2>
+<p>In-Class Assignment 26 can be found <a class="reference internal" href="../../assignments/ica26.html"><span class="std std-doc">here</span></a>.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./lectures/week13"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="day_28.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Observational and Physical Classification of Supernovae</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../assignments/pcas.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Pre-Class Assignments</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rm-the-sch-ddot-o-nberg-chandrasekhar-limit"><span class="math notranslate nohighlight">\(\rm{The  \ Sch\ddot{o}nberg-Chandrasekhar \ limit}\)</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-the-mirror-principle"><span class="math notranslate nohighlight">\(\textrm{The "mirror principle"}\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-the-red-giant-branch-in-low-mass-newline-lesssim-2-m-odot-textrm-stars"><span class="math notranslate nohighlight">\(\textrm{The red giant branch in low-mass} \newline\)</span> <span class="math notranslate nohighlight">\( (\lesssim 2 M_{\odot}) \ \textrm{stars}\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-the-helium-burning-phase"><span class="math notranslate nohighlight">\(\textrm{The helium burning phase}\)</span></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-helium-burning-in-intermediate-mass-stars-newline-2-m-odot-lesssim-m-rm-zams-lesssim-8-m-odot-textrm-non-degenerate-helium-cores"><span class="math notranslate nohighlight">\(\textrm{Helium burning in intermediate-mass stars} \newline \)</span> <span class="math notranslate nohighlight">\( 2 M_{\odot} \lesssim M_{\rm{ZAMS}} \lesssim 8 M_{\odot} \textrm{(non-degenerate helium cores)}\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#textrm-helium-burning-in-low-mass-stars-m-rm-zams-lesssim-2-m-odot-textrm-degenerate-helium-cores"><span class="math notranslate nohighlight">\(\textrm{Helium burning in low-mass stars}\)</span> <span class="math notranslate nohighlight">\( M_{\rm{ZAMS}} \lesssim 2 M_{\odot} - \textrm{(degenerate helium cores)}\)</span></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-26">In-Class Assignment 26</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Carl E. Fields
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
