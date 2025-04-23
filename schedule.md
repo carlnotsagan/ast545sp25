@@ -118,7 +118,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                               |   Assignments                                                                         |
 | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | 21 Apr | Late evolution of low- and intermediate-mass stars                  |     ([HW5](assignments/hw5.md), **Due: Apr 28**), ([ICA 27](assignments/ica27.ipynb), Not for credit), Readings: Chapter 12, [Pols](https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf) |
-| 23 Apr | Pre-supernova evolution of massive stars | Readings: Chapter 2.1-2.4, [Stellar spectral classification](https://www-degruyter-com.ezproxy3.library.arizona.edu/document/doi/10.1515/9781400833368-004/html)   |
+| 23 Apr | Pre-supernova evolution of massive stars                            | ([ICA 28](assignments/ica28.ipynb), Not for credit), Readings: Chapter 2.1-2.4, [Stellar spectral classification](https://www-degruyter-com.ezproxy3.library.arizona.edu/document/doi/10.1515/9781400833368-004/html)   |
 | 25 Apr | Stellar Spectra II                                                  |                                                                                       |
 
 ## Week 15
