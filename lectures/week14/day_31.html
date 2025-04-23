@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Week 14 &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
+    <title>Pre-supernova evolution of massive stars &#8212; Astrophysics of Stars and Planets - ASTR PTYS &#34;545&#34; SP25 &#34;001&#34;</title>
   
   
   
@@ -59,12 +59,14 @@
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week14/week14';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'lectures/week14/day_31';</script>
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Late evolution of low- and intermediate-mass stars" href="day_30.html" />
-    <link rel="prev" title="Post-Main Sequence Evolution through Helium Burning" href="../week13/day_29.html" />
+    <link rel="next" title="Pre-Class Assignments" href="../../assignments/pcas.html" />
+    <link rel="prev" title="Late evolution of low- and intermediate-mass stars" href="day_30.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -288,9 +290,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../week13/day_29.html">Post-Main Sequence Evolution through Helium Burning</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Week 14</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="week14.html">Week 14</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="day_30.html">Late evolution of low- and intermediate-mass stars</a></li>
-<li class="toctree-l2"><a class="reference internal" href="day_31.html">Pre-supernova evolution of massive stars</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Pre-supernova evolution of massive stars</a></li>
 </ul>
 </details></li>
 </ul>
@@ -415,6 +417,55 @@
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast545sp25/master?urlpath=tree/lectures/week14/day_31.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast545sp25/blob/master/lectures/week14/day_31.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-download-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
     <i class="fas fa-download"></i>
@@ -423,7 +474,7 @@
       
       
       
-      <li><a href="../../_sources/lectures/week14/week14.md" target="_blank"
+      <li><a href="../../_sources/lectures/week14/day_31.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -433,7 +484,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -507,7 +558,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 14</h1>
+    <h1>Pre-supernova evolution of massive stars</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -517,9 +568,18 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#monday-april-21-2025">Monday, April 21, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-april-23-2025">Wednesday, April 23, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-april-25-2025">Friday, April 25, 2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stellar-wind-mass-loss">Stellar wind mass loss</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#radiation-driven-stellar-winds">Radiation-driven stellar winds</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#red-supergiant-mass-loss">Red supergiant mass loss</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-humphreys-davidson-limit-and-luminous-blue-variables">The Humphreys-Davidson limit and luminous blue variables</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wolf-rayet-stars">Wolf-Rayet stars</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evolution-of-massive-stars-with-mass-loss-in-the-hr-diagram">Evolution of massive stars with mass loss in the HR diagram</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-evolution-of-massive-stars">Advanced evolution of massive stars</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-supernova-structure">Pre-supernova structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-28">In-Class Assignment 28</a></li>
 </ul>
             </nav>
         </div>
@@ -531,20 +591,117 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-14">
-<h1>Week 14<a class="headerlink" href="#week-14" title="Permalink to this heading">#</a></h1>
-<section id="monday-april-21-2025">
-<h2>Monday, April 21, 2025<a class="headerlink" href="#monday-april-21-2025" title="Permalink to this heading">#</a></h2>
-<p>Slides are viewable <a class="reference internal" href="day_30.html"><span class="std std-doc">here</span></a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="pre-supernova-evolution-of-massive-stars">
+<h1>Pre-supernova evolution of massive stars<a class="headerlink" href="#pre-supernova-evolution-of-massive-stars" title="Permalink to this heading">#</a></h1>
+<p>Notes partially following Chapter 12, from Onno Pols notes.</p>
+<p><strong>Wednesday, Apr. 23, 2025</strong></p>
+<p><em>astrophysics of stars and planets - spring 2025 - university of arizona, steward observatory</em></p>
+<section id="today-s-agenda">
+<h2>Today’s Agenda<a class="headerlink" href="#today-s-agenda" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Announcements - <strong>Final Projects Due to D2L May 2 / HW5 posted</strong> (2m)</p></li>
+<li><p>Reading Overview/Key Points (20m)</p></li>
+<li><p>ICA 28 - pre-SN evolution of massive stars (20m)</p></li>
+<li><p>Debrief + Share Results (5m)</p></li>
+</ol>
+<p>Let us first point out two main differences between the properties of low- and intermediate-mass stars discussed previously.</p>
+<ol class="arabic simple">
+<li><p>Massive stars reach temperatures of <span class="math notranslate nohighlight">\(T\gt 5\times10^{8}\)</span> K, allowing them to ignite Carbon under <strong>non-degenerate</strong> conditions. Thus, a critical CO core mass (<span class="math notranslate nohighlight">\(\approx 1.06\)</span>) is required to reach these ignition conditions, this critical mass is usually reached for stars with initial mass greater than <span class="math notranslate nohighlight">\(\approx 8 M_{\odot}\)</span> but this is subject to uncertainties in mixing etc.</p></li>
+</ol>
+<blockquote>
+<div><p>Stars with initial mass greater than <span class="math notranslate nohighlight">\(\approx 11 M_{\odot}\)</span> will go on to burn elements heavier than Carbon up to the formation of an iron core. The following discussion will focus on those stars with <span class="math notranslate nohighlight">\(M_{\rm{ZAMS}}\gt \approx 11 M_{\odot}\)</span>.</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>For stars with initial mass greater than <span class="math notranslate nohighlight">\(\approx 15 M_{\odot}\)</span> <strong>mass loss by stellar winds</strong> becomes of significant importance. At <span class="math notranslate nohighlight">\(M_{\rm{ZAMS}}\gt \approx 30 M_{\odot}\)</span>, the mass loss timescale (<span class="math notranslate nohighlight">\(\tau_{ml}=M/\dot{M}\)</span>) can become comparable to the nuclear timescale.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/trho_massive_stars.png" id="trho-massive-stars"><img alt="../../_images/trho_massive_stars.png" class="align-center" id="trho-massive-stars" src="../../_images/trho_massive_stars.png" style="width: 60%;" /></a>
 </section>
-<section id="wednesday-april-23-2025">
-<h2>Wednesday, April 23, 2025<a class="headerlink" href="#wednesday-april-23-2025" title="Permalink to this heading">#</a></h2>
+<section id="stellar-wind-mass-loss">
+<h2>Stellar wind mass loss<a class="headerlink" href="#stellar-wind-mass-loss" title="Permalink to this heading">#</a></h2>
+<p>Observations in the ultraviolet and infrared part of the spectrum show that luminous stars, with masses above 15 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> under rapid mass loss outflows. Using these data, empirical fits have been for stars and roughly solar metallicity:</p>
+<div class="math notranslate nohighlight">
+\[
+\textrm{log} (-\dot{M}) \approx  -8.16 + 1.77~\textrm{log}~ \left (\frac{L}{L_{\odot}} \right ) - 1.68~\textrm{log}~ \left (\frac{T_{\textrm{eff}}}{\rm{K}} \right) ~ (M_{\odot} \ \rm{yr}^{-1})
+\]</div>
+<p>The mechanism causing the strong mass loss depends on the location of the star in the HR diagram.</p>
+<section id="radiation-driven-stellar-winds">
+<h3>Radiation-driven stellar winds<a class="headerlink" href="#radiation-driven-stellar-winds" title="Permalink to this heading">#</a></h3>
+<p>Hot, luminous stars (<a class="reference external" href="https://en.wikipedia.org/wiki/Stellar_classification#Early_and_late_nomenclature">OB-type</a> main-sequence stars and blue supergiants, <a class="reference external" href="https://en.wikipedia.org/wiki/Blue_supergiant">BSG</a>) undergo a fast radiation-driven stellar wind.</p>
+<a class="reference internal image-reference" href="../../_images/hr_spectral.png" id="hr-spectral"><img alt="../../_images/hr_spectral.png" class="align-center" id="hr-spectral" src="../../_images/hr_spectral.png" style="width: 60%;" /></a>
+<ol class="arabic simple">
+<li><p>Radiation pressure at frequencies corresponding to absorption lines suggest strong interactions between the photons and matter that leads to an outward acceleration.</p></li>
+</ol>
+<p>You can compute an upper limit for this mass loss making an assumption that the photon imparts all of its momentum during the interaction:</p>
+<div class="math notranslate nohighlight">
+\[
+\dot{M} v_{\infty} &lt; \frac{L}{c}
+\]</div>
+<p>where, <span class="math notranslate nohighlight">\(v_{\infty}\)</span> is the terminal wind velocity at large distance from the star (‘infinity’) with typical values that are <span class="math notranslate nohighlight">\(\approx3 v_{\rm{esc.}}\approx\)</span> 1,000 to 3,000 (km s<span class="math notranslate nohighlight">\(^{-1}\)</span>) for O-type stars.</p>
+<p>Empirical rates suggest about 1/3 to 1/6 of the momentum is actually transferred. We can also observe an acceleration of the wind facilitated by the Doppler broadening of the spectral lines that allows the outflowing atoms to then be able to absorb photons at a different, higher frequency leading to a positive feedback mechanism driving the wind.</p>
+<p>Uncertainties due to inhomogeneuous clumping can also effect rate estimates by factors up to about 3. Moreover, the mass loss rate is found to have a dependence on the metallicity of the star, due to the heavier elements being the main elements that contribute to the line driving</p>
+<div class="math notranslate nohighlight">
+\[
+\dot{M} \propto Z^{0.7}
+\]</div>
 </section>
-<section id="friday-april-25-2025">
-<h2>Friday, April 25, 2025<a class="headerlink" href="#friday-april-25-2025" title="Permalink to this heading">#</a></h2>
+<section id="red-supergiant-mass-loss">
+<h3>Red supergiant mass loss<a class="headerlink" href="#red-supergiant-mass-loss" title="Permalink to this heading">#</a></h3>
+<p>Red Supergiants are cool, luminous stars that experience slow but significant mass loss similar to the AGB superwinds – driven by a combination of radial stellar pulsations and radiation pressure on dust particles in the cool atmosphere.</p>
+<p>Stars with <span class="math notranslate nohighlight">\(12M _{\odot} \gt M \lt 40 M{\odot}\)</span> spend a large fraction of their core He-burning evolution as RSG losing part of their H-envelope. In this case of complete removal of the H-envelope, the He-core is exposed as a Wolf-Rayet (WR) star.</p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
+<section id="the-humphreys-davidson-limit-and-luminous-blue-variables">
+<h3>The Humphreys-Davidson limit and luminous blue variables<a class="headerlink" href="#the-humphreys-davidson-limit-and-luminous-blue-variables" title="Permalink to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/HD_limit.png" id="hd-limit"><img alt="../../_images/HD_limit.png" class="align-center" id="hd-limit" src="../../_images/HD_limit.png" style="width: 85%;" /></a>
+<p>The HRD of the brightest supergiants in the LMC.</p>
+<p>Observations of the most luminous stars suggest an upper limit to the luminosity of a RSG. That is, there are no RSGs with <span class="math notranslate nohighlight">\(\textrm{log}(L/L_{\odot})&gt;5.8\)</span> (<span class="math notranslate nohighlight">\(M_{\rm{bol}}&lt;-9.5\)</span>), the expected luminosity of a RSG with initial mass of <span class="math notranslate nohighlight">\(40 M_{\odot}.\)</span> This limit is known as the <a class="reference external" href="https://en.wikipedia.org/wiki/Eddington_luminosity">Humphreys-Devidson</a> as comprised of two parts.</p>
+<ol class="arabic simple">
+<li><p>A temperature-<em>dependent</em> that is essentially a generalization of the eddington luminosity. The actual opacity near the surface is larger than electron scattering and decreases with increasing temperature. Above this limit the surface of the star becomes unstable.</p></li>
+<li><p>A temperature-<em>independent</em> component (horizontal part) where the eddington luminosity reaches a minimum due to the fact that stars in this regime are dominated by eelctron scattering opacity, which has no temperature dependence.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/HD_limit_2.png" id="hd-limit-2"><img alt="../../_images/HD_limit_2.png" class="align-center" id="hd-limit-2" src="../../_images/HD_limit_2.png" style="width: 95%;" /></a>
+<p>Very luminous stars near the HD limit are very unstable and experience episodic mass loss of <span class="math notranslate nohighlight">\(10^{-3} M_{\odot} \textrm{yr}^{-1}\)</span> during outburst – known as <strong>Luminous Blue Variables</strong>.</p>
+<p>Stars are experienceing strong mass loss via LBV outbursts will eventually become WR stars and never evolve to be RSGs.</p>
+<p><strong>Example LBV: <span class="math notranslate nohighlight">\(\eta\)</span> Carinae (<span class="math notranslate nohighlight">\(\eta\)</span> Car)</strong>: binary star system with an LBV</p>
+<a class="reference internal image-reference" href="../../_images/EtaCarinae.jpg" id="etacarinae"><img alt="../../_images/EtaCarinae.jpg" class="align-center" id="etacarinae" src="../../_images/EtaCarinae.jpg" style="width: 80%;" /></a>
+<p>Credit: Nathan Smith ! (University of California, Berkeley), and NASA.</p>
+</section>
+<section id="wolf-rayet-stars">
+<h3>Wolf-Rayet stars<a class="headerlink" href="#wolf-rayet-stars" title="Permalink to this heading">#</a></h3>
+<p>Very hot, luminous stars with with bright emission lines in their spectra, mass loss rates of <span class="math notranslate nohighlight">\(\dot{M}\approx 10^{-5}\)</span> to <span class="math notranslate nohighlight">\(10^{-4}\)</span> <span class="math notranslate nohighlight">\(M_{\odot} \textrm{yr}^{-1}\)</span>.</p>
+<p>They are catagorized into different subtypes:</p>
+<p><strong>WNL stars</strong>: some hydrogen present on their surface (<span class="math notranslate nohighlight">\(X_{\rm{H}}\lt0.4\)</span>) and increased He and N abundances consistent with CNO cycle burning.</p>
+<p><strong>WNE stars</strong>: similar to WNL but they lack hydrogen (<span class="math notranslate nohighlight">\(X_{\rm{H}}=0\)</span>)</p>
+<p><strong>WC stars</strong>: no hydrogen, little or no N, and come He, C, and O suggesting partial Helium burning</p>
+<p><strong>WO stars</strong>: similar to WC stars but strongly increased O suggesting nearly complete helium burning</p>
+</section>
+</section>
+<section id="evolution-of-massive-stars-with-mass-loss-in-the-hr-diagram">
+<h2>Evolution of massive stars with mass loss in the HR diagram<a class="headerlink" href="#evolution-of-massive-stars-with-mass-loss-in-the-hr-diagram" title="Permalink to this heading">#</a></h2>
+<a class="reference internal image-reference" href="../../_images/pre_sn_HR.png" id="pre-sn-hr"><img alt="../../_images/pre_sn_HR.png" class="align-center" id="pre-sn-hr" src="../../_images/pre_sn_HR.png" style="width: 85%;" /></a>
+<p>Evolution tracks of massive stars (<span class="math notranslate nohighlight">\(12-120M_{\odot}\)</span>) calculated with mass loss and a moderate amount of convective overshooting.</p>
+<p>We can identify 4 main catagories that defines the phases of these stars:</p>
+<a class="reference internal image-reference" href="../../_images/pre_sn_HR_evo.png" id="pre-sn-hr-evo"><img alt="../../_images/pre_sn_HR_evo.png" class="align-center" id="pre-sn-hr-evo" src="../../_images/pre_sn_HR_evo.png" style="width: 80%;" /></a>
+</section>
+<section id="advanced-evolution-of-massive-stars">
+<h2>Advanced evolution of massive stars<a class="headerlink" href="#advanced-evolution-of-massive-stars" title="Permalink to this heading">#</a></h2>
+<p>In the advanced phases of burning in the core of a massive star, the temperatures can exceed <span class="math notranslate nohighlight">\(T\approx10^{8}\)</span> K at which point neutrino losses from various sources become a significant energy leak, greater than that carried away by photons.</p>
+<a class="reference internal image-reference" href="../../_images/pre_sn_neus.png" id="pre-sn-neus"><img alt="../../_images/pre_sn_neus.png" class="align-center" id="pre-sn-neus" src="../../_images/pre_sn_neus.png" style="width: 80%;" /></a>
+<p>The intersections of the nuclear burning lines with the neutrino loss line define the burning temperature of the corresponding fuel. Needed to maintain equilibrium under balanced power conditions.</p>
+<p>The results of this are that:</p>
+<ul class="simple">
+<li><p>burning evolutionary timescales shrink significantly</p></li>
+<li><p>the “core” and envelope star become essentially decoupled to what is occuring at the surface</p></li>
+</ul>
+</section>
+<section id="pre-supernova-structure">
+<h2>Pre-supernova structure<a class="headerlink" href="#pre-supernova-structure" title="Permalink to this heading">#</a></h2>
+<a class="reference internal image-reference" href="../../_images/pre_sn_structure.png" id="pre-sn-structure"><img alt="../../_images/pre_sn_structure.png" class="align-center" id="pre-sn-structure" src="../../_images/pre_sn_structure.png" style="width: 90%;" /></a>
+<p>A complicated series of convective burning cores and shells appear.</p>
+</section>
+<section id="in-class-assignment-28">
+<h2>In-Class Assignment 28<a class="headerlink" href="#in-class-assignment-28" title="Permalink to this heading">#</a></h2>
+<p>In-Class Assignment 28 can be found <a class="reference internal" href="../../assignments/ica28.html"><span class="std std-doc">here</span></a>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -578,20 +735,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../week13/day_29.html"
+       href="day_30.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Post-Main Sequence Evolution through Helium Burning</p>
+        <p class="prev-next-title">Late evolution of low- and intermediate-mass stars</p>
       </div>
     </a>
     <a class="right-next"
-       href="day_30.html"
+       href="../../assignments/pcas.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Late evolution of low- and intermediate-mass stars</p>
+        <p class="prev-next-title">Pre-Class Assignments</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -611,9 +768,18 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#monday-april-21-2025">Monday, April 21, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-april-23-2025">Wednesday, April 23, 2025</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-april-25-2025">Friday, April 25, 2025</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#today-s-agenda">Today’s Agenda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stellar-wind-mass-loss">Stellar wind mass loss</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#radiation-driven-stellar-winds">Radiation-driven stellar winds</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#red-supergiant-mass-loss">Red supergiant mass loss</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-humphreys-davidson-limit-and-luminous-blue-variables">The Humphreys-Davidson limit and luminous blue variables</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wolf-rayet-stars">Wolf-Rayet stars</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evolution-of-massive-stars-with-mass-loss-in-the-hr-diagram">Evolution of massive stars with mass loss in the HR diagram</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-evolution-of-massive-stars">Advanced evolution of massive stars</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-supernova-structure">Pre-supernova structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-28">In-Class Assignment 28</a></li>
 </ul>
   </nav></div>
 
