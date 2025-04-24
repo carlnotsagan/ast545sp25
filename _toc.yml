@@ -67,6 +67,7 @@ parts:
       sections:
       - file: lectures/week14/day_30
       - file: lectures/week14/day_31
+      - file: lectures/week14/day_32
   - caption: Assignments
     maxdepth: 1
     chapters:
@@ -115,6 +116,7 @@ parts:
         - file: assignments/ica26
         - file: assignments/ica27
         - file: assignments/ica28
+        - file: assignments/ica29
     - file: assignments/hws
       sections:
         - file: assignments/hw1
